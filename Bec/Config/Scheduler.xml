@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+:: Autor: Vinzent "TroniX" Herrschmann
+:: Nutzung nur mit Erlaubnis des Autors
+:: Version: 1.01 for RLP
+-->
+<Scheduler>
+
+<!-- show text ingame every 30 min -->
+	<job id="0">
+		<start>003000</start>
+		<runtime>001500</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>-1</loop> 
+		<cmd>say -1 Freundlicher Hinweis: Speichert eure Sachen!</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>	
+	<job id="1">
+		<start>003100</start>
+		<runtime>001500</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>-1</loop> 
+		<cmd>say -1 Serverrestart 12/16/20/24/4/8/12 Uhr</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>	
+	<job id="2">
+		<start>003200</start>
+		<runtime>001500</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>-1</loop> 
+		<cmd>say -1 Besucht unseren Teamspeak 3 Server 134.255.229.151</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>	
+	<job id="3">
+		<start>004500</start>
+		<runtime>001500</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>-1</loop> 
+		<cmd>say -1 RDM und VDM werden mit ban bestraft!</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>		
+	<job id="4">
+		<start>003300</start>
+		<runtime>001500</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>-1</loop> 
+		<cmd>say -1 Freundlicher Tipp: Bitte einen Namen anlegen der Roleplay ähnlich klingt!</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>	
+	<job id="5">
+		<day>1,2,3,4,5,6,7</day>
+		<start>15:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="6">
+		<day>1,2,3,4,5,6,7</day>
+		<start>15:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="7">
+		<day>1,2,3,4,5,6,7</day>
+		<start>15:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="8">
+		<day>1,2,3,4,5,6,7</day>
+		<start>15:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="9">
+		<day>1,2,3,4,5,6,7</day>
+		<start>15:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="10">
+		<day>1,2,3,4,5,6,7</day>
+		<start>19:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="11">
+		<day>1,2,3,4,5,6,7</day>
+		<start>19:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="12">
+		<day>1,2,3,4,5,6,7</day>
+		<start>19:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="13">
+		<day>1,2,3,4,5,6,7</day>
+		<start>19:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="14">
+		<day>1,2,3,4,5,6,7</day>
+		<start>19:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="15">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="16">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="17">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="18">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="19">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>	
+	<job id="20">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="21">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="22">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="23">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="24">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="25">
+		<day>1,2,3,4,5,6,7</day>
+		<start>07:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="26">
+		<day>1,2,3,4,5,6,7</day>
+		<start>07:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="27">
+		<day>1,2,3,4,5,6,7</day>
+		<start>07:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="28">
+		<day>1,2,3,4,5,6,7</day>
+		<start>07:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="29">
+		<day>1,2,3,4,5,6,7</day>
+		<start>07:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="30">
+		<day>1,2,3,4,5,6,7</day>
+		<start>12:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 60 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="31">
+		<day>1,2,3,4,5,6,7</day>
+		<start>12:30:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 30 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="32">
+		<day>1,2,3,4,5,6,7</day>
+		<start>12:40:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 20 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="33">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:50:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 10 minuten</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<job id="34">
+		<day>1,2,3,4,5,6,7</day>
+		<start>23:59:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop> 
+		<cmd>say -1 Serverrestart in 1 minute</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+	<!-- SHUTDOWNS -->
+	<job id="35">
+		<day>1,2,3,4,5,6,7</day>
+		<start>08:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>
+	<job id="36">
+		<day>1,2,3,4,5,6,7</day>
+		<start>12:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>
+	<job id="37">
+		<day>1,2,3,4,5,6,7</day>
+		<start>16:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>
+	<job id="38">
+		<day>1,2,3,4,5,6,7</day>
+		<start>20:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>
+	<job id="39">
+		<day>1,2,3,4,5,6,7</day>
+		<start>24:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>
+	<job id="40">
+		<day>1,2,3,4,5,6,7</day>
+		<start>04:00:00</start>
+		<runtime>000000</runtime>
+		<loop>0</loop>
+		<cmd>R:\stopserver.bat</cmd>
+		<cmdtype>0</cmdtype>
+	</job>	
+</Scheduler>

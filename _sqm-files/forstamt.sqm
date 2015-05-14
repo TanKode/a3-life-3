@@ -1,0 +1,417 @@
+version=12;
+class Mission
+{
+    addOns[] = {}; 
+    addOnsAuto[] = {}; 
+    randomSeed = 33199.9;
+    class Intel   
+    {             
+        resistanceWest=1;
+        resistanceEast=0;
+        startWeather=0.308161;
+        startFog=0.00532819;
+        startWind=0.308001;
+        startWindDir=342.056;
+        startRain=0;
+        startLightnings=0.1;
+        startWaves=0.1;
+        startGust=0.215712;
+        forecastWeather=0.308161;
+        forecastWind=0.308001;
+        forecastWaves=0.1;
+        rainForced=1;
+        lightningsForced=1;
+        wavesForced=1;
+        windForced=1;
+        year=2030;
+        month=6;
+        day=24;
+        hour=21;
+        minute=39;
+        startFogDecay=0.0049333;
+        forecastFogDecay=0.0049333;
+    };           
+    class Groups
+    {
+        items= 0;
+    };
+    class Vehicles
+    {
+        items= 31;
+        class Item0
+        {
+             position[]={8567.45,0,18207.4};
+             azimut=223.091;
+             id=0;
+             side= "EMPTY";
+             vehicle="Land_LampHalogen_F";
+             skill=0.6;
+             offsetY=0;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item1
+        {
+             position[]={8570.96,0,18163};
+             azimut=154.135;
+             id=1;
+             side= "EMPTY";
+             vehicle="Land_LampHalogen_F";
+             skill=0.6;
+             offsetY=1.52588e-005;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item2
+        {
+             position[]={8562.55,0,18173.6};
+             azimut=154.135;
+             id=2;
+             side= "EMPTY";
+             vehicle="Land_LampHalogen_F";
+             skill=0.6;
+             offsetY=0;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item3
+        {
+             position[]={8592.83,0,18175.4};
+             azimut=50.3687;
+             id=3;
+             side= "EMPTY";
+             vehicle="Land_LampHalogen_F";
+             skill=0.6;
+             offsetY=1.52588e-005;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item4
+        {
+             position[]={8564.33,-0.0248871,18168.4};
+             azimut=358.496;
+             id=4;
+             side= "EMPTY";
+             vehicle="Land_FireExtinguisher_F";
+             skill=0.6;
+             offsetY=0.182297;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item5
+        {
+             position[]={8560.03,-1.52588e-005,18168.1};
+             azimut=239.855;
+             id=5;
+             side= "EMPTY";
+             vehicle="Land_Device_assembled_F";
+             skill=0.6;
+             offsetY=0.236496;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item6
+        {
+             position[]={8555.54,0.00193787,18166.1};
+             azimut=244.343;
+             id=6;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.300751;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item7
+        {
+             position[]={8552.24,-1.52588e-005,18165.4};
+             azimut=242.092;
+             id=7;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_F";
+             skill=0.6;
+             offsetY=0.315369;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item8
+        {
+             position[]={8550.43,-0.0249939,18164.2};
+             azimut=359.924;
+             id=8;
+             side= "EMPTY";
+             vehicle="Land_WoodenLog_F";
+             skill=0.6;
+             offsetY=0.295685;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item9
+        {
+             position[]={8549.22,-0.0249939,18154.4};
+             azimut=60.4982;
+             id=9;
+             side= "EMPTY";
+             vehicle="Land_Sink_F";
+             skill=0.6;
+             offsetY=0.309082;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item10
+        {
+             position[]={8567.8,0.00209045,18173.3};
+             azimut=63.4163;
+             id=10;
+             side= "EMPTY";
+             vehicle="Land_WaterTank_F";
+             skill=0.6;
+             offsetY=0.00209045;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item11
+        {
+             position[]={8573.46,0.0129852,18157.3};
+             azimut=0.249239;
+             id=11;
+             side= "EMPTY";
+             vehicle="Land_Cages_F";
+             skill=0.6;
+             offsetY=0.0130005;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item12
+        {
+             position[]={8574.84,0.0123291,18157.3};
+             azimut=0.0476315;
+             id=12;
+             side= "EMPTY";
+             vehicle="Land_Basket_F";
+             skill=0.6;
+             offsetY=0.0123596;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item13
+        {
+             position[]={8576.54,0.000228882,18157.6};
+             azimut=0.0034598;
+             id=13;
+             side= "EMPTY";
+             vehicle="Land_Sacks_goods_F";
+             skill=0.6;
+             offsetY=0.000228882;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item14
+        {
+             position[]={8577.98,0.00688171,18157.4};
+             azimut=0.225605;
+             id=14;
+             side= "EMPTY";
+             vehicle="Land_Sack_F";
+             skill=0.6;
+             offsetY=0.00689697;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item15
+        {
+             position[]={8582.89,-0.18428,18175.1};
+             azimut=359.977;
+             id=15;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.00732422;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item16
+        {
+             position[]={8584.58,0.00448608,18174.9};
+             azimut=359.977;
+             id=16;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=-0.0531158;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item17
+        {
+             position[]={8583.78,-0.0307007,18174.8};
+             azimut=359.977;
+             id=17;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.242249;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item18
+        {
+             position[]={8583.46,-0.025238,18174.7};
+             azimut=359.977;
+             id=18;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.673538;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item19
+        {
+             position[]={8585.3,0.000808716,18178.4};
+             azimut=359.911;
+             id=19;
+             side= "EMPTY";
+             vehicle="Land_WoodenLog_F";
+             skill=0.6;
+             offsetY=0.000839233;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item20
+        {
+             position[]={8569.16,0.00248718,18174.1};
+             azimut=335.216;
+             id=20;
+             side= "EMPTY";
+             vehicle="Land_LandMark_F";
+             skill=0.6;
+             offsetY=0.00248718;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item21
+        {
+             position[]={8577.62,0.0139465,18159.4};
+             azimut=0.00488907;
+             id=21;
+             side= "EMPTY";
+             vehicle="CamoNet_BLUFOR_open_Curator_F";
+             skill=0.6;
+             offsetY=0.0139465;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item22
+        {
+             position[]={8578.83,0.0211792,18157.2};
+             azimut=197.035;
+             id=22;
+             side= "EMPTY";
+             vehicle="Land_InfoStand_V1_F";
+             skill=0.6;
+             offsetY=0.0214386;
+             init="this allowDamage false; this enableSimulation false; this addAction['Jagdlizenz',life_fnc_licenses,['hunting'],0,true,true,'',' playerSide == civilian ']; this addAction[''Jagdmarkt'',life_fnc_virt_menu,''huntingmarkt'']; this setVariable[''realname'',''Jagdmarkt''];";
+        };
+        class Item23
+        {
+             position[]={8568.97,0.0353699,18214.2};
+             azimut=340.258;
+             id=23;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.00566101;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item24
+        {
+             position[]={8567.14,0.00462341,18213.7};
+             azimut=340.25;
+             id=24;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=-0.022934;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item25
+        {
+             position[]={8568.29,0.054657,18213.9};
+             azimut=340.246;
+             id=25;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.221634;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item26
+        {
+             position[]={8567.77,-0.274887,18213.4};
+             azimut=340.25;
+             id=26;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_large_F";
+             skill=0.6;
+             offsetY=0.274796;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item27
+        {
+             position[]={8565.74,0.00976563,18216.4};
+             azimut=270.857;
+             id=27;
+             side= "EMPTY";
+             vehicle="Land_WoodPile_F";
+             skill=0.6;
+             offsetY=0.00976563;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item28
+        {
+             position[]={8567.38,0.00106812,18217.4};
+             azimut=359.955;
+             id=28;
+             side= "EMPTY";
+             vehicle="Land_WoodenLog_F";
+             skill=0.6;
+             offsetY=0.00108337;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item29
+        {
+             position[]={8590.67,0,18174.4};
+             azimut=311.597;
+             id=29;
+             side= "EMPTY";
+             vehicle="Land_LampHalogen_F";
+             skill=0.6;
+             offsetY=0;
+             init=" this call MCC_fnc_pickItem; this allowDamage false;";
+        };
+        class Item30
+        {
+             position[]={8579.93,0.0201263,18156.9};
+             azimut=95.4331;
+             id=30;
+             side= "EMPTY";
+             vehicle="Land_PlasticCase_01_large_F";
+             skill=0.6;
+             offsetY=0.0203094;
+             init="this enableSimulation false; this allowDamage false; this addAction[''Gemischtwarenhaendler'',life_fnc_weaponShopMenu,''genstore'']; this addAction[''Jagdwaffen'',life_fnc_weaponShopMenu,''hunting'']; this setVariable[''realname'',''Gemischtwarenhandel''];";
+        };
+    };
+     		 class Markers
+     		     {            
+     		         items=1;
+                   	  class Item0
+                   	  {           
+                       	  position[]={8574.91,0,18167.2};
+                       	  name="curatorInterface_loc_WaterTower_0_0";
+                       	  text="Forstamt";
+                       	  markerType="ICON";
+                       	  type="loc_WaterTower";
+                       	  colorName="colorindependent";
+                       	  a=1;
+                       	  b=1;
+                       	  angle=0;
+                   	  };
+					};
+};
+class Intro {
+    addOns[] = {}; 
+    addOnsAuto[] = {}; 
+    randomSeed = 33199.9;
+    class Intel {}; 
+};
+class OutroWin {
+    addOns[] = {}; 
+    addOnsAuto[] = {}; 
+    randomSeed = 33199.9;
+    class Intel {}; 
+};
+class OutroLoose {
+    addOns[] = {}; 
+    addOnsAuto[] = {}; 
+    randomSeed = 33199.9;
+    class Intel {}; 
+};
