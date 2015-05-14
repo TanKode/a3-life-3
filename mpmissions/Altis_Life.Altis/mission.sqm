@@ -39329,7 +39329,7 @@ class Mission
 		class Item385
 		{
 			position[]={17352.926,17.73341,12585.196};
-			name="Friedhof";
+			name="gathergrabbeilagen";
 			text="Friedhof";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -39339,7 +39339,7 @@ class Mission
 		class Item386
 		{
 			position[]={14470.917,25.064558,6185.2207};
-			name="Relikte";
+			name="gatherRelikte";
 			text="Relikte";
 			type="loc_Tree";
 			colorName="ColorBlack";
