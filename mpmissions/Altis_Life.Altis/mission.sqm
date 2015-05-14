@@ -39847,12 +39847,11 @@ class Mission
 		};
 		class Item449
 		{
-			position[]={18065.654,22.398029,15193.723};
+			position[]={18059.234,22.226854,15194.97};
 			name="dp_1_19_1";
 			text="19";
 			type="loc_BusStop";
 			colorName="ColorYellow";
-			angle=-122.837;
 		};
 	};
 };
