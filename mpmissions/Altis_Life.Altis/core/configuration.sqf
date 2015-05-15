@@ -470,7 +470,7 @@ resource_list = [
 	"holzu",
 	"schwefelu",
 	"uran1",
-	"krabben"
+	"krabben",
 	"pfandflasche"
 ];
 
