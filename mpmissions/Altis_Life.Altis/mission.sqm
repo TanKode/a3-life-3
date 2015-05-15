@@ -33526,7 +33526,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Sammel Flaschen"",life_fnc_processAction,""pfandflasche"",0,false,false,"""",' life_inv_pfandflascheu > 0 && !life_is_processing'];this addAction[""Pfandlizenz ($3000)"",life_fnc_buyLicense,""pfandflasche"",0,false,false,"""",' !license_civ_pfandflasche && playerSide == civilian '];";
 		};
 		class Item2938
 		{
@@ -39363,7 +39363,7 @@ class Mission
 		class Item397
 		{
 			position[]={5473.4214,27.299999,14997.487};
-			name="flaschen";
+			name="pfandflasche";
 			text="Pfandflaschen";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -39373,7 +39373,7 @@ class Mission
 		class Item398
 		{
 			position[]={6115.1489,43,16230.105};
-			name="copper_mine_1_1";
+			name="Recyclinghof";
 			text="Recyclinghof";
 			type="loc_Tree";
 			colorName="ColorBlue";

@@ -45,6 +45,7 @@ _itemInfo = switch (_type) do
 	case "uran3": {["uran2","uran3",5000,"Verarbeite Uran"]};
 	case "uran4": {["uran3","uran4",5000,"Reichere Uran an"]};
 	case "uranip": {["uran2","uranip",5000,"Uran verschmutzen"]};
+	case "pfandflasche": {["pfandflascheu","pfandflaschep",250,"Koche Plastik"]};
 	default {[]};
 };
 

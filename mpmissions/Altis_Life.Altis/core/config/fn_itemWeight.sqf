@@ -119,5 +119,7 @@ switch (_item) do
     case "goldv": {2};
     case "knochen": {4};
     case "knochenv": {2};
+    case "pfandflascheu": {4};
+    case "pfandflaschep": {2};
 	default {1};
 };

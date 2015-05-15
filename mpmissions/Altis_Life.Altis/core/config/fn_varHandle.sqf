@@ -144,6 +144,8 @@ switch (_mode) do
             case "goldv": {"life_inv_goldv"};
             case "knochen": {"life_inv_knochen"};
             case "knochenv": {"life_inv_knochenv"};
+            case "pfandflascheu": {"life_inv_pfandflascheu"};
+            case "pfandflaschep": {"life_inv_pfandflaschep"};
 			};
 	};
 	
@@ -280,6 +282,8 @@ switch (_mode) do
             case "life_inv_goldv": {"goldv"};
             case "life_inv_knochen": {"knochen"};
             case "life_inv_knochenv": {"knochenv"};
+            case "life_inv_pfandflascheu": {"pfandflascheu"};
+            case "life_inv_pfandflaschep": {"pfandflaschep"};
 		};
 	};
 };

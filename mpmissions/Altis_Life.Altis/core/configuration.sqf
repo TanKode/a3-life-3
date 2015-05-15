@@ -285,7 +285,9 @@ life_inv_items =
 	"life_inv_gold",
 	"life_inv_goldv",
 	"life_inv_knochen",
-    "life_inv_knochenv"
+    "life_inv_knochenv",
+    "life_inv_pfandflaschenu",
+    "life_inv_pfandflaschen"
 ];
 
 //Setup variable inv vars.
@@ -363,7 +365,8 @@ life_licenses =
     ["license_civ_reli", "civ"],
     ["license_civ_gas", "civ"],
     ["license_civ_gold", "civ"],
-    ["license_civ_knochen", "civ"]
+    ["license_civ_knochen", "civ"],
+    ["license_civ_pfandflasche", "civ"]
 ];
 
 //Setup License Variables
@@ -549,7 +552,9 @@ sell_array =
     ["gas",2000],
     ["gasv",5000],
     ["goldv",5000],
-    ["knochenv",5000]
+    ["knochenv",5000],
+    ["pfandflascheu",250],
+    ["pfandflaschep",2500]
 ];
 __CONST__(sell_array,sell_array);
 

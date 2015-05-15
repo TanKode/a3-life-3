@@ -140,6 +140,8 @@ switch (_var) do
     case "life_inv_goldv": {"Devisen"};
     case "life_inv_knochen": {"Dreckige Knochen"};
     case "life_inv_knochenv": {"Saubere Knochen"};
+    case "life_inv_pfandflascheu": {"Pfandflaschen"};
+    case "life_inv_pfandflaschep": {"Plastikblock"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -203,6 +205,7 @@ switch (_var) do
     case "license_civ_grab": {"Restaurator"};
     case "license_civ_reli": {"Archaeologie"};
     case "license_civ_gas": {"Erdgaslizenz"};
+    case "license_civ_pfandflasche": {"PfandbongLizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -230,4 +233,5 @@ switch (_var) do
 	case "Reli_Prof": {"Archaeologie"};
 	case "Krabben_Prof": {"Krabbenfischer"};
 	case "Gas_Prof": {"Bohrmeister"};
+	case "pfandflasche_Prof": {"Pfandflaschenmeister"};
 };

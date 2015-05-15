@@ -111,6 +111,7 @@ class Life_Client_Core
 		class dynprocess {};
 		class entwaffnen {}; // Entwaffnen startet
         class entwaffnenAction {}; // Entwaffnen eingeleitet
+        class gatherpfandflasche {};
 
         //RLP
         class RLP_gatherErdgas {};
