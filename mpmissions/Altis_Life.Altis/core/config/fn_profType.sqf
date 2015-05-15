@@ -55,6 +55,8 @@ case "catshark": { _profName = "Fishing_Prof";};
 case "turtle": { _profName = "Fishing_Prof";};
 case "gas": { _profName = "Gas_Prof";};
 case "gasv": { _profName = "Gas_Prof";};
+case "pfandflascheu": { _profName = "Pfandflasche_Prof";};
+case "pfandflaschep": { _profName = "Pfandflasche_Prof";};
  
 //license to text
 case "Heroin_Prof": {_profName = "Heroin"; };
@@ -87,6 +89,7 @@ case "Ticket_Prof": { _profName = "Ticket(Cop)"; };
 case "Arrest_Prof": { _profName = "Einbuchten(Cop)"; };
 case "Impound_Prof": { _profName = "Aufräumen(Cop)"; };
 case "Gas_Prof": { _profName = "Bohrmeister"; };
+case "Gas_pfandflasche": { _profName = "Pfandmeister"; };
 
 //text to license
 case "Heroin": {_profName = "Heroin_Prof"; };
@@ -119,6 +122,7 @@ case "Ticket(Cop)": { _profName = "Ticket_Prof"; };
 case "Einbuchten(Cop)": { _profName = "Arrest_Prof"; };
 case "Aufräumen(Cop)": { _profName = "Impound_Prof"; };
 case "Bohrmeister": { _profName = "Gas_Prof"; };
+case "Pfandsammler": { _profName = "Gas_Pfandflasche"; };
 
 default{""};
 };
