@@ -286,8 +286,8 @@ life_inv_items =
 	"life_inv_goldv",
 	"life_inv_knochen",
     "life_inv_knochenv",
-    "life_inv_pfandflaschenu",
-    "life_inv_pfandflaschen"
+    "life_inv_pfandflascheu",
+    "life_inv_pfandflaschep"
 ];
 
 //Setup variable inv vars.
@@ -405,7 +405,8 @@ life_prof =
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
-["Impound_Prof","cop"]
+["Impound_Prof","cop"],
+["Pfandflasche_Prof","civ"]
 ];
 
 
