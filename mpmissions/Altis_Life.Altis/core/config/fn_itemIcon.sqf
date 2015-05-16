@@ -102,5 +102,7 @@ switch (_var) do
 	case "life_inv_uranip": {("icons\items\brennstab.paa")};
 	case "life_inv_pfandflascheu": {("icons\items\beer.paa")};
 	case "life_inv_pfandflaschep": {("icons\items\beer.paa")};
+	case "life_inv_datenU": {("icons\items\beer.paa")};
+	case "life_inv_datenP": {("icons\items\beer.paa")};
 	default {("textures\Logo2.paa")};
 };

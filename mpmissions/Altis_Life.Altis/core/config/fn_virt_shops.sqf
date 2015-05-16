@@ -45,4 +45,5 @@ switch (_shop) do
 	case "uranip": {["Waffennarr",["uranip"]]};
 	case "adacmarkt": {["ADAC Markt",["diaper","fuelF","apple","peach","tbacon","rabbit","water","lockpick","redgull","tracker","diaper"]]};
 	case "huntingmarkt": {["Jägermarkt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","henraw","roosterraw","goatraw","sheepraw","rabbitraw"]]};
+	case "datenhaendler": {["datenU",["datenP"]]};
 };

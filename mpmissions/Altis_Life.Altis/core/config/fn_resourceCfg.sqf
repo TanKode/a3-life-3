@@ -174,6 +174,11 @@ switch(_resource) do {
 		_resourceZones = ["pfandflasche"];
 		_resourcetypeof = 2;
 	};
+	case ("datenU") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["daten"];
+		_resourcetypeof = 2;
+	};
 
 	case ("schwefelu") : {
 		_batchSize = round(random 3) +1;

@@ -81,6 +81,7 @@ switch (_mode) do
             case "gold": {_var = "license_civ_gold"};
             case "knochen": {_var = "license_civ_knochen"};
             case "pfandflasche": {_var = "license_civ_pfandflasche"};
+            case "daten": {_var = "license_civ_daten"};
 			default {_var = ""};
 		};
 	};
@@ -154,6 +155,7 @@ switch (_mode) do
             case "license_civ_gold": {_var = "gold"};
             case "license_civ_knochen": {_var = "knochen"};
             case "license_civ_pfandflasche": {_var = "pfandflasche"};
+            case "license_civ_daten": {_var = "daten"};
 			default {_var = ""};
 		};
 	};

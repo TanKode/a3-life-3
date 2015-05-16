@@ -146,6 +146,8 @@ switch (_mode) do
             case "knochenv": {"life_inv_knochenv"};
             case "pfandflascheu": {"life_inv_pfandflascheu"};
             case "pfandflaschep": {"life_inv_pfandflaschep"};
+            case "datenU": {"life_inv_datenU"};
+            case "datenP": {"life_inv_datenP"};
 			};
 	};
 	
@@ -284,6 +286,8 @@ switch (_mode) do
             case "life_inv_knochenv": {"knochenv"};
             case "life_inv_pfandflascheu": {"pfandflascheu"};
             case "life_inv_pfandflaschep": {"pfandflaschep"};
+            case "life_inv_datenU": {"datenU"};
+            case "life_inv_datenP": {"datenP"};
 		};
 	};
 };
