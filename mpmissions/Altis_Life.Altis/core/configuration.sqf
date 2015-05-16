@@ -369,7 +369,7 @@ life_licenses =
     ["license_civ_gold", "civ"],
     ["license_civ_knochen", "civ"],
     ["license_civ_pfandflasche", "civ"],
-    ["licence_civ_daten", "civ"]
+    ["license_civ_daten", "civ"]
 ];
 
 //Setup License Variables
@@ -409,8 +409,8 @@ life_prof =
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
 ["Impound_Prof","cop"],
-["Pfandflasche_Prof","civ"],
-["Daten_Prof","civ"]
+["Pfandflasche_Prof","civ"]
+["daten_Prof","civ"]
 ];
 
 
