@@ -471,7 +471,7 @@ resource_list = [
 	"schwefelu",
 	"uran1",
 	"krabben",
-	"pfandflasche"
+	"pfandflascheu"
 ];
 
 
