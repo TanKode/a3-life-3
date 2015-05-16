@@ -74,5 +74,5 @@ switch (_type) do
     case "gold": {300000};
     case "knochen": {300000};
     case "pfandflasche": {3500};
-    case "daten": {200000};
+    case "daten": {300000};
 };
