@@ -73,8 +73,8 @@ switch (playerSide) do
 		// Head Set for Chopper
         life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
         // For all EarPlugs
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Ohrstecker rein/raus</t>",life_fnc_earplug,"",99,false,false,"", ' !((vehicle player) isKindOf "Air")||((vehicle player) isKindOf "Man")||((vehicle player) isKindOf "Car")||((vehicle player) IsKindOf "Ship")']];
-	};
+
+     };
 	case independent:
 	{
 		life_actions = life_actions + [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']];
@@ -85,8 +85,6 @@ switch (playerSide) do
 
     	// Head Set for Chopper
         life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
-        // For all EarPlugs
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Ohrstecker rein/raus</t>",life_fnc_earplug,"",99,false,false,"", ' !((vehicle player) isKindOf "Air")||((vehicle player) isKindOf "Man")||((vehicle player) isKindOf "Car")||((vehicle player) IsKindOf "Ship")']];
 	};
 };
 
