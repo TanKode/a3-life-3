@@ -441,8 +441,6 @@ life_illegal_items = [
 ["goldbar",75000],
 ["uranip",12598],
 ["gold",6000],
-["datenU",1001],
-["datenP",3001]
 ];
 
 /*
