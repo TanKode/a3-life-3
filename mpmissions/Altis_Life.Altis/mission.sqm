@@ -3222,7 +3222,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="kontaktmann";
-					init=";removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction["Daten entpacken",life_fnc_processAction,"daten",0,false,false,"",' life_inv_datenU > 0 && !life_is_processing'];this addAction["Daten Lizenz ($30000)",life_fnc_buyLicense,"daten",0,false,false,"",' !license_civ_daten && playerSide == civilian '];";
+					init="removeAllWeapons this; removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
 				};
 			};
 		};
