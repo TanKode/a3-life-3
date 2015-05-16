@@ -724,7 +724,7 @@ switch (_code) do
 	};
 
 	//Shift+F1 = Faded Sound
-    case 59:
+    case 1:
     if(_shift) then
     {
     [] call life_fnc_fadeSound;
