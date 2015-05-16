@@ -36158,7 +36158,7 @@ class Mission
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
 			text="kontaktmann";
-			init=";this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Daten verarbeiten"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Datenlizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
 		};
 	};
 	class Markers
