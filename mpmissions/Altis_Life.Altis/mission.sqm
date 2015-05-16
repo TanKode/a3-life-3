@@ -3221,7 +3221,7 @@ class Mission
 					vehicle="C_man_polo_6_F";
 					leader=1;
 					skill=0.60000002;
-					text="kontaktmann";
+					text="kontaktmann1";
 					init="removeAllWeapons this; removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
 				};
 			};
@@ -3291,7 +3291,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3191;
+		items=3192;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -30307,7 +30307,7 @@ class Mission
 		class Item2641
 		{
 			position[]={26592.008,13.57218,24666.236};
-			azimut=-463.82388;
+			azimut=-463.82401;
 			id=2793;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -36149,6 +36149,17 @@ class Mission
 			text="dp_19";
 			init="this allowDamage false; this enableSimulation false; this addAction[""Paket zustellen"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Paket nehmen"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
+		class Item3191
+		{
+			position[]={28071.043,6.4030299,23760.35};
+			azimut=-633.44397;
+			id=3343;
+			side="EMPTY";
+			vehicle="OfficeTable_01_new_F";
+			skill=0.60000002;
+			text="kontaktmann";
+			init=";this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
+		};
 	};
 	class Markers
 	{
@@ -37871,7 +37882,7 @@ class Mission
 			text="Bootshändler";
 			type="c_ship";
 			colorName="ColorWhite";
-			angle=-241.67992;
+			angle=-241.67999;
 		};
 		class Item221
 		{
