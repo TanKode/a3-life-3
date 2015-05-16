@@ -440,7 +440,7 @@ life_illegal_items = [
 ["pkugel",62727],
 ["goldbar",75000],
 ["uranip",12598],
-["gold",6000],
+["gold",6000]
 ];
 
 /*
