@@ -53,8 +53,8 @@ _SHOW_TIMER_IN_MIN =	[1,2,3,5,10,20,30];	/* minutes before restart, when message
 /*
 	"_LogAdminActions": Sends actions done by each admin to the server to log it to the .txt file and .rpt file + sends it back to all other admins.
 */
-_LogAdminActions = false;	/* true or false */
-_enableIngameLogs = false;	/* true or false */
+_LogAdminActions = true;	/* true or false */
+_enableIngameLogs = true;	/* true or false */
 
 
 /*
