@@ -113,6 +113,7 @@ class Life_Client_Core
         class entwaffnenAction {}; // Entwaffnen eingeleitet
         class gatherpfandflasche {};
         class gatherDaten {};
+        class gatherreichsgold {};
 
         //RLP
         class RLP_gatherErdgas {};

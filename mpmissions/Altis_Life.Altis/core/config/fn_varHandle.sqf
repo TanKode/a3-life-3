@@ -148,6 +148,8 @@ switch (_mode) do
             case "pfandflaschep": {"life_inv_pfandflaschep"};
             case "datenU": {"life_inv_datenU"};
             case "datenP": {"life_inv_datenP"};
+            case "reichsgoldU": {"life_inv_reichsgoldU"};
+            case "reichsgoldP": {"life_inv_reichsgoldP"};
 			};
 	};
 	
@@ -288,6 +290,8 @@ switch (_mode) do
             case "life_inv_pfandflaschep": {"pfandflaschep"};
             case "life_inv_datenU": {"datenU"};
             case "life_inv_datenP": {"datenP"};
+            case "life_inv_reichsgoldU": {"reichsgoldU"};
+            case "life_inv_reichsgoldP": {"reichsgoldP"};
 		};
 	};
 };

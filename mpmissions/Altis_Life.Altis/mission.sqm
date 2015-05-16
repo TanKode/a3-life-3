@@ -33673,7 +33673,7 @@ class Mission
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Reichsgold verarbeiten"",life_fnc_processAction,""reichsgold"",0,false,false,"""",' life_inv_reichsgoldU > 0 && !life_is_processing'];this addAction[""Devisenlizenz Lizenz ($800000)"",life_fnc_buyLicense,""reichsgold"",0,false,false,"""",' !license_civ_reichsgold && playerSide == civilian '];";
 		};
 		class Item2951
 		{
@@ -39244,7 +39244,7 @@ class Mission
 		class Item384
 		{
 			position[]={13673.824,-0.064105093,11900.42};
-			name="Reichsgold";
+			name="reichsgold";
 			text="Reichsgold";
 			type="loc_Tree";
 			colorName="ColorBlack";

@@ -59,6 +59,8 @@ case "pfandflascheu": { _profName = "Pfandflasche_Prof";};
 case "pfandflaschep": { _profName = "Pfandflasche_Prof";};
 case "datenU": { _profName = "daten_Prof";};
 case "datenP": { _profName = "daten_Prof";};
+case "reichsgoldU": { _profName = "reichsgold_Prof";};
+case "reichsgoldP": { _profName = "reichsgold_Prof";};
  
 //license to text
 case "Heroin_Prof": {_profName = "Heroin"; };
@@ -93,6 +95,7 @@ case "Impound_Prof": { _profName = "Aufräumen(Cop)"; };
 case "Gas_Prof": { _profName = "Bohrmeister"; };
 case "Gas_pfandflasche": { _profName = "Pfandmeister"; };
 case "Gas_daten": { _profName = "DatenMeister"; };
+case "Gas_reichsgold": { _profName = "ReichsgoldSammler"; };
 
 //text to license
 case "Heroin": {_profName = "Heroin_Prof"; };
@@ -127,6 +130,7 @@ case "Aufräumen(Cop)": { _profName = "Impound_Prof"; };
 case "Bohrmeister": { _profName = "Gas_Prof"; };
 case "Flaschen": { _profName = "Gas_Pfandflasche"; };
 case "Daten": { _profName = "Gas_daten"; };
+case "Reichsgold": { _profName = "Gas_reichsgold"; };
 
 default{""};
 };

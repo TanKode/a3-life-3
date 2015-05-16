@@ -180,6 +180,12 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
+	case ("reichsgoldU") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["reichsgold"];
+		_resourcetypeof = 2;
+	};
+
 	case ("schwefelu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";

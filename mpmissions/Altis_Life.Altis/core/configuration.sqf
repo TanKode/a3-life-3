@@ -289,7 +289,9 @@ life_inv_items =
     "life_inv_pfandflascheu",
     "life_inv_pfandflaschep",
     "life_inv_datenU",
-    "life_inv_datenP"
+    "life_inv_datenP",
+    "life_inv_reichsgoldU",
+    "life_inv_reichsgoldP"
 ];
 
 //Setup variable inv vars.
@@ -369,7 +371,8 @@ life_licenses =
     ["license_civ_gold", "civ"],
     ["license_civ_knochen", "civ"],
     ["license_civ_pfandflasche", "civ"],
-    ["license_civ_daten", "civ"]
+    ["license_civ_daten", "civ"],
+    ["license_civ_reichsgold", "civ"]
 ];
 
 //Setup License Variables
@@ -410,7 +413,8 @@ life_prof =
 ["Arrest_Prof","cop"],
 ["Impound_Prof","cop"],
 ["Pfandflasche_Prof","civ"],
-["daten_Prof","civ"]
+["daten_Prof","civ"],
+["reichsgold_Prof","civ"]
 ];
 
 
@@ -442,7 +446,8 @@ life_illegal_items = [
 ["uranip",12598],
 ["gold",6000],
 ["datenU",1000],
-["datenP",3000]
+["datenP",3000],
+["reichsgoldU",3000]
 
 ];
 
@@ -479,7 +484,8 @@ resource_list = [
 	"uran1",
 	"krabben",
 	"pfandflascheu",
-	"datenU"
+	"datenU",
+	"reichsgoldU"
 ];
 
 
@@ -566,7 +572,9 @@ sell_array =
     ["pfandflascheu",250],
     ["pfandflaschep",2500],
     ["datenU",1000],
-    ["datenP",3000]
+    ["datenP",3000],
+    ["reichsgoldU",1000],
+    ["reichsgoldP",3000]
 ];
 __CONST__(sell_array,sell_array);
 

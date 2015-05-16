@@ -123,5 +123,7 @@ switch (_item) do
     case "pfandflaschep": {3};
     case "datenU": {6};
     case "datenP": {3};
+    case "reichsgoldU": {6};
+    case "reichsgoldP": {3};
 	default {1};
 };
