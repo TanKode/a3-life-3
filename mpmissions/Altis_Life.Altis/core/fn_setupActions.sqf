@@ -26,9 +26,6 @@ switch (playerSide) do
 
         // Head Set for Chopper
         life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
-        // For all EarPlugs
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Ohrstecker rein/raus</t>",life_fnc_earplug,"",99,false,false,"", ' !((vehicle player) isKindOf "Air")||((vehicle player) isKindOf "Man")||((vehicle player) isKindOf "Car")||((vehicle player) IsKindOf "Ship")']];
-
 		//Trawler: Anker werfen (Stop auf 0)
 		life_actions = life_actions + [player addaction["Anker werfen",life_fnc_D41_Anker,"",0,false,false,"",'
 		((vehicle player isKindOf "ship") && ((speed vehicle player) < 4) && ((speed vehicle player) > -4) && !((speed vehicle player) == 0))']];
