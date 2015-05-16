@@ -265,7 +265,6 @@ class Life_Client_Core
 		class addsubstract {};
 		class profSetUp {};
 		class addExp {};
-		class earplug {};
 		class autoSave {};
 		class gpsTracker {};
 		class useToilet {}; 
@@ -273,6 +272,7 @@ class Life_Client_Core
 		class slingloadon {};
 		class slingloadoff {};
 		class grabSkills {};
+		class fadeSound {};
 	};
 	
 	class Network
