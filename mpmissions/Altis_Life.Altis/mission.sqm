@@ -3147,7 +3147,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={16025.259,13.599795,16950.35};
+					position[]={4700.9355,297.68607,21365.23};
+					azimut=-177.67517;
 					id=144;
 					side="WEST";
 					vehicle="B_Sharpshooter_F";
@@ -33526,7 +33527,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Sammel Flaschen"",life_fnc_processAction,""pfandflasche"",0,false,false,"""",' life_inv_pfandflascheu > 0 && !life_is_processing'];this addAction[""Pfandlizenz ($3000)"",life_fnc_buyLicense,""pfandflasche"",0,false,false,"""",' !license_civ_pfandflasche && playerSide == civilian '];";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Pfand verarbeiten"",life_fnc_processAction,""pfandflasche"",0,false,false,"""",' life_inv_pfandflascheu > 0 && !life_is_processing'];this addAction[""Pfandlizenz ($3000)"",life_fnc_buyLicense,""pfandflasche"",0,false,false,"""",' !license_civ_pfandflasche && playerSide == civilian '];";
 		};
 		class Item2938
 		{
@@ -33668,12 +33669,12 @@ class Mission
 		{
 			position[]={4704.4937,297.4715,21354.209};
 			azimut=170.429;
-			offsetY=1;
+			offsetY=1.1;
 			id=3102;
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Reichsgold verarbeiten"",life_fnc_processAction,""reichsgold"",0,false,false,"""",' life_inv_reichsgoldU > 0 && !life_is_processing'];this addAction[""Devisenlizenz Lizenz ($800000)"",life_fnc_buyLicense,""reichsgold"",0,false,false,"""",' !license_civ_reichsgold && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false; this setVectorUp [0,0,1]; this addAction[""Reichsgold verarbeiten"",life_fnc_processAction,""reichsgold"",0,false,false,"""",' life_inv_reichsgoldU > 0 && !life_is_processing'];this addAction[""Devisenlizenz Lizenz ($800000)"",life_fnc_buyLicense,""reichsgold"",0,false,false,"""",' !license_civ_reichsgold && playerSide == civilian '];";
 		};
 		class Item2951
 		{
@@ -33911,13 +33912,13 @@ class Mission
 		class Item2973
 		{
 			position[]={3581.7839,20.603777,14485.352};
-			azimut=357.81805;
+			azimut=357.81799;
 			offsetY=1;
 			id=3125;
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Devisenhaendler"",life_fnc_virt_menu,""devisenhaendler""]";
 		};
 		class Item2974
 		{
