@@ -723,6 +723,15 @@ switch (_code) do
 			};
 	};
 
+	//Shift+F1 = Faded Sound
+    case 59:
+    if(_shift) then
+    {
+    [] call life_fnc_fadeSound;
+    _handled = true;
+    };
+    };
+
 	//Q Key
 
     case 16:
