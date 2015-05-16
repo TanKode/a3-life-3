@@ -179,6 +179,16 @@ switch (_code) do
 		};
 	};
 	
+	//Shift+1 = Ohrstöpsel
+    case 2:
+   {
+       if(_shift) then
+      {
+      [] call life_fnc_fadeSound;
+      _handled = true;
+};
+};
+	
 	//surrender... shift + g
 	case 34:
 	{
