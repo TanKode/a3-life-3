@@ -33700,9 +33700,8 @@ class Mission
 		};
 		class Item2953
 		{
-			position[]={13673.201,-0.071427278,11900.494};
+			position[]={13437.545,12.872746,11954.335};
 			azimut=-333.09201;
-			offsetY=-35;
 			id=3105;
 			side="EMPTY";
 			vehicle="Land_Cargo20_military_green_F";
@@ -33711,9 +33710,8 @@ class Mission
 		};
 		class Item2954
 		{
-			position[]={13663.766,-0.016971961,11891.383};
+			position[]={13449.021,13.899547,11902.633};
 			azimut=-399.452;
-			offsetY=-27;
 			id=3106;
 			side="EMPTY";
 			vehicle="Land_UWreck_MV22_F";
@@ -39243,7 +39241,7 @@ class Mission
 		};
 		class Item384
 		{
-			position[]={13673.824,-0.064105093,11900.42};
+			position[]={13422.082,13.412737,11907.249};
 			name="reichsgold";
 			text="Reichsgold";
 			type="loc_Tree";
