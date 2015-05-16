@@ -409,7 +409,7 @@ life_prof =
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
 ["Impound_Prof","cop"],
-["Pfandflasche_Prof","civ"]
+["Pfandflasche_Prof","civ"],
 ["daten_Prof","civ"]
 ];
 
