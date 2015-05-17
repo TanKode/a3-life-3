@@ -423,7 +423,7 @@ life_prof =
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
-["Impound_Prof","cop"],
+["Impound_Prof","cop"]
 ];
 
 
