@@ -76,9 +76,9 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Quadbike_01_F",10000],
-			["C_Hatchback_01_F",15000],
-			["C_Offroad_01_F",25000],
+			["B_Quadbike_01_F",1000],
+			["C_Hatchback_01_F",5000],
+			["C_Offroad_01_F",15000],
 			["cl3_range_rover_aqua",25000],
 			["cl3_range_rover_babyblue",25000],
 			["cl3_range_rover_babypink",25000],
@@ -106,9 +106,9 @@ switch (_shop) do
 			["cl3_range_rover_violet",25000],
 			["cl3_range_rover_white",25000],
 			["cl3_range_rover_yellow",25000],
-			["C_SUV_01_F",35000],
+			["C_SUV_01_F",20000],
 			["C_Van_01_transport_F",50000],
-			["C_Hatchback_01_sport_F",50000],
+			["C_Hatchback_01_sport_F",1000000],
 			["DAR_4X4",130000]
 		];
 	};
@@ -660,8 +660,8 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Van_01_box_F",100000],
-			["C_Van_01_fuel_F",130000],
+			["C_Van_01_box_F",30000],
+			["C_Van_01_fuel_F",25000],
 			["I_Truck_02_transport_F",80000],
 			["I_Truck_02_covered_F",200000],
 			["O_Truck_02_fuel_F",200000],

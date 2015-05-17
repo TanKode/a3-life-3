@@ -10,21 +10,21 @@ _className = [_this,0,"",[""]] call BIS_fnc_param;
 
 switch (_className) do
 {
-	case "B_Quadbike_01_F": {65};
-	case "C_Offroad_01_F": {65};
-	case "B_G_Offroad_01_F": {65};
-	case "C_Hatchback_01_F": {40};
+	case "B_Quadbike_01_F": {60};
+	case "C_Offroad_01_F": {105};
+	case "B_G_Offroad_01_F": {105};
+	case "C_Hatchback_01_F": {75};
 	case "cl_golf_mk2_black": {60};
 	case "cl_golf_mk2_blue": {60};
 	case "cl_golf_mk2_red": {60};	
-	case "C_Hatchback_01_sport_F": {45};
-	case "C_SUV_01_F": {50};
+	case "C_Hatchback_01_sport_F": {75};
+	case "C_SUV_01_F": {90};
 	case "cl_suv_black": {50};
 	case "C_Van_01_transport_F": {100};
 	case "I_G_Van_01_transport_F": {100};
-	case "B_MRAP_01_F": {60};
-	case "O_MRAP_02_F": {60};
-	case "I_MRAP_03_F": {60};
+	case "B_MRAP_01_F": {75};
+	case "O_MRAP_02_F": {75};
+	case "I_MRAP_03_F": {75};
 
 	case "B_Heli_Light_01_F": {10}; // MH-9 Hummingbird
 	case "O_Heli_Light_02_unarmed_F": {65}; // PO-30 Orca (Unarmed)
