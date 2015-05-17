@@ -146,6 +146,8 @@ switch (_var) do
     case "life_inv_datenP": {"Daten"};
     case "life_inv_reichsgoldU": {"Reichsgold"};
     case "life_inv_reichsgoldP": {"Devisen"};
+    case "life_inv_erdenU": {"seltene Erden"};
+    case "life_inv_erdenP": {"Erden"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -212,6 +214,7 @@ switch (_var) do
     case "license_civ_pfandflasche": {"PfandbongLizenz"};
     case "license_civ_daten": {"DatenLizenz"};
     case "license_civ_reichsgold": {"DevisenLizenz"};
+    case "license_civ_erden": {"ErdenLizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -242,4 +245,5 @@ switch (_var) do
 	case "pfandflasche_Prof": {"Pfandflaschenmeister"};
 	case "daten_Prof": {"DatenSammler"};
 	case "reichsgold_Prof": {"ReichsgoldSammler"};
+	case "erden_Prof": {"ErdenSammler"};
 };

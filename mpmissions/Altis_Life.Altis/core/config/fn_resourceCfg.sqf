@@ -185,6 +185,11 @@ switch(_resource) do {
 		_resourceZones = ["reichsgold"];
 		_resourcetypeof = 2;
 	};
+	case ("erdenU") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["erden"];
+		_resourcetypeof = 2;
+	};
 
 	case ("schwefelu") : {
 		_batchSize = round(random 3) +1;

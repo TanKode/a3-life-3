@@ -125,5 +125,7 @@ switch (_item) do
     case "datenP": {3};
     case "reichsgoldU": {6};
     case "reichsgoldP": {3};
+    case "erdenU": {6};
+    case "erdenP": {3};
 	default {1};
 };

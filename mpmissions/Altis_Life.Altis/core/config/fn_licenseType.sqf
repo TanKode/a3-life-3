@@ -83,6 +83,7 @@ switch (_mode) do
             case "pfandflasche": {_var = "license_civ_pfandflasche"};
             case "daten": {_var = "license_civ_daten"};
             case "reichsgold": {_var = "license_civ_REICHSGOLD"};
+            case "erden": {_var = "license_civ_erden"};
 			default {_var = ""};
 		};
 	};
@@ -158,6 +159,7 @@ switch (_mode) do
             case "license_civ_pfandflasche": {_var = "pfandflasche"};
             case "license_civ_daten": {_var = "daten"};
             case "license_civ_reichsgold": {_var = "reichsgold"};
+            case "license_civ_erden": {_var = "erden"};
 			default {_var = ""};
 		};
 	};

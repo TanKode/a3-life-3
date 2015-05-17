@@ -33686,7 +33686,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,50,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""seltene erde verarbeiten"",life_fnc_processAction,""erden"",0,false,false,"""",' life_inv_erdenU > 0 && !life_is_processing'];this addAction[""Erdenlizenz L ($800000)"",life_fnc_buyLicense,""erden"",0,false,false,"""",' !license_civ_erden && playerSide == civilian '];";
 		};
 		class Item2952
 		{
@@ -34045,7 +34045,7 @@ class Mission
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0];  ";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""ErdenHaendler"",life_fnc_virt_menu,""erdenhaendler""]; this setVariable[""realname"",""Erdenhaendler""];";
 		};
 		class Item2986
 		{

@@ -48,6 +48,7 @@ _itemInfo = switch (_type) do
 	case "pfandflasche": {["pfandflascheu","pfandflaschep",250,"Plastik Recycling"]};
 	case "daten": {["datenU","datenP",2500,"Daten verarbeiten"]};
 	case "reichsgold": {["reichsgoldU","reichsgoldP",2500,"Reichsgold verarbeiten"]};
+	case "erden": {["erdenU","erdenP",2500,"Erden verarbeiten"]};
 	default {[]};
 };
 

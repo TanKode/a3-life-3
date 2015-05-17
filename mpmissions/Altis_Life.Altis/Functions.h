@@ -114,6 +114,7 @@ class Life_Client_Core
         class gatherpfandflasche {};
         class gatherDaten {};
         class gatherreichsgold {};
+        class gathererden {};
 
         //RLP
         class RLP_gatherErdgas {};

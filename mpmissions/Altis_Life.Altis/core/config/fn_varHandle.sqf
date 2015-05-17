@@ -150,6 +150,8 @@ switch (_mode) do
             case "datenP": {"life_inv_datenP"};
             case "reichsgoldU": {"life_inv_reichsgoldU"};
             case "reichsgoldP": {"life_inv_reichsgoldP"};
+            case "erdenU": {"life_inv_erdenU"};
+            case "erdenP": {"life_inv_erdenP"};
 			};
 	};
 	
@@ -292,6 +294,8 @@ switch (_mode) do
             case "life_inv_datenP": {"datenP"};
             case "life_inv_reichsgoldU": {"reichsgoldU"};
             case "life_inv_reichsgoldP": {"reichsgoldP"};
+            case "life_inv_erdenU": {"erdenU"};
+            case "life_inv_erdenP": {"erdenP"};
 		};
 	};
 };
