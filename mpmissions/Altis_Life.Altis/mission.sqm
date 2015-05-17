@@ -33678,9 +33678,8 @@ class Mission
 		};
 		class Item2951
 		{
-			position[]={4171.3555,16.823547,15036.175};
-			azimut=85.494904;
-			offsetY=1;
+			position[]={4171.3555,16.850578,15037.441};
+			azimut=87.14743;
 			id=3103;
 			side="EMPTY";
 			vehicle="Land_Device_assembled_F";
@@ -33711,12 +33710,13 @@ class Mission
 		};
 		class Item2954
 		{
-			position[]={13449.021,13.899547,11902.633};
+			position[]={13451.22,13.870713,11898.975};
 			azimut=-399.452;
 			id=3106;
 			side="EMPTY";
 			vehicle="Land_UWreck_MV22_F";
 			skill=0.60000002;
+			text="reichsgold";
 			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2955
@@ -39242,8 +39242,8 @@ class Mission
 		};
 		class Item384
 		{
-			position[]={13422.082,13.412737,11907.249};
-			name="reichsgold";
+			position[]={13454.323,13.786969,11893.34};
+			name="reichsgold1";
 			text="Reichsgold";
 			type="loc_Tree";
 			colorName="ColorBlack";
