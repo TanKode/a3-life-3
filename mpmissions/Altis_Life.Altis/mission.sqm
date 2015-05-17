@@ -33606,7 +33606,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Bernstein verarbeiten"",life_fnc_processAction,""bernstein"",0,false,false,"""",' life_inv_bernsteinU > 0 && !life_is_processing'];this addAction[""Bernsteinlizenz  ($800000)"",life_fnc_buyLicense,""bernstein"",0,false,false,"""",' !license_civ_bernstein && playerSide == civilian '];";
 		};
 		class Item2945
 		{
@@ -33816,12 +33816,12 @@ class Mission
 		class Item2964
 		{
 			position[]={18495.883,25.539524,14246.861};
-			azimut=471.94116;
+			azimut=471.94101;
 			id=3116;
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+			init="this allowDamage false; this enableSimulation false; this addAction[""bernsteinhaendler"",life_fnc_virt_menu,""bernsteinhaendler""]";
 		};
 		class Item2965
 		{
@@ -39552,7 +39552,7 @@ class Mission
 		class Item415
 		{
 			position[]={23163.445,-0.11992304,24046.361};
-			name="Bernsteinzimmer";
+			name="Bernstein_01";
 			text="Bernsteinzimmer";
 			type="loc_Tree";
 			colorName="ColorBlack";

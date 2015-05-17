@@ -84,6 +84,7 @@ switch (_mode) do
             case "daten": {_var = "license_civ_daten"};
             case "reichsgold": {_var = "license_civ_REICHSGOLD"};
             case "erden": {_var = "license_civ_erden"};
+            case "bernstein": {_var = "license_civ_bernstein"};
 			default {_var = ""};
 		};
 	};
@@ -160,6 +161,7 @@ switch (_mode) do
             case "license_civ_daten": {_var = "daten"};
             case "license_civ_reichsgold": {_var = "reichsgold"};
             case "license_civ_erden": {_var = "erden"};
+            case "license_civ_bernstein": {_var = "bernstein"};
 			default {_var = ""};
 		};
 	};

@@ -148,6 +148,8 @@ switch (_var) do
     case "life_inv_reichsgoldP": {"Devisen"};
     case "life_inv_erdenU": {"seltene Erden"};
     case "life_inv_erdenP": {"Erden"};
+    case "life_inv_BernsteinU": {"unverarbeites Bernstein"};
+    case "life_inv_BernsteinP": {"Bernstein"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -215,6 +217,7 @@ switch (_var) do
     case "license_civ_daten": {"DatenLizenz"};
     case "license_civ_reichsgold": {"DevisenLizenz"};
     case "license_civ_erden": {"ErdenLizenz"};
+    case "license_civ_Bernstein": {"BernsteinLizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -246,4 +249,5 @@ switch (_var) do
 	case "daten_Prof": {"DatenSammler"};
 	case "reichsgold_Prof": {"ReichsgoldSammler"};
 	case "erden_Prof": {"ErdenSammler"};
+	case "bernstein_Prof": {"BernsteinSammler"};
 };

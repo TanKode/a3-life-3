@@ -12,10 +12,13 @@ switch (playerSide) do
 		life_actions = [player addAction["Drop Fishing Net",life_fnc_dropFishingNet,"",0,false,false,"",'
 		(surfaceisWater (getPos vehicle player)) && (vehicle player isKindOf "C_Rubberboat" OR vehicle player isKindOF "C_Boat_Civil_01_F" OR vehicle player isKindOf "D41_Trawler") && speed (vehicle player) < 2 && speed (vehicle player) > -1 && ((getPos player) distance (getMarkerPos "Fischzone_01") < 500 OR (getPos player) distance (getMarkerPos "Fischzone_02") < 500 OR (getPos player) distance (getMarkerPos "Fischzone_03") < 500 OR (getPos player) distance (getMarkerPos "Fischzone_04") < 500) && !life_net_dropped ']];
 
-		//Drop fishing net
+		//Erdgas sammeln
 		life_actions = [player addAction["Erdgas sammeln",life_fnc_RLP_gatherErdgas,"",0,false,false,"",'
 		((getPos player) distance (getMarkerPos "Gaszone_01") < 50 OR (getPos player) distance (getMarkerPos "Gaszone_02") < 50) ']];
 
+		//Bernstein sammeln
+		life_actions = [player addAction["Bernstein sammeln",life_fnc_RLP_gatherBernstein,"",0,false,false,"",'
+		((getPos player) distance (getMarkerPos "Bernstein_01") < 50 OR (getPos player) distance (getMarkerPos "Bernstein_02") < 50) ']];
 
 		//Rob person
 		life_actions = life_actions + [player addAction["Ausrauben",life_fnc_robAction,"",0,false,false,"",'!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (animationState cursorTarget=="Incapacitated" or animationState cursorTarget=="amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" or cursorTarget getVariable "restrained") && !(cursorTarget getVariable["robbed",FALSE])']];

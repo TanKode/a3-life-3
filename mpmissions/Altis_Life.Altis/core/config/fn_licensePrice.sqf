@@ -77,4 +77,5 @@ switch (_type) do
     case "daten": {350000};
     case "reichsgold": {800000};
     case "erden": {800000};
+    case "Bernstein": {800000};
 };

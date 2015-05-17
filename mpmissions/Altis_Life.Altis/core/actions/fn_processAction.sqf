@@ -49,6 +49,7 @@ _itemInfo = switch (_type) do
 	case "daten": {["datenU","datenP",2500,"Daten verarbeiten"]};
 	case "reichsgold": {["reichsgoldU","reichsgoldP",2500,"Reichsgold verarbeiten"]};
 	case "erden": {["erdenU","erdenP",2500,"Erden verarbeiten"]};
+	case "bernstein": {["bernsteinU","bernsteinP",2500,"Bernstein verarbeiten"]};
 	default {[]};
 };
 

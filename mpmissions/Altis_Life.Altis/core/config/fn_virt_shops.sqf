@@ -48,4 +48,5 @@ switch (_shop) do
 	case "datenhaendler": {["datenhaendler",["datenU","datenP"]]};
 	case "devisenhaendler": {["devisenhaendler",["reichsgoldU","reichsgoldP"]]};
 	case "erdenhaendler": {["erdenhaendler",["erdenU","erdenP"]]};
+	case "bernsteinhaendler": {["bernsteinhaendler",["bernsteinU","bernsteinP"]]};
 };

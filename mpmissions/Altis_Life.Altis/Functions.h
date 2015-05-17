@@ -118,6 +118,7 @@ class Life_Client_Core
 
         //RLP
         class RLP_gatherErdgas {};
+        class RLP_gatherBernstein {};
 	};
 	
 	class Housing
