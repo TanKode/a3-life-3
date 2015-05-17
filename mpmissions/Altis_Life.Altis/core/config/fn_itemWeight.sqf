@@ -115,7 +115,7 @@ switch (_item) do
     case "gas": {4};
     case "gasv": {2};
 
-    case "gold": {4};
+    case "gold": {10};
     case "goldv": {2};
     case "knochen": {4};
     case "knochenv": {2};

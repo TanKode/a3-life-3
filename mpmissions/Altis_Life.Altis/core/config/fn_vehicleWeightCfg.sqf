@@ -26,33 +26,34 @@ switch (_className) do
 	case "O_MRAP_02_F": {60};
 	case "I_MRAP_03_F": {60};
 
-	case "B_Heli_Light_01_F": {50}; // MH-9 Hummingbird
-	case "O_Heli_Light_02_unarmed_F": {275}; // PO-30 Orca (Unarmed)
+	case "B_Heli_Light_01_F": {10}; // MH-9 Hummingbird
+	case "O_Heli_Light_02_unarmed_F": {65}; // PO-30 Orca (Unarmed)
 	case "ARMSCor_A109_Civ": {275}; // A109 (Unarmed)
-	case "I_Heli_light_03_unarmed_F": {100}; // WY-55 Hellcat (Green)
+	case "I_Heli_light_03_unarmed_F": {165}; // WY-55 Hellcat (Green)
 	case "C_Heli_Light_01_civil_F": {50}; // M-900
 	case "O_Heli_Transport_04_F": {10}; // Mi-290 Taru
-	case "O_Heli_Transport_04_bench_F": {75}; // Mi-290 Taru (Bench)
+	case "O_Heli_Transport_04_bench_F": {65}; // Mi-290 Taru (Bench)
+	case "O_Heli_Transport_04_fuel_F": {350}; // Mi-290 Taru (Tank)
 	case "O_Heli_Transport_04_covered_F": {150}; // Mi-290 Taru (Transport)
-	case "I_Heli_Transport_02_F": {800}; // CH-49 Mohawk
-	case "O_Heli_Transport_04_box_F": {1000}; // Mi-290 Taru (Box)
-	case "B_Heli_Transport_03_unarmed_F": {1200}; // CH-67 Huron (Black)
+	case "I_Heli_Transport_02_F": {400}; // CH-49 Mohawk
+	case "O_Heli_Transport_04_box_F": {350}; // Mi-290 Taru (Box)
+	case "B_Heli_Transport_03_unarmed_F": {450}; // CH-67 Huron (Black)
 
 	case "C_Van_01_box_F": {150}; //Truck Boxer
 	case "C_Van_01_fuel_F": {150}; //Truck Fuel
 	case "I_Truck_02_transport_F": {250}; //Zamak Transport
-	case "I_Truck_02_covered_F": {400}; //Zamak Transport (covered)
-	case "O_Truck_02_fuel_F": {500}; //Zamak fuel
-	case "O_Truck_03_transport_F": {500}; //Tempest Transport
+	case "I_Truck_02_covered_F": {300}; //Zamak Transport (covered)
+	case "O_Truck_02_fuel_F": {450}; //Zamak fuel
+	case "O_Truck_03_transport_F": {650}; //Tempest Transport
 	case "DAR_MK23": {500}; //MK 23
-	case "O_Truck_03_covered_F": {1000}; //Tempest Transport (covered)
-	case "O_Truck_03_fuel_F": {750}; //Tempest Fuel
-	case "O_Truck_03_device_F": {1000}; //Tempest Device
+	case "O_Truck_03_covered_F": {850}; //Tempest Transport (covered)
+	case "O_Truck_03_fuel_F": {650}; //Tempest Fuel
+	case "O_Truck_03_device_F": {750}; //Tempest Device
 	case "B_Truck_01_transport_F": {750}; //HEMTT Transport
 	case "DAR_MK27T": {750}; //MK27
-	case "B_Truck_01_covered_F": {1000}; //HEMTT Transport (covered)
+	case "B_Truck_01_covered_F": {1200}; //HEMTT Transport (covered)
 	case "B_Truck_01_fuel_F": {1000}; //HEMTT Fuel
-	case "B_Truck_01_box_F": {2000}; //HEMTT Boxed
+	case "B_Truck_01_box_F": {1500}; //HEMTT Boxed
 	case "B_Truck_01_ammo_F": {1000}; //HEMTT ATOM
 
 	case "C_Rubberboat": {75};
