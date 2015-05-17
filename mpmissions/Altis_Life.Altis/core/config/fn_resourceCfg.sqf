@@ -188,7 +188,7 @@ switch(_resource) do {
 	};
 	case ("erdenU") : {
 		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxee";
+		_requiredItem = "pickaxe";
 		_resourceZones = ["erden"];
 		_resourcetypeof = 2;
 	};
