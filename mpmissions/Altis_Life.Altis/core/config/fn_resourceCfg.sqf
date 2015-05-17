@@ -199,8 +199,8 @@ switch(_resource) do {
 		_resourceZones = ["schwefel_1"];
 		_resourcetypeof = 2;
 	};
-	
-	case ("bernsteinu") : {
+
+	case ("bernsteinU") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["bernstein_01"];
 		_resourcetypeof = 2;

@@ -33969,7 +33969,8 @@ class Mission
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0];  ";
+			text="wertstoffhaendler";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Wertstoffhaendler"",life_fnc_virt_menu,""wertstoffhaendler""]; this setVariable[""realname"",""Wertstoffhaendler""];";
 		};
 		class Item2979
 		{
@@ -39539,11 +39540,13 @@ class Mission
 		};
 		class Item415
 		{
-			position[]={23199.592,-0.081276961,24075.119};
-			name="Bernstein_01";
+			position[]={23353.25,4.2333474,24193.924};
+			name="bernstein_01";
 			text="Bernsteinzimmer";
 			type="loc_Tree";
 			colorName="ColorBlack";
+			a=2;
+			b=2;
 		};
 		class Item416
 		{
