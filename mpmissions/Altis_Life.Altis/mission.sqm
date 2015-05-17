@@ -39551,13 +39551,11 @@ class Mission
 		};
 		class Item415
 		{
-			position[]={23163.445,-0.11992304,24046.361};
+			position[]={23614.408,7.7770972,23962.281};
 			name="Bernstein_01";
 			text="Bernsteinzimmer";
 			type="loc_Tree";
 			colorName="ColorBlack";
-			a=2;
-			b=2;
 		};
 		class Item416
 		{
