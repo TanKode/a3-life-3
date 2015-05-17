@@ -27,9 +27,7 @@ switch (playerSide) do
 		//Ausweis
         life_actions = life_actions + [player addAction["<t color='#00FF00'>Ausweis zeigen</t>",life_fnc_AusweisZeigen,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && (isPlayer cursorTarget) && cursorTarget isKindOf "Man" ']];
 
-        // Head Set for Chopper
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
-		//Trawler: Anker werfen (Stop auf 0)
+        //Trawler: Anker werfen (Stop auf 0)
 		life_actions = life_actions + [player addaction["Anker werfen",life_fnc_D41_Anker,"",0,false,false,"",'
 		((vehicle player isKindOf "ship") && ((speed vehicle player) < 4) && ((speed vehicle player) > -4) && !((speed vehicle player) == 0))']];
 		
@@ -60,9 +58,7 @@ switch (playerSide) do
 		//Weapon Removing
 		 life_actions = life_actions + [player addAction["Waffen entfernen",life_fnc_seizeObjects,cursorTarget,0,false,false,"",'count(nearestObjects [player,["weaponholder"],3])>0']];
 
-		// Head Set for Chopper
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
-	};
+ 	};
 	case east:
 	{
 		life_actions = life_actions + [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']];
@@ -70,9 +66,6 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction[localize "STR_pAct_PassengerSeat",life_fnc_copEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']]; 
 		//CopEnter - Exit
 		life_actions = life_actions + [player addAction[localize "STR_pAct_GoOut",life_fnc_copEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
-		// Head Set for Chopper
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
-        // For all EarPlugs
 
      };
 	case independent:
@@ -83,8 +76,6 @@ switch (playerSide) do
     	//CopEnter - Exit
     	life_actions = life_actions + [player addAction[localize "STR_pAct_GoOut",life_fnc_copEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
 
-    	// Head Set for Chopper
-        life_actions = life_actions + [player addAction["<t color='#00FF00'>Headset auf/absetzen</t>",life_fnc_earplug,"",99,false,false,"", ' (vehicle player) != player && !isNull (vehicle player) && (vehicle player) isKindOf "Air" ']];
 	};
 };
 

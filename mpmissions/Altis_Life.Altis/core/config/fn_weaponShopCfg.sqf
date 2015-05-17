@@ -131,7 +131,7 @@ switch(_shop) do
 						["30Rnd_mas_556x45_Stanag",nil,100*5],
 						["arifle_MX_F",nil,20000],
 						["30Rnd_65x39_caseless_mag",nil,100*5],
-						["bipod_01_F_blk",nil,5000],
+						["bipod_01_F_blk",nil,5000],0
 
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
