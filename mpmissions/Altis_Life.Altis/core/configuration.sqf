@@ -419,7 +419,6 @@ life_prof =
 ["reichsgold_Prof","civ"],
 ["erden_Prof","civ"],
 ["bernstein_Prof","civ"],
-
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
