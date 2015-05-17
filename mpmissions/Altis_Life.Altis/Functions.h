@@ -115,10 +115,10 @@ class Life_Client_Core
         class gatherDaten {};
         class gatherreichsgold {};
         class gathererden {};
+        class gatherbernstein {};
 
         //RLP
         class RLP_gatherErdgas {};
-        class RLP_gatherBernstein {};
 	};
 	
 	class Housing

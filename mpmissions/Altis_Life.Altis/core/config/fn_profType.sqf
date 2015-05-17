@@ -63,6 +63,8 @@ case "reichsgoldU": { _profName = "reichsgold_Prof";};
 case "reichsgoldP": { _profName = "reichsgold_Prof";};
 case "erdenU": { _profName = "erden_Prof";};
 case "erdenP": { _profName = "erden_Prof";};
+case "bernsteinU": { _profName = "bernstein_Prof";};
+case "bernsteinP": { _profName = "bernstein_Prof";};
  
 //license to text
 case "Heroin_Prof": {_profName = "Heroin"; };
@@ -99,6 +101,7 @@ case "Gas_pfandflasche": { _profName = "Pfandmeister"; };
 case "Gas_daten": { _profName = "DatenMeister"; };
 case "Gas_reichsgold": { _profName = "ReichsgoldSammler"; };
 case "Gas_erden": { _profName = "ErdenSammler"; };
+case "Gas_bernstein": { _profName = "BernsteinSammler"; };
 
 //text to license
 case "Heroin": {_profName = "Heroin_Prof"; };
@@ -135,6 +138,7 @@ case "Flaschen": { _profName = "Gas_Pfandflasche"; };
 case "Daten": { _profName = "Gas_daten"; };
 case "Reichsgold": { _profName = "Gas_reichsgold"; };
 case "Erden": { _profName = "Gas_erden"; };
+case "Bernstein": { _profName = "Gas_Bernstein"; };
 
 default{""};
 };
