@@ -16,10 +16,6 @@ switch (playerSide) do
 		life_actions = [player addAction["Erdgas sammeln",life_fnc_RLP_gatherErdgas,"",0,false,false,"",'
 		((getPos player) distance (getMarkerPos "Gaszone_01") < 50 OR (getPos player) distance (getMarkerPos "Gaszone_02") < 50) ']];
 
-		//Bernstein sammeln
-		life_actions = [player addAction["Bernstein sammeln",life_fnc_RLP_gatherBernstein,"",0,false,false,"",'
-		((getPos player) distance (getMarkerPos "Bernstein_01") < 5 ']];
-
 		//Rob person
 		life_actions = life_actions + [player addAction["Ausrauben",life_fnc_robAction,"",0,false,false,"",'!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (animationState cursorTarget=="Incapacitated" or animationState cursorTarget=="amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" or cursorTarget getVariable "restrained") && !(cursorTarget getVariable["robbed",FALSE])']];
 		//Rob person
