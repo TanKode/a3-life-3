@@ -3223,7 +3223,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="kontaktmann1";
-					init="removeAllWeapons this; removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
+					init="removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
 				};
 			};
 		};
@@ -3292,7 +3292,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3192;
+		items=3191;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -33716,7 +33716,6 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_UWreck_MV22_F";
 			skill=0.60000002;
-			text="reichsgold";
 			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2955
@@ -36147,17 +36146,6 @@ class Mission
 			skill=0.60000002;
 			text="dp_19";
 			init="this allowDamage false; this enableSimulation false; this addAction[""Paket zustellen"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Paket nehmen"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
-		};
-		class Item3191
-		{
-			position[]={28071.043,6.4030299,23760.35};
-			azimut=-633.44397;
-			id=3343;
-			side="EMPTY";
-			vehicle="OfficeTable_01_new_F";
-			skill=0.60000002;
-			text="kontaktmann";
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; this addAction[""Daten verarbeiten"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""Datenlizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];";
 		};
 	};
 	class Markers
@@ -39242,8 +39230,8 @@ class Mission
 		};
 		class Item384
 		{
-			position[]={13454.323,13.786969,11893.34};
-			name="reichsgold1";
+			position[]={13440.009,14.092911,11908.664};
+			name="reichsgold";
 			text="Reichsgold";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -39551,7 +39539,7 @@ class Mission
 		};
 		class Item415
 		{
-			position[]={23614.408,7.7770972,23962.281};
+			position[]={23199.592,-0.081276961,24075.119};
 			name="Bernstein_01";
 			text="Bernsteinzimmer";
 			type="loc_Tree";

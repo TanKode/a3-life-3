@@ -496,7 +496,8 @@ resource_list = [
 	"pfandflascheu",
 	"datenU",
 	"reichsgoldU",
-	"erdenU"
+	"erdenU",
+	"bernsteinU"
 ];
 
 

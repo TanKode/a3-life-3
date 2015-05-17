@@ -200,6 +200,12 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
+	case ("bernsteinu") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["bernstein_01"];
+		_resourcetypeof = 2;
+	};
+
 	case ("uran1") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
