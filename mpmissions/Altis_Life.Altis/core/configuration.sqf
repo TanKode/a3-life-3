@@ -457,7 +457,7 @@ life_illegal_items = [
 ["datenP",3000],
 ["reichsgoldU",3000],
 ["bernsteindU",2300],
-["bernsteinP",1000],
+["bernsteinP",1000]
 
 ];
 
