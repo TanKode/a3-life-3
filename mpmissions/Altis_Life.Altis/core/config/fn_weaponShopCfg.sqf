@@ -971,7 +971,7 @@ switch(_shop) do
 				["Donator Fundgrube",
 					[
 						["hgun_mas_acp_F",nil,52500],
-                        ["12Rnd_mas_45acp_Mag",nil,5250]
+                        ["12Rnd_mas_45acp_Mag",nil,5250],
 						["hgun_Pistol_heavy_02_F",nil,52500],
 						["6Rnd_45ACP_Cylinder",nil,5250],
 						["arifle_mas_m1014",nil,105000],
@@ -1000,7 +1000,7 @@ switch(_shop) do
 						["muzzle_snds_B",nil,24500],
 						["muzzle_mas_snds_SM",nil,24500],
 						["muzzle_mas_snds_SH",nil,24500],
-						["hlc_muzzle_556nato_KAC",nil,24500]
+						["hlc_muzzle_556nato_KAC",nil,24500],
 						["bipod_01_F_blk",nil,7500],
 						["bipod_01_F_snd",nil,7500],
 						["bipod_03_F_oli",nil,7500],
@@ -1098,7 +1098,7 @@ switch(_shop) do
 				["Schwarzmarkt",
 					[
 						["hgun_mas_acp_F",nil,75000],
-                        ["12Rnd_mas_45acp_Mag",nil,7500]
+                        ["12Rnd_mas_45acp_Mag",nil,7500],
 						["hgun_Pistol_heavy_02_F",nil,75000],
 						["6Rnd_45ACP_Cylinder",nil,7500],
 						["arifle_mas_m1014",nil,150000],
@@ -1127,7 +1127,7 @@ switch(_shop) do
 						["muzzle_snds_B",nil,35000],
 						["muzzle_mas_snds_SM",nil,35000],
 						["muzzle_mas_snds_SH",nil,35000],
-						["hlc_muzzle_556nato_KAC",nil,35000]
+						["hlc_muzzle_556nato_KAC",nil,35000],
 						["bipod_01_F_blk",nil,15000],
 						["bipod_01_F_snd",nil,15000],
 						["bipod_03_F_oli",nil,15000],
