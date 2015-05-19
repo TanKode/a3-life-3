@@ -1,12 +1,12 @@
 /*
-File: fn_gatherbernstein.sqf
+File: fn_gatherBernstein.sqf
 
 
 Description:
-Gathers bernstein?
+Gathers Bernstein?
 */
 private["_sum"];
-_sum = ["bernstein",2,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
+_sum = ["Bernstein",2,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 
 if(_sum > 0) then
 {
@@ -18,7 +18,7 @@ titleText["Sammel Bernstein...","PLAIN"];
 player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon"; //Bewegungs animation
 titleFadeOut 5;
 sleep 5;
-if(([true,"bernstein",3] call life_fnc_handleInv)) then
+if(([true,"Bernstein",3] call life_fnc_handleInv)) then
 {
 titleText[format["Bernstein gesammelt",_sum],"PLAIN"];
 };

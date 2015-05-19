@@ -807,7 +807,7 @@ switch(_shop) do
                         ["hlc_rifle_Bushmaster300",nil,200000],
                         ["29rnd_300BLK_STANAG",nil,20000],
                         ["srifle_DMR_01_F",nil,220000],
-                        ["10Rnd_762x51_Mag",nil,22000]
+                        ["10Rnd_762x51_Mag",nil,22000],
 						["ItemRadio","Smartphone",500],
 						["NVGoggles",nil,2000],
 						["Rangefinder",nil,2000],
