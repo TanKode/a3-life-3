@@ -2,13 +2,13 @@
 /*
 	File: fn_weaponShopCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Master configuration file for the weapon shops.
-
+	
 	Return:
 	String: Close the menu
-	Array:
+	Array: 
 	[Shop Name,
 	[ //Array of items to add to the store
 		[classname,Custom Name (set nil for default),price]
@@ -388,7 +388,7 @@ switch(_shop) do
 						["muzzle_mas_snds_SH",nil,1000],
 						["muzzle_mas_snds_M",nil,1000],
 						["hlc_muzzle_snds_AUG",nil,1000],
-
+					
                         ["optic_KHS_old",nil,500],
                         ["optic_AMS_khk",nil,500],
 						["optic_ACO_grn",nil,500],
@@ -599,7 +599,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "cop_sek":
 	{
 		switch(true) do
@@ -609,7 +609,7 @@ switch(_shop) do
 			default
 			{
 				["SEK",
-					[
+					[						
 						["hgun_ACPC2_snds_F","Taser Pistole",100*5],
 						["9Rnd_45ACP_Mag","Taser Pistolen Magazin",50*5],
 						["arifle_sdar_F","Taser Gewehr",1000*5],
@@ -711,10 +711,10 @@ switch(_shop) do
 			};
 		};
 	};
-
+			
 	case "med_basic":
 	{
-		switch (true) do
+		switch (true) do 
 		{
 			case (playerSide != independent): {"Du bist kein Sanitaeter"};
 			default {
@@ -725,7 +725,7 @@ switch(_shop) do
 						["NVGoggles",nil,100],
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,50],
-						["Medikit",nil,50],
+						["Medikit",nil,50],						
 						["B_Kitbag_sgg",nil,300],
 						["Chemlight_yellow",nil,50],
 						["SmokeShellyellow",nil,50],
@@ -740,7 +740,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "rebel":
 	{
 		switch(true) do
@@ -771,7 +771,7 @@ switch(_shop) do
                         ["hlc_rifle_Bushmaster300",nil,200000],
                         ["29rnd_300BLK_STANAG",nil,20000],
                         ["srifle_DMR_01_F",nil,220000],
-                        ["10Rnd_762x51_Mag",nil,22000]
+                        ["10Rnd_762x51_Mag",nil,22000]						
 					]
 				];
 			};
@@ -807,13 +807,13 @@ switch(_shop) do
                         ["hlc_rifle_Bushmaster300",nil,200000],
                         ["29rnd_300BLK_STANAG",nil,20000],
                         ["srifle_DMR_01_F",nil,220000],
-                        ["10Rnd_762x51_Mag",nil,22000],
+                        ["10Rnd_762x51_Mag",nil,22000]
 						["ItemRadio","Smartphone",500],
 						["NVGoggles",nil,2000],
-						["Rangefinder",nil,2000],
+						["Rangefinder",nil,2000],	
 						["ItemGPS",nil,100],
 						["ToolKit",nil,5000],
-						["FirstAidKit",nil,1500],
+						["FirstAidKit",nil,1500],		
 						["ItemWatch",nil,25],
 						["ItemCompass",nil,25]
 					]
@@ -821,7 +821,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "rebel_scopes":
 	{
 		switch(true) do
@@ -874,7 +874,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "donator_legal":
 	{
 		switch(true) do
@@ -893,13 +893,13 @@ switch(_shop) do
 						["hgun_Pistol_heavy_01_F",nil,21000],
 						["11Rnd_45ACP_Mag",nil,250],
 						["hgun_mas_glock_F",nil,21000],
-						["17Rnd_mas_9x21_Mag",nil,275],
+						["17Rnd_mas_9x21_Mag",nil,275],						
 						["hgun_Pistol_heavy_01_snds_F",nil,24500],
 						["11Rnd_45ACP_Mag",nil,175],
 						["hgun_mas_m9_F",nil,24500],
 						["15Rnd_mas_9x21_Mag",nil,300],
 						["hgun_mas_glock_F",nil,28000],
-						["17Rnd_mas_9x21_Mag",nil,280],
+						["17Rnd_mas_9x21_Mag",nil,280]
 						["hgun_PDW2000_F",nil,21000],
 						["30Rnd_9x21_Mag",nil,300],
 						["SMG_01_F",nil,28000],
@@ -919,7 +919,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "donator_illegal":
 	{
 		switch(true) do
@@ -957,7 +957,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "donator_bm":
 	{
 		switch(true) do
@@ -971,7 +971,7 @@ switch(_shop) do
 				["Donator Fundgrube",
 					[
 						["hgun_mas_acp_F",nil,52500],
-                        ["12Rnd_mas_45acp_Mag",nil,5250],
+                        ["12Rnd_mas_45acp_Mag",nil,5250]						
 						["hgun_Pistol_heavy_02_F",nil,52500],
 						["6Rnd_45ACP_Cylinder",nil,5250],
 						["arifle_mas_m1014",nil,105000],
@@ -1015,7 +1015,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "donator_sec":
 	{
 		switch(true) do
@@ -1031,19 +1031,19 @@ switch(_shop) do
 						["srifle_mas_mk17s",nil,10000],
 						["20Rnd_mas_762x51_Stanag",nil,1000],
 						["arifle_mas_m4_v",nil,10000],
-						["muzzle_mas_snds_M",nil,1000],
+						["muzzle_mas_snds_M",nil,1000],	
 						["30Rnd_mas_556x45_Stanag",nil,1000],
 						["srifle_mas_m110",nil,10000],
-						["20Rnd_mas_762x51_Stanag",nil,1000],
+						["20Rnd_mas_762x51_Stanag",nil,1000],					
 						["hgun_mas_m23_F",nil,10000],
 						["12Rnd_mas_45acp_Mag",nil,1000],
 						["hlc_rifle_bcmjack",nil,200000],
 						["hlc_30rnd_556x45_EPR",nil,10000],
 						["hlc_muzzle_556NATO_KAC",nil,1000],
-						["muzzle_mas_snds_SVD",nil,1000],
+						["muzzle_mas_snds_SVD",nil,1000],						
 						["muzzle_mas_snds_SMc",nil,50000],
 						["A3_GPNVG18_F",nil,1000],
-						["Laserdesignator",nil,1000],
+						["Laserdesignator",nil,1000],					
 						["optic_ACO_grn",nil,800],
 						["optic_mas_ACO_grn_camo",nil,800],
 						["optic_mas_Aco_camo",nil,800],
@@ -1079,13 +1079,13 @@ switch(_shop) do
 						["optic_mas_zeiss_c",nil,800],
 						["optic_mas_zeiss_eo",nil,800],
 						["optic_mas_zeiss_eo_c",nil,800],
-						["HandGrenade_Stone","Blendgranate",10000]
+						["HandGrenade_Stone","Blendgranate",1000]
 					]
 				];
 			};
 		};
 	};
-
+	
 	case "bm":
 	{
 		switch(true) do
@@ -1098,7 +1098,7 @@ switch(_shop) do
 				["Schwarzmarkt",
 					[
 						["hgun_mas_acp_F",nil,75000],
-                        ["12Rnd_mas_45acp_Mag",nil,7500],
+                        ["12Rnd_mas_45acp_Mag",nil,7500]						
 						["hgun_Pistol_heavy_02_F",nil,75000],
 						["6Rnd_45ACP_Cylinder",nil,7500],
 						["arifle_mas_m1014",nil,150000],
@@ -1127,7 +1127,7 @@ switch(_shop) do
 						["muzzle_snds_B",nil,35000],
 						["muzzle_mas_snds_SM",nil,35000],
 						["muzzle_mas_snds_SH",nil,35000],
-						["hlc_muzzle_556nato_KAC",nil,35000],
+						["hlc_muzzle_556nato_KAC",nil,35000]
 						["bipod_01_F_blk",nil,15000],
 						["bipod_01_F_snd",nil,15000],
 						["bipod_03_F_oli",nil,15000],
@@ -1142,7 +1142,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "tf":
 	{
 		switch(true) do
@@ -1157,11 +1157,11 @@ switch(_shop) do
 						["arifle_mas_m4_v",nil,10000],
 						["30Rnd_mas_556x45_Stanag",nil,1000],
 						["srifle_mas_m110",nil,10000],
-						["20Rnd_mas_762x51_Stanag",nil,1000],
+						["20Rnd_mas_762x51_Stanag",nil,1000],					
 						["hgun_mas_m23_F",nil,10000],
 						["12Rnd_mas_45acp_Mag",nil,1000],
 						["A3_GPNVG18_F",nil,1000],
-						["Laserdesignator",nil,1000],
+						["Laserdesignator",nil,1000],					
 						["optic_ACO_grn",nil,10000],
 						["optic_mas_ACO_grn_camo",nil,10000],
 						["optic_mas_Aco_camo",nil,10000],
@@ -1221,7 +1221,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "donator_scopes":
 	{
 		switch(true) do
@@ -1274,7 +1274,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "gun":
 	{
 		switch(true) do
@@ -1292,7 +1292,7 @@ switch(_shop) do
 						["hgun_Pistol_heavy_01_F",nil,25000],
 						["11Rnd_45ACP_Mag",nil,250],
 						["hgun_mas_glock_F",nil,27500],
-						["17Rnd_mas_9x21_Mag",nil,275],
+						["17Rnd_mas_9x21_Mag",nil,275],						
 						["hgun_Pistol_heavy_01_snds_F",nil,27500],
 						["11Rnd_45ACP_Mag",nil,175],
 						["hgun_mas_m9_F",nil,30000],
@@ -1317,7 +1317,7 @@ switch(_shop) do
 			};
 		};
 	};
-
+		
 	case "genstore":
 	{
 		["Altis Gemischtwaren",
@@ -1375,10 +1375,10 @@ switch(_shop) do
 			};
 		};
 	};
-
+	
 	case "adacgen":
     {
-        switch(true) do
+        switch(true) do    
         {
             case (playerSide != east): {"Du bist kein ADAC!"};
             default
