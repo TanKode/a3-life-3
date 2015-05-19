@@ -21,7 +21,7 @@ switch (_shop) do
 	case "heroin": {["Drogendealer",["cocainep","heroinp","marijuana"]]};
 	case "oil": {["Oelhandel",["oilp","pickaxe","fuelF"]]};
 	case "fishmarket": {["Altis Fischmarkt",["krabben","krabbenv","salema","ornate","mackerel","mullet","tuna","catshark"]]};
-	case "glasshaendler: {["Altis Glashandel",["glass"]]};
+	case "glasshaendler": {["Altis Glashandel",["glass"]]};
 	case "iron": {["Altis Metallhandel",["iron_r","copper_r","eisenp"]]};
 	case "diamond": {["Diamantenhandel",["diamond","diamondc"]]};
 	case "salt": {["Salzhandel",["salt_r"]]};
