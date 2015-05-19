@@ -294,8 +294,8 @@ life_inv_items =
     "life_inv_reichsgoldP",
     "life_inv_erdenU",
     "life_inv_erdenP",
-    "life_inv_bernsteinU",
-    "life_inv_bernsteinP"
+    "life_inv_BernsteinU",
+    "life_inv_BernsteinP"
 ];
 
 //Setup variable inv vars.
@@ -378,7 +378,7 @@ life_licenses =
     ["license_civ_daten", "civ"],
     ["license_civ_reichsgold", "civ"],
     ["license_civ_erden", "civ"],
-    ["license_civ_bernstein", "civ"]
+    ["license_civ_Bernstein", "civ"]
 ];
 
 //Setup License Variables
@@ -418,7 +418,7 @@ life_prof =
 ["daten_Prof","civ"],
 ["reichsgold_Prof","civ"],
 ["erden_Prof","civ"],
-["bernstein_Prof","civ"],
+["Bernstein_Prof","civ"],
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
@@ -456,8 +456,8 @@ life_illegal_items = [
 ["datenU",1000],
 ["datenP",3000],
 ["reichsgoldU",3000],
-["bernsteindU",2300],
-["bernsteinP",1000]
+["BernsteinU",2300],
+["BernsteinP",1000]
 
 ];
 
@@ -497,7 +497,7 @@ resource_list = [
 	"datenU",
 	"reichsgoldU",
 	"erdenU",
-	"bernsteinU"
+	"BernsteinU"
 ];
 
 
@@ -589,8 +589,8 @@ sell_array =
     ["reichsgoldP",3000],
     ["erdenU",500],
     ["erdenP",2300],
-    ["bernsteinU",1000],
-    ["bernsteinP",2300]
+    ["BernsteinU",1000],
+    ["BernsteinP",2300]
 ];
 __CONST__(sell_array,sell_array);
 
