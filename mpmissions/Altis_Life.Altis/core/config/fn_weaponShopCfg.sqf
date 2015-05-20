@@ -301,9 +301,7 @@ switch(_shop) do
 						["hlc_muzzle_556NATO_KAC",nil,1000],
 						["muzzle_mas_snds_SM",nil,1000],
 						["muzzle_mas_snds_SH",nil,1000],
-
-
-                        ["optic_KHS_old",nil,500],
+						["optic_KHS_old",nil,500],
                         ["optic_AMS_khk",nil,500],
 						["optic_ACO_grn",nil,500],
 						["optic_mas_ACO_grn_camo",nil,500],

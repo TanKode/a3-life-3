@@ -174,6 +174,7 @@ switch(_resource) do {
 		_resourceZones = ["pfandflasche"];
 		_resourcetypeof = 2;
 	};
+
 	case ("datenU") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "O_Truck_03_device_F";
@@ -186,6 +187,7 @@ switch(_resource) do {
 		_resourceZones = ["reichsgold"];
 		_resourcetypeof = 2;
 	};
+
 	case ("erdenU") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
@@ -205,12 +207,14 @@ switch(_resource) do {
 		_resourceZones = ["bernstein_01"];
 		_resourcetypeof = 2;
 	};
+
 	case ("knochenv") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["knochen_01"];
 		_resourcetypeof = 2;
 	};
+
 	case ("uran1") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
