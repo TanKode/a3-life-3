@@ -182,6 +182,13 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
+	case ("datennsaU") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "O_Truck_03_device_F";
+		_resourceZones = ["datennsa"];
+		_resourcetypeof = 2;
+	};
+
 	case ("reichsgoldU") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["reichsgold"];

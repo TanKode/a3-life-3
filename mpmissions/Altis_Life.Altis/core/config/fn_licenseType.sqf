@@ -82,6 +82,7 @@ switch (_mode) do
             case "knochen": {_var = "license_civ_knochen"};
             case "pfandflasche": {_var = "license_civ_pfandflasche"};
             case "daten": {_var = "license_civ_daten"};
+            case "datennsa": {_var = "license_civ_datennsa"};
             case "reichsgold": {_var = "license_civ_REICHSGOLD"};
             case "erden": {_var = "license_civ_erden"};
             case "bernstein": {_var = "license_civ_bernstein"};
@@ -159,6 +160,7 @@ switch (_mode) do
             case "license_civ_knochen": {_var = "knochen"};
             case "license_civ_pfandflasche": {_var = "pfandflasche"};
             case "license_civ_daten": {_var = "daten"};
+            case "license_civ_datennsa": {_var = "datennsa"};
             case "license_civ_reichsgold": {_var = "reichsgold"};
             case "license_civ_erden": {_var = "erden"};
             case "license_civ_bernstein": {_var = "bernstein"};

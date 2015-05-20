@@ -78,4 +78,5 @@ switch (_type) do
     case "reichsgold": {800000};
     case "erden": {800000};
     case "Bernstein": {800000};
+    case "datennsa": {900000};
 };

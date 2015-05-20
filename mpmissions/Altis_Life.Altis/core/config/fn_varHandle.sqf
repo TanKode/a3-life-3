@@ -294,6 +294,8 @@ switch (_mode) do
             case "life_inv_pfandflaschep": {"pfandflaschep"};
             case "life_inv_datenU": {"datenU"};
             case "life_inv_datenP": {"datenP"};
+            case "life_inv_datennsaU": {"datennsaU"};
+            case "life_inv_datennsaP": {"datennsaP"};
             case "life_inv_reichsgoldU": {"reichsgoldU"};
             case "life_inv_reichsgoldP": {"reichsgoldP"};
             case "life_inv_erdenU": {"erdenU"};

@@ -142,8 +142,10 @@ switch (_var) do
     case "life_inv_knochenv": {"Saubere Knochen"};
     case "life_inv_pfandflascheu": {"Pfandflaschen"};
     case "life_inv_pfandflaschep": {"Plastikblock"};
-    case "life_inv_datenU": {"Datenpaket"};
-    case "life_inv_datenP": {"Daten"};
+    case "life_inv_datenU": {"BND Datenpaket"};
+    case "life_inv_datenP": {"BND Daten"};
+    case "life_inv_datennsaU": {"NSA DatenPaket"};
+    case "life_inv_datennsaP": {"NSA Daten"};
     case "life_inv_reichsgoldU": {"Reichsgold"};
     case "life_inv_reichsgoldP": {"Devisen"};
     case "life_inv_erdenU": {"seltene Erden"};
@@ -214,7 +216,8 @@ switch (_var) do
     case "license_civ_reli": {"Archaeologie"};
     case "license_civ_gas": {"Erdgaslizenz"};
     case "license_civ_pfandflasche": {"PfandbongLizenz"};
-    case "license_civ_daten": {"DatenLizenz"};
+    case "license_civ_daten": {"BND DatenLizenz"};
+    case "license_civ_datennsa": {"NSA DatenLizenz"};
     case "license_civ_reichsgold": {"DevisenLizenz"};
     case "license_civ_erden": {"ErdenLizenz"};
     case "license_civ_Bernstein": {"BernsteinLizenz"};
@@ -246,7 +249,8 @@ switch (_var) do
 	case "Krabben_Prof": {"Krabbenfischer"};
 	case "Gas_Prof": {"Bohrmeister"};
 	case "pfandflasche_Prof": {"Pfandflaschenmeister"};
-	case "daten_Prof": {"DatenSammler"};
+	case "daten_Prof": {"BND DatenSammler"};
+	case "datennsa_Prof": {"NSA DatenSammler"};
 	case "reichsgold_Prof": {"ReichsgoldSammler"};
 	case "erden_Prof": {"ErdenSammler"};
 	case "bernstein_Prof": {"BernsteinSammler"};

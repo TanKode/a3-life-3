@@ -136,6 +136,7 @@ case "Aufräumen(Cop)": { _profName = "Impound_Prof"; };
 case "Bohrmeister": { _profName = "Gas_Prof"; };
 case "Flaschen": { _profName = "Gas_Pfandflasche"; };
 case "Daten": { _profName = "Gas_daten"; };
+case "Datennsa": { _profName = "Gas_datennsa"; };
 case "Reichsgold": { _profName = "Gas_reichsgold"; };
 case "Erden": { _profName = "Gas_erden"; };
 case "Bernstein": { _profName = "Gas_Bernstein"; };
