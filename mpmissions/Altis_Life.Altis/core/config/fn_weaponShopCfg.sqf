@@ -71,8 +71,7 @@ switch(_shop) do
 						["arifle_mas_mp5",nil,10000],
 						["30Rnd_mas_9x21_Stanag",nil,100*5],
 						["bipod_01_F_blk",nil,5000],
-
-                        ["optic_KHS_old",nil,800*5],
+						["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
 						["optic_mas_ACO_grn_camo",nil,800*5],
@@ -132,11 +131,9 @@ switch(_shop) do
 						["arifle_MX_F",nil,20000],
 						["30Rnd_65x39_caseless_mag",nil,100*5],
 						["bipod_01_F_blk",nil,5000],0
-
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
 						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
                         ["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
@@ -202,11 +199,9 @@ switch(_shop) do
 						["hlc_rifle_RU5562",nil,30000],
 						["hlc_30rnd_556x45_EPR",nil,100*5],
 						["bipod_01_F_blk",nil,5000],
-
 					    //gummigeschoss
                         ["arifle_MXC_F","Gummigeschoss",30000],
                         ["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
                         ["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
@@ -277,11 +272,9 @@ switch(_shop) do
 						["srifle_DMR_03_F",nil,40000],
 						["20Rnd_762x51_Mag",nil,100*5],
 						["bipod_01_F_blk",nil,5000],
-
 						//gummigeschoss
                         ["arifle_MXC_F","Gummigeschoss",30000],
                         ["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
                         ["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
@@ -360,7 +353,6 @@ switch(_shop) do
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
 						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
                         ["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
@@ -444,7 +436,6 @@ switch(_shop) do
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
 						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
                         ["optic_KHS_old",nil,800*5],
                         ["optic_AMS_khk",nil,800*5],
 						["optic_ACO_grn",nil,800*5],
@@ -545,7 +536,6 @@ switch(_shop) do
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
 						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
 						["SmokeShellGreen","Rauchgranate",1000*5],
 						["HandGrenade_Stone","Blendgranate",1000*5],
                         ["optic_KHS_old",nil,800*5],
@@ -657,7 +647,6 @@ switch(_shop) do
 						//gummigeschoss
 						["arifle_MXC_F","Gummigeschoss",30000],
 						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
 						["SmokeShellGreen","Rauchgranate",1000*5],
 						["HandGrenade_Stone","Blendgranate",1000*5],
                         ["optic_KHS_old",nil,800*5],
