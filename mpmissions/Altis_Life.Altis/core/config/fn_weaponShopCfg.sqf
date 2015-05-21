@@ -1432,7 +1432,7 @@ switch(_shop) do
 						["ToolKit",nil,100],
 						["ItemWatch",nil,25],
 						["ItemCompass",nil,25],
-					["ItemMap",nil,25]
+						["ItemMap",nil,25]
                     ]
                 ];
             };
