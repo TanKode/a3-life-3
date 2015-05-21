@@ -14,13 +14,13 @@ life_action_gather = true;
 
 [player,"take"] call life_fnc_globalSound;
 
-titleText["Sammel NSA Datenpakete","PLAIN"];
+titleText["Sammel Datenpakete...","PLAIN"];
 player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon"; //Bewegungs animation
 titleFadeOut 5;
 sleep 5;
 if(([true,"datennsa",3] call life_fnc_handleInv)) then
 {
-titleText[format["Datenpakete gesammelt",_sum],"PLAIN"];
+titleText[format["NSA Datenpakete gesammelt",_sum],"PLAIN"];
 };
 };
 
