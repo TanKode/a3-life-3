@@ -300,8 +300,8 @@ switch (_mode) do
             case "life_inv_reichsgoldP": {"reichsgoldP"};
             case "life_inv_erdenU": {"erdenU"};
             case "life_inv_erdenP": {"erdenP"};
-            case "life_inv_BernsteinU": {"BernsteinU"};
-            case "life_inv_BernsteinP": {"BernsteinP"};
+            case "life_inv_BernsteinU": {"bernsteinU"};
+            case "life_inv_BernsteinP": {"bernsteinP"};
 		};
 	};
 };
