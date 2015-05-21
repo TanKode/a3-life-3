@@ -148,12 +148,14 @@ switch (_mode) do
             case "pfandflaschep": {"life_inv_pfandflaschep"};
             case "datenU": {"life_inv_datenU"};
             case "datenP": {"life_inv_datenP"};
+            case "datennsaU": {"life_inv_datennsaU"};
+            case "datennsaP": {"life_inv_datennsaP"};
             case "reichsgoldU": {"life_inv_reichsgoldU"};
             case "reichsgoldP": {"life_inv_reichsgoldP"};
             case "erdenU": {"life_inv_erdenU"};
             case "erdenP": {"life_inv_erdenP"};
-            case "BernsteinU": {"life_inv_BernsteinU"};
-            case "BernsteinP": {"life_inv_BernsteinP"};
+            case "bernsteinU": {"life_inv_bernsteinU"};
+            case "bernsteinP": {"life_inv_bernsteinP"};
 			};
 	};
 	
@@ -285,7 +287,6 @@ switch (_mode) do
             case "life_inv_blitzer": {"blitzer"};
             case "life_inv_gas": {"gas"};
             case "life_inv_gasv": {"gasv"};
-
             case "life_inv_gold": {"gold"};
             case "life_inv_goldv": {"goldv"};
             case "life_inv_knochen": {"knochen"};
@@ -300,8 +301,8 @@ switch (_mode) do
             case "life_inv_reichsgoldP": {"reichsgoldP"};
             case "life_inv_erdenU": {"erdenU"};
             case "life_inv_erdenP": {"erdenP"};
-            case "life_inv_BernsteinU": {"bernsteinU"};
-            case "life_inv_BernsteinP": {"bernsteinP"};
+            case "life_inv_bernsteinU": {"bernsteinU"};
+            case "life_inv_bernsteinP": {"bernsteinP"};
 		};
 	};
 };
