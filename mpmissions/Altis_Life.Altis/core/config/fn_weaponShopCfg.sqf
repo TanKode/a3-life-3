@@ -1391,7 +1391,7 @@ switch(_shop) do
 			{
 				["Forstamt",
 					[
-						["JUDEsrifle_mas_m24_v","Jagdgewehr",25000],
+						["srifle_mas_m24_v","Jagdgewehr",25000],
                         ["5Rnd_mas_762x51_Stanag",nil,150],
 						["acc_flashlight",nil,8000],
 						["optic_mas_Arco_camo",nil,10000]
