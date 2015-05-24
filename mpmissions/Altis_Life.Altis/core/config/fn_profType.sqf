@@ -57,16 +57,18 @@ case "gas": { _profName = "Gas_Prof";};
 case "gasv": { _profName = "Gas_Prof";};
 case "pfandflascheu": { _profName = "Pfandflasche_Prof";};
 case "pfandflaschep": { _profName = "Pfandflasche_Prof";};
-case "datenU": { _profName = "daten_Prof";};
-case "datenP": { _profName = "daten_Prof";};
-case "datennsaU": { _profName = "datennsa_Prof";};
-case "datennsaP": { _profName = "datennsa_Prof";};
-case "reichsgoldU": { _profName = "reichsgold_Prof";};
-case "reichsgoldP": { _profName = "reichsgold_Prof";};
-case "erdenU": { _profName = "erden_Prof";};
-case "erdenP": { _profName = "erden_Prof";};
-case "bernsteinU": { _profName = "bernstein_Prof";};
-case "bernsteinP": { _profName = "bernstein_Prof";};
+case "datenu": { _profName = "daten_Prof";};
+case "datenp": { _profName = "daten_Prof";};
+case "datennsau": { _profName = "datennsa_Prof";};
+case "datennsap": { _profName = "datennsa_Prof";};
+case "reichsgoldu": { _profName = "reichsgold_Prof";};
+case "reichsgoldp": { _profName = "reichsgold_Prof";};
+case "erdenu": { _profName = "erden_Prof";};
+case "erdenp": { _profName = "erden_Prof";};
+case "bernsteinu": { _profName = "bernstein_Prof";};
+case "bernsteinp": { _profName = "bernstein_Prof";};
+case "reliefenu": { _profName = "reliefen_Prof";};
+case "reliefenp": { _profName = "reliefen_Prof";};
  
 //license to text
 case "Heroin_Prof": {_profName = "Heroin"; };
@@ -105,6 +107,7 @@ case "Gas_datennsa": { _profName = "DatenMeisterNSA"; };
 case "Gas_reichsgold": { _profName = "ReichsgoldSammler"; };
 case "Gas_erden": { _profName = "ErdenSammler"; };
 case "Gas_bernstein": { _profName = "BernsteinSammler"; };
+case "Gas_reliefen": { _profName = "ReliefenSammler"; };
 
 //text to license
 case "Heroin": {_profName = "Heroin_Prof"; };
@@ -143,6 +146,7 @@ case "Datennsa": { _profName = "Gas_datennsa"; };
 case "Reichsgold": { _profName = "Gas_reichsgold"; };
 case "Erden": { _profName = "Gas_erden"; };
 case "Bernstein": { _profName = "Gas_bernstein"; };
+case "Reliefen": { _profName = "Gas_reliefen"; };
 default{""};
 };
  

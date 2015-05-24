@@ -142,16 +142,18 @@ switch (_var) do
     case "life_inv_knochenv": {"Saubere Knochen"};
     case "life_inv_pfandflascheu": {"Pfandflaschen"};
     case "life_inv_pfandflaschep": {"Plastikblock"};
-    case "life_inv_datenU": {"BND Datenpaket"};
-    case "life_inv_datenP": {"BND Daten"};
-    case "life_inv_datennsaU": {"NSA DatenPaket"};
-    case "life_inv_datennsaP": {"NSA Daten"};
-    case "life_inv_reichsgoldU": {"Reichsgold"};
-    case "life_inv_reichsgoldP": {"Devisen"};
-    case "life_inv_erdenU": {"seltene Erden"};
-    case "life_inv_erdenP": {"Erden"};
-    case "life_inv_bernsteinU": {"unverarbeites Bernstein"};
-    case "life_inv_bernsteinP": {"Bernstein"};
+    case "life_inv_datenu": {"BND Datenpaket"};
+    case "life_inv_datenp": {"BND Daten"};
+    case "life_inv_datennsau": {"NSA DatenPaket"};
+    case "life_inv_datennsap": {"NSA Daten"};
+    case "life_inv_reichsgoldu": {"Reichsgold"};
+    case "life_inv_reichsgoldp": {"Devisen"};
+    case "life_inv_erdenu": {"seltene Erden"};
+    case "life_inv_erdenp": {"Erden"};
+    case "life_inv_bernsteinu": {"unverarbeites Bernstein"};
+    case "life_inv_bernsteinp": {"Bernstein"};
+    case "life_inv_reliefenu": {"dreckige Reliefen"};
+    case "life_inv_reliefenp": {"Reliefen"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -221,6 +223,7 @@ switch (_var) do
     case "license_civ_reichsgold": {"DevisenLizenz"};
     case "license_civ_erden": {"ErdenLizenz"};
     case "license_civ_bernstein": {"BernsteinLizenz"};
+    case "license_civ_reliefen": {"ReliefenLizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -254,4 +257,5 @@ switch (_var) do
 	case "reichsgold_Prof": {"ReichsgoldSammler"};
 	case "erden_Prof": {"ErdenSammler"};
 	case "bernstein_Prof": {"BernsteinSammler"};
+	case "reliefen_Prof": {"ReliefenSauberman"};
 };

@@ -117,6 +117,7 @@ class Life_Client_Core
         class gathererden {};
         class gatherbernstein {};
         class gatherdatennsa {};
+        class gatherreliefen {};
 
         //RLP
         class RLP_gatherErdgas {};

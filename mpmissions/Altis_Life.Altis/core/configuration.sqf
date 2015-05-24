@@ -290,14 +290,16 @@ life_inv_items =
     "life_inv_pfandflaschep",
     "life_inv_datenU",
     "life_inv_datenP",
-    "life_inv_reichsgoldU",
-    "life_inv_reichsgoldP",
-    "life_inv_erdenU",
-    "life_inv_erdenP",
-    "life_inv_bernsteinU",
-    "life_inv_bernsteinP",
-    "life_inv_datennsaU",
-    "life_inv_datennsaP"
+    "life_inv_reichsgoldu",
+    "life_inv_reichsgoldp",
+    "life_inv_erdenu",
+    "life_inv_erdenp",
+    "life_inv_bernsteinu",
+    "life_inv_bernsteinp",
+    "life_inv_datennsau",
+    "life_inv_datennsap",
+    "life_inv_reliefenu",
+    "life_inv_reliefenp"
 ];
 
 //Setup variable inv vars.
@@ -378,10 +380,11 @@ life_licenses =
     ["license_civ_knochen", "civ"],
     ["license_civ_pfandflasche", "civ"],
     ["license_civ_daten", "civ"],
+    ["license_civ_datennsa", "civ"],
     ["license_civ_reichsgold", "civ"],
     ["license_civ_erden", "civ"],
     ["license_civ_bernstein", "civ"],
-    ["license_civ_datennsa", "civ"]
+    ["license_civ_reliefen", "civ"]
 ];
 
 //Setup License Variables
@@ -423,6 +426,7 @@ life_prof =
 ["reichsgold_Prof","civ"],
 ["erden_Prof","civ"],
 ["bernstein_Prof","civ"],
+["reliefen_Prof","civ"],
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
@@ -499,11 +503,12 @@ resource_list = [
 	"uran1",
 	"krabben",
 	"pfandflascheu",
-	"datenU",
-	"datennsaU",
-	"reichsgoldU",
-	"erdenU",
-	"bernsteinU"
+	"datenu",
+	"datennsau",
+	"reichsgoldu",
+	"erdenu",
+	"bernsteinu",
+	"reliefenu"
 ];
 
 
@@ -589,16 +594,18 @@ sell_array =
     ["knochenv",5000],
     ["pfandflascheu",500],
     ["pfandflaschep",2500],
-    ["datenU",500],
-    ["datenP",3000],
-    ["datennsaU",500],
-    ["datennsaP",3500],
-    ["reichsgoldU",500],
-    ["reichsgoldP",3000],
-    ["erdenU",500],
-    ["erdenP",2300],
-    ["bernsteinU",500],
-    ["bernsteinP",2300]
+    ["datenu",500],
+    ["datenp",3000],
+    ["datennsau",500],
+    ["datennsap",3500],
+    ["reichsgoldu",500],
+    ["reichsgoldp",3000],
+    ["erdenu",500],
+    ["erdenp",2300],
+    ["bernsteinu",500],
+    ["bernsteinp",2300],
+    ["reliefenu",2200],
+    ["reliefenp",500]
 ];
 __CONST__(sell_array,sell_array);
 

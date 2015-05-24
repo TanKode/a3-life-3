@@ -45,9 +45,10 @@ switch (_shop) do
 	case "uranip": {["Waffennarr",["uranip"]]};
 	case "adacmarkt": {["ADAC Markt",["diaper","fuelF","apple","peach","tbacon","rabbit","water","lockpick","redgull","tracker","diaper"]]};
 	case "huntingmarkt": {["Jägermarkt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","henraw","roosterraw","goatraw","sheepraw","rabbitraw"]]};
-	case "datenhaendler": {["datenhaendler",["datenU","datenP","datennsaU","datennsaP"]]};
-	case "devisenhaendler": {["devisenhaendler",["reichsgoldU","reichsgoldP"]]};
-	case "erdenhaendler": {["erdenhaendler",["erdenU","erdenP"]]};
+	case "datenhaendler": {["datenhaendler",["datenu","datenp","datennsau","datennsap"]]};
+	case "devisenhaendler": {["devisenhaendler",["reichsgoldu","reichsgoldp"]]};
+	case "erdenhaendler": {["erdenhaendler",["erdenu","erdenp"]]};
 	case "wertstoffhaendler": {["wertstoffhaendler",["pfandflascheu","pfandflaschep"]]};
-	case "bernsteinhaendler": {["bernsteinhaendler",["bernsteinU","bernsteinP"]]};
+	case "bernsteinhaendler": {["bernsteinhaendler",["bernsteinu","bernsteinp"]]};
+	case "reliefenhaendler": {["reliefenhaendler",["reliefenu","reliefenp"]]};
 };

@@ -175,27 +175,27 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
-	case ("datenU") : {
+	case ("datenu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "O_Truck_03_device_F";
 		_resourceZones = ["daten"];
 		_resourcetypeof = 2;
 	};
 
-	case ("datennsaU") : {
+	case ("datennsau") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "O_Truck_03_device_F";
 		_resourceZones = ["datennsa"];
 		_resourcetypeof = 2;
 	};
 
-	case ("reichsgoldU") : {
+	case ("reichsgoldu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["reichsgold"];
 		_resourcetypeof = 2;
 	};
 
-	case ("erdenU") : {
+	case ("erdenu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["erden"];
@@ -209,7 +209,7 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
-	case ("bernsteinU") : {
+	case ("bernsteinu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["bernstein_01"];
 		_resourcetypeof = 2;
@@ -219,6 +219,12 @@ switch(_resource) do {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["knochen_01"];
+		_resourcetypeof = 2;
+	};
+	case ("reliefenu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["reliefen_01"];
 		_resourcetypeof = 2;
 	};
 
