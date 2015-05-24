@@ -235,7 +235,7 @@ player createDiarySubject ["news","NEWS - TUT's"];
 			"Teamspeak",
 				"
 				Unseren Teamspeak findet ihr unter:<br/><br/>
-				134.255.229.151<br/><br/>
+				5.196.90.77<br/><br/>
 				"
 		]
 	];
