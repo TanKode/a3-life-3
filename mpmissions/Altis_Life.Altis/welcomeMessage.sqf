@@ -14,7 +14,7 @@ sleep 20; //Wait in seconds before the credits start after player is in-game
 _role1 = "Willkommen auf dem Altis Life Server vom";
 _role1names = ["RLP-CLAN"];
 _role2 = "Besuche uns auf dem Teamspeak:";
-_role2names = ["134.255.229.151"];
+_role2names = ["5.196.90.77"];
 _role3 = "Unser Forum:";
 _role3names = ["altis.rlp-clan.de"];
 _role4 = "Beachtet immer die Regeln!";

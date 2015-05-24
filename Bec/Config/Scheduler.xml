@@ -28,7 +28,7 @@
 		<runtime>001500</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>-1</loop> 
-		<cmd>say -1 Besucht unseren Teamspeak 3 Server 134.255.229.151</cmd>
+		<cmd>say -1 Besucht unseren Teamspeak 3 Server 5.196.90.77</cmd>
 		<cmdtype>0</cmdtype>			
 	</job>	
 	<job id="3">
