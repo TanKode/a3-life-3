@@ -3124,7 +3124,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="kontaktmann1";
-					init="removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""BND-Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""BND-Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian '];  removeAllWeapons this;this enableSimulation false; this allowDamage false;  this addAction[""NSA-Daten entpacken"",life_fnc_processAction,""datennsa"",0,false,false,"""",' life_inv_datennsaU > 0 && !life_is_processing'];this addAction[""NSA-Daten Lizenz ($30000)"",life_fnc_buyLicense,""datennsa"",0,false,false,"""",' !license_civ_datennsa && playerSide == civilian '];";
+					init="removeAllWeapons this;this enableSimulation false; this allowDamage false; this addAction[""BND-Daten entpacken"",life_fnc_processAction,""daten"",0,false,false,"""",' life_inv_datenU > 0 && !life_is_processing'];this addAction[""BND-Daten Lizenz ($30000)"",life_fnc_buyLicense,""daten"",0,false,false,"""",' !license_civ_daten && playerSide == civilian ']; this addAction[""NSA-Daten entpacken"",life_fnc_processAction,""datennsa"",0,false,false,"""",' life_inv_datennsaU > 0 && !life_is_processing'];this addAction[""NSA-Daten Lizenz ($30000)"",life_fnc_buyLicense,""datennsa"",0,false,false,"""",' !license_civ_datennsa && playerSide == civilian '];";
 				};
 			};
 		};
