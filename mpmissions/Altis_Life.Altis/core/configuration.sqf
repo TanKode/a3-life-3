@@ -592,7 +592,7 @@ sell_array =
     ["datenU",500],
     ["datenP",3000],
     ["datennsaU",500],
-    ["datennsaP",3000],
+    ["datennsaP",3500],
     ["reichsgoldU",500],
     ["reichsgoldP",3000],
     ["erdenU",500],
