@@ -288,8 +288,8 @@ life_inv_items =
     "life_inv_knochenv",
     "life_inv_pfandflascheu",
     "life_inv_pfandflaschep",
-    "life_inv_datenU",
-    "life_inv_datenP",
+    "life_inv_datenu",
+    "life_inv_datenp",
     "life_inv_reichsgoldu",
     "life_inv_reichsgoldp",
     "life_inv_erdenu",
@@ -461,13 +461,13 @@ life_illegal_items = [
 ["goldbar",75000],
 ["uranip",12598],
 ["gold",6000],
-["datenU",500],
-["datenP",3000],
-["datennsaU",500],
-["datennsaP",3500],
-["reichsgoldU",3000],
-["bernsteinU",500],
-["bernsteinP",2300]
+["datenu",500],
+["datenp",3000],
+["datennsau",500],
+["datennsap",3500],
+["reichsgoldu",3000],
+["bernsteinu",500],
+["bernsteinp",2300]
 ];
 
 /*
