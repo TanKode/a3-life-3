@@ -3179,7 +3179,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={25180.188,5.3579664,23426.217};
+					position[]={20989.309,31.463985,18938.344};
 					azimut=78.443672;
 					id=147;
 					side="WEST";
@@ -21203,7 +21203,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="uranverarbeiter";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Uran verarbeiten"",life_fnc_processAction,""uran1"",0,false,false,"""",' life_inv_uranip > 0 && !life_is_processing'];this addAction[""UranLizenz ($900000)"",life_fnc_buyLicense,""uran1"",0,false,false,"""",' !license_civ_uran1 && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false;this addAction[""Uran herstellen"",life_fnc_processAction,""uran1"",0,false,false,"""",' life_inv_uranip > 0 && !life_is_processing']; this setVariable[""realname"",""Uranumwandlung""];";
 		};
 		class Item1694
 		{
