@@ -30,7 +30,7 @@ switch (_shop) do
 	case "sprit": {["Spirituosenhandel",["getreideip","zuckerip"]]};
 	case "tabak": {["Tabakfachhandel",["tabakp","tabakip"]]};
 	case "backen": {["Baeckerei",["getreidep","zuckerp","donuts"]]};
-	case "kohle": {["Verkohler",["holzp"]]};
+	case "holzhaendler": {["Holzhaendler",["holzp"]]};
 	case "trinken": {["Getraenkehandel",["traubenp","hopfenp"]]};
 	case "zinn": {["Zinnhandel",["zinnp"]]};
 	case "silberhaendler": {["Silberhandel",["silberp"]]};

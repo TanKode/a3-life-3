@@ -215,7 +215,7 @@ switch(_resource) do {
 		_resourcetypeof = 2;
 	};
 
-	case ("knochenv") : {
+	case ("knochen") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["knochen_01"];
