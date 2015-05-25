@@ -27,15 +27,15 @@ switch (_type) do
 	case "tf": {1};	
 	case "home": {1000000};
 	case "heroin": {500000}; //Heroin processing license cost
-	case "marijuana": {400000}; //Marijuana processing license cost
-	case "cocaine": {600000};
-	case "oil": {30000}; //Oil processing license cost
-	case "diamond": {105000};
-	case "copper": {24000};
-	case "iron": {28500};
-	case "sand": {43500};
-	case "salt": {36000};
-	case "cement": {19500};
+	case "marijuana": {250000}; //Marijuana processing license cost
+	case "cocaine": {500000};
+	case "oil": {500000}; //Oil processing license cost
+	case "diamond": {100000};
+	case "copper": {10000};
+	case "iron": {50000};
+	case "sand": {50000};
+	case "salt": {50000};
+	case "cement": {10000};
 	case "brauer": {60000};
 	case "nudeln": {34500};
 	case "wein": {30000};
@@ -44,19 +44,19 @@ switch (_type) do
 	case "whiskey": {85500};
 	case "zigarren": {82500};
 	case "rum": {78000};
-	case "holz": {15000};
+	case "holz": {10000};
 	case "schwefel": {55500};
-	case "silber": {75000};
+	case "silber": {100000};
 	case "zinn": {21000};
 	case "gusseisen": {31500};
 	case "bronze": {195000};
-	case "schmuck": {210000};
+	case "schmuck": {2000000};
 	case "pbrau": {225000};
 	case "kkugel": {300000};
 	case "pkugel": {300000};
 	case "spulver": {600000};
-	case "uran1": {150000};
-	case "uranip": {450000};
+	case "uran1": {800000};
+	case "uranip": {800000};
 	case "bm": {6000000};
 	case "good": {600000};
 	case "bus": {0};
@@ -65,13 +65,13 @@ switch (_type) do
     case "air": {5000};
     case "hunting": {40000};
     case "krabben": {500000};
-    case "grab": {200000};
-    case "reli": {350000};
+    case "grab": {250000};
+    case "reli": {300000};
     case "gas": {300000};
     case "gold": {300000};
-    case "knochen": {300000};
-    case "pfandflasche": {3500};
-    case "daten": {350000};
+    case "knochen": {100000};
+    case "pfandflasche": {1000};
+    case "daten": {800000};
     case "reichsgold": {800000};
     case "erden": {800000};
     case "bernstein": {800000};
