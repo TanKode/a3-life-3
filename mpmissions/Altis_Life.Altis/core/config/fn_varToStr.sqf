@@ -151,7 +151,7 @@ switch (_var) do
     case "life_inv_reliefenu": {"dreckige Reliefen"};
     case "life_inv_reliefenp": {"Reliefen"};
     case "life_inv_uranuweu": {"Radioaktiver Schrott"};
-    case "life_inv_uranuwep": {"Uran"};
+    case "life_inv_uranuwep": {"Uranuwe"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};

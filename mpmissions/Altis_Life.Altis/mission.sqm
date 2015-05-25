@@ -33080,8 +33080,9 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={21812.273,5.1553111,6219.5918};
+			position[]={22004.096,-0.25657201,6113.9219};
 			name="uran_1";
+			text="Radioaktiverberreich";
 			type="loc_Tree";
 			colorName="ColorBlack";
 			a=0;
@@ -33695,7 +33696,7 @@ class Mission
 		};
 		class Item352
 		{
-			position[]={21787.043,6.1209512,6238.541};
+			position[]={21809.162,4.9799557,6279.5234};
 			name="uranuwe_01";
 			text="radioaktiver Schrott";
 			type="loc_Tree";
