@@ -508,7 +508,8 @@ resource_list = [
 	"reichsgoldu",
 	"erdenu",
 	"bernsteinu",
-	"reliefenu"
+	"reliefenu",
+	"knochen"
 ];
 
 

@@ -81,7 +81,7 @@ switch (_var) do
 	case "life_inv_zuckerip": {(localize "STR_Item_Rum")};
 	case "life_inv_eisenp": {(localize "STR_Item_Gussform")};
 	case "life_inv_getreidep": {(localize "STR_Item_Mehl")};
-	case "life_inv_holzp": {(localize "STR_Item_Holzkohle")};
+	case "life_inv_holzp": {(localize "STR_Item_Holzbretter")};
 	case "life_inv_hopfenp": {(localize "STR_Item_Bier")};
 	case "life_inv_schwefelp": {(localize "STR_Item_Schwefelpulver")};
 	case "life_inv_silberp": {(localize "STR_Item_Silberbarren")};
