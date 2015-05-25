@@ -33696,7 +33696,7 @@ class Mission
 		class Item352
 		{
 			position[]={21787.043,6.1209512,6238.541};
-			name="uranuwe_1";
+			name="uranuwe_01";
 			text="radioaktiver Schrott";
 			type="loc_Tree";
 			colorName="ColorBlack";
