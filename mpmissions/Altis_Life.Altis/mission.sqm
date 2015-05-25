@@ -116,7 +116,8 @@ class Mission
 		"A3_Structures_F_Civ_PlayGround",
 		"A3_Structures_F_EPB_Civ_PlayGround",
 		"A3_Structures_F_Civ_SportsGrounds",
-		"A3_Structures_F_EPB_Naval_Fishing"
+		"A3_Structures_F_EPB_Naval_Fishing",
+		"testanimation"
 	};
 	addOnsAuto[]=
 	{
@@ -164,7 +165,7 @@ class Mission
 		"A3_Boat_F_Trawler",
 		"A3_Structures_F_EPC_Civ_Tourism",
 		"A3_Structures_F_EPC_Items_Electronics",
-		"dar_ilpdn",
+		"testanimation",
 		"A3_Structures_F_EPB_Items_Luggage",
 		"A3_Structures_F_Heli_Items_Airport",
 		"police",
@@ -21292,17 +21293,17 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Sink_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Reliefen putzen"",life_fnc_processAction,""reliefen"",0,false,false,"""",' life_inv_reliefenu > 0 && !life_is_processing'];this addAction[""ReliefenLizenz ($900000)"",life_fnc_buyLicense,""reliefen"",0,false,false,"""",' !license_civ_reliefen && playerSide == civilian '];";
 		};
 		class Item1702
 		{
 			position[]={16541.895,19.870001,17188.328};
-			azimut=-558.53589;
+			azimut=-558.53601;
 			id=1851;
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Relikte bewerten"",life_fnc_processAction,""reli"",0,false,false,"""",' life_inv_reliv > 0 && !life_is_processing'];this addAction[""Relikt Lizenz($900000)"",life_fnc_buyLicense,""reli"",0,false,false,"""",' !license_civ_reli && playerSide == civilian ']; ";
 		};
 		class Item1703
 		{
@@ -21335,7 +21336,8 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Sink_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this addAction[""Grabbeilagen restaurieren"",life_fnc_processAction,""grab"",0,false,false,"""",' life_inv_grab > 0 && !life_is_processing'];this addAction[""Relikte restaurieren"",life_fnc_processAction,""reli"",0,false,false,"""",' life_inv_reli > 0 && !life_is_processing']";
+			text="Restarator";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Grabbeilagen restaurieren"",life_fnc_processAction,""grab"",0,false,false,"""",' life_inv_grab > 0 && !life_is_processing'];";
 		};
 		class Item1706
 		{

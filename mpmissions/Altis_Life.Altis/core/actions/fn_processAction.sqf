@@ -19,7 +19,7 @@ _itemInfo = switch (_type) do
 	case "krabben": {["krabben","krabbenv",5000,"Krabben Schaelen"]};
 	case "gas": {["gas","gasv",5000,"Erdgas verarbeiten"]};
 	case "grab": {["grab","grabv",5000,"Grabbeilagen restaurieren"]};
-	case "reli": {["reli","reliv",5000,"Relikte restaurieren"]};
+	case "reli": {["reli","reliv",5000,"Relikte begutachten"]};
 	case "heroin": {["heroinu","heroinp",5000,"Schlafmohn verarbeiten"]};
 	case "copper": {["copperore","copper_r",5000,"Kupfer verarbeiten"]};
 	case "iron": {["ironore","iron_r",5000,"Eisen verarbeiten"]};
