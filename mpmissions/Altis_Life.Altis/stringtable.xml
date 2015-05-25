@@ -3381,7 +3381,7 @@ c<?xml version="1.0" encoding="utf-8"?>
 		<Key ID="STR_Item_Holzbretter">
 			<Original>Charcoal</Original>
 			<English>Charcoal</English>
-			<German>Holzkohle</German>
+			<German>Holzbretter</German>
 		</Key>
 		<Key ID="STR_Item_Bier">
 			<Original>Beer</Original>
