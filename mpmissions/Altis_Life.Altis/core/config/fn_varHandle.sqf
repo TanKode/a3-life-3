@@ -101,10 +101,6 @@ switch (_mode) do
 			case "pkugel": {"life_inv_pkugel"};
 			case "speedbomb": {"life_inv_speedbomb"};
 			case "uran1": {"life_inv_uran1"};
-			case "uran2": {"life_inv_uran2"};
-			case "uran3": {"life_inv_uran3"};
-			case "uran4": {"life_inv_uran4"};
-			case "uran5": {"life_inv_uran5"};
 			case "uranip": {"life_inv_uranip"};
 			case "verschluss": {"life_inv_verschluss"};
 			case "laufa": {"life_inv_laufa"};
@@ -251,10 +247,6 @@ switch (_mode) do
 			case "life_inv_speedbomb": {"speedbomb"};
 			case "life_inv_zipties": {"zipties"};
 			case "life_inv_uran1": {"uran1"};
-			case "life_inv_uran2": {"uran2"};
-			case "life_inv_uran3": {"uran3"};
-			case "life_inv_uran4": {"uran4"};
-			case "life_inv_uran5": {"uran5"};
 			case "life_inv_uranip": {"uranip"};
 			case "life_inv_verschluss": {"verschluss"};
 			case "life_inv_laufa": {"laufa"};

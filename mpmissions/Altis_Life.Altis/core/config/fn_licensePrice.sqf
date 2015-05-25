@@ -55,10 +55,7 @@ switch (_type) do
 	case "kkugel": {300000};
 	case "pkugel": {300000};
 	case "spulver": {600000};
-	case "uran2": {150000};
-	case "uran3": {225000};
-	case "uran4": {300000};
-	case "uran5": {375000};
+	case "uran1": {150000};
 	case "uranip": {450000};
 	case "bm": {6000000};
 	case "good": {600000};

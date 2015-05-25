@@ -41,10 +41,7 @@ _itemInfo = switch (_type) do
 	case "wein": {["traubenu","traubenp",5000,"Keltere Wein"]};
 	case "zinn": {["zinnu","zinnp",5000,"Schmelze Zinn"]};
 	case "zucker": {["zuckeru","zuckerp",5000,"Raffiniere Zucker"]};
-	case "uran2": {["uran1","uran2",5000,"Reinige Uran"]};
-	case "uran3": {["uran2","uran3",5000,"Verarbeite Uran"]};
-	case "uran4": {["uran3","uran4",5000,"Reichere Uran an"]};
-	case "uranip": {["uran2","uranip",5000,"Uran verschmutzen"]};
+	case "uran1": {["uran1","uranip",5000,"Reinige Schrott"]};
 	case "pfandflasche": {["pfandflascheu","pfandflaschep",250,"Plastik Recycling"]};
 	case "daten": {["datenu","datenp",2500,"Daten verarbeiten"]};
 	case "datennsa": {["datennsau","datennsap",2500,"Daten verarbeiten"]};

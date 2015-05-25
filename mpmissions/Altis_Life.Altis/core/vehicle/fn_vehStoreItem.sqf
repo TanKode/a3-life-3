@@ -51,7 +51,7 @@ if (life_TankLaster == 3) exitWith {hint "Du kannst nur Oel und seine weitervera
 if (life_TankLaster == 4) exitWith {hint "Du kannst Oel und seine weiterverarbeiteten Materialien nur in den entsprechnden Laster laden!)";};
 
 _Truck2 = TypeOf life_trunk_vehicle;
-_UranStuff = ["uran1","uran2","uran3","uran4","uran5","uranip"]; 
+_UranStuff = ["uran1","uranip"];
 _UranTrucks = ["B_Truck_01_ammo_F"]; 
 
 switch (true) do

@@ -95,10 +95,6 @@ switch (_var) do
 	case "life_inv_kkugel": {("icons\items\kanonball.paa")};
 	case "life_inv_pkugel": {("icons\items\kanonball.paa")};
 	case "life_inv_uran1": {("icons\items\uran.paa")};
-	case "life_inv_uran2": {("icons\items\uran.paa")};
-	case "life_inv_uran3": {("icons\items\uran.paa")};
-	case "life_inv_uran4": {("icons\items\uran.paa")};
-	case "life_inv_uran5": {("icons\items\brennstab.paa")};
 	case "life_inv_uranip": {("icons\items\brennstab.paa")};
 	case "life_inv_pfandflascheu": {("icons\items\beer.paa")};
 	case "life_inv_pfandflaschep": {("icons\items\beer.paa")};

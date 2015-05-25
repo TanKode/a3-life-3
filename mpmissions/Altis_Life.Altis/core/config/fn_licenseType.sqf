@@ -60,10 +60,7 @@ switch (_mode) do
 			case "kkugel": {_var = "license_civ_kkugel"};
 			case "pkugel": {_var = "license_civ_pkugel"};
 			case "spulver": {_var = "license_civ_spulver"};
-			case "uran2": {_var = "license_civ_uran2"};
-			case "uran3": {_var = "license_civ_uran3"};
-			case "uran4": {_var = "license_civ_uran4"};
-			case "uran5": {_var = "license_civ_uran5"};
+			case "uran1": {_var = "license_civ_uran1"};
 			case "uranip": {_var = "license_civ_uranip"};
 			case "bm": {_var = "license_civ_bm"};
 			case "good": {_var = "license_civ_good"};
@@ -139,11 +136,8 @@ switch (_mode) do
 			case "license_civ_pbrau": {_var = "pbrau"};
 			case "license_civ_kkugel": {_var = "kkugel"};
 			case "license_civ_pkugel": {_var = "pkugel"};
-			case "license_civ_spulver": {_var = "spulver"};	
-			case "license_civ_uran2": {_var = "uran2"};
-			case "license_civ_uran3": {_var = "uran3"};
-			case "license_civ_uran4": {_var = "uran4"};
-			case "license_civ_uran5": {_var = "uran5"};
+			case "license_civ_spulver": {_var = "spulver"};
+			case "license_civ_uran1": {_var = "uran1"};
 			case "license_civ_uranip": {_var = "uranip"};
 			case "license_civ_bm": {_var = "bm"};
 			case "license_civ_good": {_var = "good"};
