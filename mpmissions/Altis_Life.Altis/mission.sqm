@@ -21120,7 +21120,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Holz schneiden"",life_fnc_processAction,""holz"",0,false,false,"""",' life_inv_holzu > 0 && !life_is_processing'];this addAction[""HolzLizenz($900000)"",life_fnc_buyLicense,""holz"",0,false,false,"""",' !license_civ_holz && playerSide == civilian '];";
 		};
 		class Item1687
 		{
@@ -21202,7 +21202,7 @@ class Mission
 			vehicle="Land_Device_assembled_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,0]; this setVectorDir [0,0,0]; ";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Uran verarbeiten"",life_fnc_processAction,""uran1"",0,false,false,"""",' life_inv_uranip > 0 && !life_is_processing'];this addAction[""UranLizenz ($900000)"",life_fnc_buyLicense,""uran1"",0,false,false,"""",' !license_civ_uran1 && playerSide == civilian '];";
 		};
 		class Item1694
 		{
@@ -29696,13 +29696,13 @@ class Mission
 		class Item2507
 		{
 			position[]={12562.428,17.024172,15883.62};
-			azimut=311.19003;
+			azimut=311.19;
 			offsetY=0.1;
 			id=2656;
 			side="EMPTY";
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; this addAction[""Holzhandel"",life_fnc_virt_menu,""holzhaendler""]; this setVariable[""realname"",""Holzhaendler""];";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; this addAction[""Holzhaendler"",life_fnc_virt_menu,""holzhaendler""]";
 		};
 		class Item2508
 		{
@@ -32929,7 +32929,7 @@ class Mission
 		class Item291
 		{
 			position[]={11761.491,30.021727,9065.7217};
-			name="Wald";
+			name="holz_01";
 			text="Wald";
 			type="loc_Tree";
 			colorName="ColorBlack";

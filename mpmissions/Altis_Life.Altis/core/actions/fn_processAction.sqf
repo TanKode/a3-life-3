@@ -33,7 +33,7 @@ _itemInfo = switch (_type) do
 	case "rum": {["zuckeru","zuckerip",5000,"Brenne Rum"]};
 	case "gusseisen": {["ironore","eisenp",5000,"Gieße Form"]};
 	case "nudeln": {["getreideu","getreidep",5000,"Mahle Mehl"]};
-	case "holz": {["holzu","holzp",5000,"Verkohle Holz"]};
+	case "holz": {["holzu","holzp",5000,"Holz schneiden"]};
 	case "brauer": {["hopfenu","hopfenp",5000,"Braue Bier"]};
 	case "schwefel": {["schwefelu","schwefelp",5000,"Zerkleinere Schwefel"]};
 	case "silber": {["silberu","silberp",5000,"Schmelze Silber"]};
