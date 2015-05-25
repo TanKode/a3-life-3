@@ -65,7 +65,7 @@
 					if (isNil "warn_three") then {
 						warn_three = true;
 						systemChat ("IM SIDE-CHAT BITTE NICHT REDEN!! Das ist deine letzte Warnung!");
-						systemChat ("Beim nächsten Mal wirst du gekickt!");
+						systemChat ("Beim naechsten Mal wirst du gekickt!");
 						[] spawn DS_slap_them;
 						//["beat04"] spawn DS_really_loud_sounds;
 						["IM SIDE-CHAT WIRD NICHT GESPROCHEN! Das ist deine letzte Warnung!"] spawn DS_double_cut;
@@ -81,7 +81,7 @@
 						1 fademusic 10;
 						1 fadesound 10;
 						disableUserInput true;
-						systemChat ("Du wurdest gewarnt. Denk nochmal eine Minute darüber nach ob es das wert war.");
+						systemChat ("Du wurdest gewarnt. Denk nochmal eine Minute darï¿½ber nach ob es das wert war.");
 						sleep 10;
 						disableUserInput false;
 						endMission "LOSER";
