@@ -77,4 +77,5 @@ switch (_type) do
     case "bernstein": {800000};
     case "datennsa": {900000};
     case "reliefen": {800000};
+    case "uranuwe": {800000};
 };

@@ -74,7 +74,6 @@ switch (_mode) do
             case "grab": {_var = "license_civ_grab"};
             case "reli": {_var = "license_civ_reli"};
             case "gas": {_var = "license_civ_gas"};
-
             case "gold": {_var = "license_civ_gold"};
             case "knochen": {_var = "license_civ_knochen"};
             case "pfandflasche": {_var = "license_civ_pfandflasche"};
@@ -84,6 +83,7 @@ switch (_mode) do
             case "erden": {_var = "license_civ_erden"};
             case "bernstein": {_var = "license_civ_bernstein"};
             case "reliefen": {_var = "license_civ_reliefen"};
+            case "uranuwe": {_var = "license_civ_uranuwe"};
 			default {_var = ""};
 		};
 	};
@@ -160,6 +160,7 @@ switch (_mode) do
             case "license_civ_erden": {_var = "erden"};
             case "license_civ_bernstein": {_var = "bernstein"};
             case "license_civ_reliefen": {_var = "reliefen"};
+            case "license_civ_uranuwe": {_var = "uranuwe"};
 			default {_var = ""};
 		};
 	};

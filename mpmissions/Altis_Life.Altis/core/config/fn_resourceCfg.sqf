@@ -227,13 +227,13 @@ switch(_resource) do {
 		_resourceZones = ["reliefen_01"];
 		_resourcetypeof = 2;
 	};
-
-	case ("uran1") : {
+	case ("uranuweu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["uran_1"];
 		_resourcetypeof = 2;
 	};
+
 };
 
 [_resourceZones, _zoneSize, _batchSize, _requiredItem, _resourcetypeof];

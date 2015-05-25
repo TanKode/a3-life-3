@@ -41,7 +41,7 @@ switch (_shop) do
 	case "gold": {["Goldhandel",["goldbar"]]};
 	case "nazi": {["Goldhandel",["goldv"]]};
 	case "knochenhaendler": {["Knochenhaendler",["knochenv"]]};
-	case "uran": {["Uran",["uranip"]]};
+	case "uranhaendler": {["Uranhaendler",["uranuwep"]]};
 	case "adacmarkt": {["ADAC Markt",["diaper","fuelF","apple","peach","tbacon","rabbit","water","lockpick","redgull","tracker","diaper"]]};
 	case "huntingmarkt": {["Jägermarkt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","henraw","roosterraw","goatraw","sheepraw","rabbitraw"]]};
 	case "datenhaendler": {["datenhaendler",["datenu","datenp","datennsau","datennsap"]]};
