@@ -23,7 +23,7 @@ switch (_shop) do
 	case "fishmarket": {["Altis Fischmarkt",["krabben","krabbenv","salema","ornate","mackerel","mullet","tuna","catshark"]]};
 	case "glasshaendler": {["Altis Glashandel",["glass"]]};
 	case "iron": {["Altis Metallhandel",["iron_r","copper_r","eisenp"]]};
-	case "diamond": {["Diamantenhandel",["diamond","diamondc"]]};
+	case "diamondhaendler": {["Diamantenhandel",["diamond","diamondc"]]};
 	case "salt": {["Salzhandel",["salt_r"]]};
 	case "cop": {["Polizeihandel",["blitzer","diaper","donuts","coffee","spikeStrip","mauer","schranke","water","rabbit","apple","redgull","fuelF","defusekit","tracker"]]};
 	case "cement": {["Cement Dealer",["cement"]]};
