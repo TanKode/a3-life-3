@@ -149,6 +149,8 @@ switch (_var) do
     case "life_inv_bernsteinp": {"Bernstein"};
     case "life_inv_reliefenu": {"dreckige Reliefen"};
     case "life_inv_reliefenp": {"Reliefen"};
+    case "life_inv_uranuweu": {"RadioaktiverSchrott"};
+    case "life_inv_uranuwep": {"Uran"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -215,6 +217,7 @@ switch (_var) do
     case "license_civ_erden": {"ErdenLizenz"};
     case "license_civ_bernstein": {"BernsteinLizenz"};
     case "license_civ_reliefen": {"ReliefenLizenz"};
+    case "license_civ_uranuwe": {"UranULizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -249,4 +252,5 @@ switch (_var) do
 	case "erden_Prof": {"ErdenSammler"};
 	case "bernstein_Prof": {"BernsteinSammler"};
 	case "reliefen_Prof": {"ReliefenSauberman"};
+	case "uranuwe_Prof": {"SchrottReiniger"};
 };

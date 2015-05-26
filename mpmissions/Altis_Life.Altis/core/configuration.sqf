@@ -296,6 +296,8 @@ life_inv_items =
     "life_inv_datennsap",
     "life_inv_reliefenu",
     "life_inv_reliefenp",
+    "life_inv_uranuweu",
+    "life_inv_uranuwep",
 ];
 
 //Setup variable inv vars.
@@ -424,6 +426,7 @@ life_prof =
 ["erden_Prof","civ"],
 ["bernstein_Prof","civ"],
 ["reliefen_Prof","civ"],
+["uranuwe_Prof","civ"],
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
@@ -464,7 +467,9 @@ life_illegal_items = [
 ["datennsap",3500],
 ["reichsgoldu",3000],
 ["bernsteinu",500],
-["bernsteinp",2300]
+["bernsteinp",2300],
+["uranuweu",500],
+["uranuwep",2500]
 ];
 
 /*
@@ -506,7 +511,8 @@ resource_list = [
 	"erdenu",
 	"bernsteinu",
 	"reliefenu",
-	"knochen"
+	"knochen",
+	"uranuweu"
 ];
 
 
@@ -603,7 +609,9 @@ sell_array =
     ["bernsteinu",500],
     ["bernsteinp",2300],
     ["reliefenu",2200],
-    ["reliefenp",500]
+    ["reliefenp",500],
+    ["uranuweu",500],
+    ["uranuwep",2500]
 
 ];
 __CONST__(sell_array,sell_array);
