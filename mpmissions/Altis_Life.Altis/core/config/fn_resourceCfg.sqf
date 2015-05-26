@@ -214,7 +214,12 @@ switch(_resource) do {
 		_resourceZones = ["bernstein_01"];
 		_resourcetypeof = 2;
 	};
-
+	case ("uranuweu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["uranuwe"];
+		_resourcetypeof = 2;
+	};
 	case ("knochen") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
@@ -225,12 +230,6 @@ switch(_resource) do {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["reliefen_01"];
-		_resourcetypeof = 2;
-	};
-	case ("uranuweu") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["uranuwe"];
 		_resourcetypeof = 2;
 	};
 
