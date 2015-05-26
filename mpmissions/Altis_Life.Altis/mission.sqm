@@ -30800,7 +30800,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=353;
+		items=354;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -33697,8 +33697,18 @@ class Mission
 		class Item352
 		{
 			position[]={21809.162,4.9799557,6279.5234};
-			name="uranuwe1";
+			name="uranuwe123";
 			text="radioaktiver Schrott";
+			type="loc_Tree";
+			colorName="ColorBlack";
+			a=2;
+			b=2;
+		};
+		class Item353
+		{
+			position[]={21272.348,22.491259,6721.7573};
+			name="uranuwe1";
+			text="Uranuwe";
 			type="loc_Tree";
 			colorName="ColorBlack";
 			a=2;
