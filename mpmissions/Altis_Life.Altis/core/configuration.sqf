@@ -503,6 +503,7 @@ resource_list = [
 	"holzu",
 	"schwefelu",
 	"uran1",
+	"uranuweu",
 	"krabben",
 	"pfandflascheu",
 	"datenu",
@@ -511,8 +512,7 @@ resource_list = [
 	"erdenu",
 	"bernsteinu",
 	"reliefenu",
-	"knochen",
-	"uranuweu"
+	"knochen"
 ];
 
 
