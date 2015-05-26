@@ -48,6 +48,7 @@ _itemInfo = switch (_type) do
 	case "erden": {["erdenu","erdenp",2500,"Erden verarbeiten"]};
 	case "bernstein": {["bernsteinu","bernsteinp",2500,"Bernstein verarbeiten"]};
 	case "reliefen": {["reliefenu","reliefenp",2500,"Reliefen sauebern"]};
+	case "uranuwe": {["uranuweu","uranuwep",2500,"Uranu sauebern"]};
 	default {[]};
 };
 

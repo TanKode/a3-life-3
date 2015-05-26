@@ -128,5 +128,7 @@ switch (_item) do
     case "bernsteinp": {3};
     case "reliefenu": {6};
     case "reliefenp": {3};
+    case "uranuweu": {6};
+    case "uranuwep": {3};
 	default {1};
 };
