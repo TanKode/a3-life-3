@@ -131,7 +131,6 @@ switch (_var) do
     case "life_inv_blitzer": {"Blitzer"};
     case "life_inv_gas": {"Flüssiges Erdgas"};
     case "life_inv_gasv": {"Komprimiertes  Erdgas"};
-
     case "life_inv_gold": {"Nazi-Gold"};
     case "life_inv_goldv": {"Devisen"};
     case "life_inv_knochen": {"Dreckige Knochen"};
@@ -150,8 +149,6 @@ switch (_var) do
     case "life_inv_bernsteinp": {"Bernstein"};
     case "life_inv_reliefenu": {"dreckige Reliefen"};
     case "life_inv_reliefenp": {"Reliefen"};
-    case "life_inv_uranuweu": {"Radioaktiver Schrott"};
-    case "life_inv_uranuwep": {"Uranuwe"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -218,7 +215,6 @@ switch (_var) do
     case "license_civ_erden": {"ErdenLizenz"};
     case "license_civ_bernstein": {"BernsteinLizenz"};
     case "license_civ_reliefen": {"ReliefenLizenz"};
-    case "license_civ_uranuwe": {"UranSchrottLizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -253,5 +249,4 @@ switch (_var) do
 	case "erden_Prof": {"ErdenSammler"};
 	case "bernstein_Prof": {"BernsteinSammler"};
 	case "reliefen_Prof": {"ReliefenSauberman"};
-	case "uranuwe_Prof": {"Schrottreiniger"};
 };

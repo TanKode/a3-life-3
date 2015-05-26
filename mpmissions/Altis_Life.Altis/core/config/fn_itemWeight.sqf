@@ -110,7 +110,6 @@ switch (_item) do
     case "blitzer": {2};
     case "gas": {6};
     case "gasv": {3};
-
     case "gold": {10};
     case "goldv": {2};
     case "knochen": {6};
@@ -129,7 +128,5 @@ switch (_item) do
     case "bernsteinp": {3};
     case "reliefenu": {6};
     case "reliefenp": {3};
-    case "uranuweu": {6};
-    case "uranuwep": {3};
 	default {1};
 };

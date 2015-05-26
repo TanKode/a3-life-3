@@ -135,7 +135,6 @@ switch (_mode) do
             case "blitzer": {"life_inv_blitzer"};
             case "gas": {"life_inv_gas"};
             case "gasv": {"life_inv_gasv"};
-
             case "gold": {"life_inv_gold"};
             case "goldv": {"life_inv_goldv"};
             case "knochen": {"life_inv_knochen"};
@@ -154,8 +153,6 @@ switch (_mode) do
             case "bernsteinp": {"life_inv_bernsteinp"};
             case "reliefenu": {"life_inv_reliefenu"};
             case "reliefenp": {"life_inv_reliefenp"};
-            case "uranuweu": {"life_inv_uranuweu"};
-            case "uranuwep": {"life_inv_uranuwep"};
 			};
 	};
 	
@@ -301,8 +298,6 @@ switch (_mode) do
             case "life_inv_bernsteinp": {"bernsteinp"};
             case "life_inv_reliefenu": {"reliefenu"};
             case "life_inv_reliefenp": {"reliefenp"};
-            case "life_inv_uranuweu": {"uranuweu"};
-            case "life_inv_uranuwep": {"uranuwep"};
 		};
 	};
 };
