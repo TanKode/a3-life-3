@@ -512,7 +512,7 @@ resource_list = [
 	"bernsteinu",
 	"reliefenu",
 	"knochen",
-	"uranuweu"
+	"uranuwe"
 ];
 
 
