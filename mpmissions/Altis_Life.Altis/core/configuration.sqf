@@ -297,7 +297,7 @@ life_inv_items =
     "life_inv_reliefenu",
     "life_inv_reliefenp",
     "life_inv_uranuweu",
-    "life_inv_uranuwep",
+    "life_inv_uranuwep"
 ];
 
 //Setup variable inv vars.
