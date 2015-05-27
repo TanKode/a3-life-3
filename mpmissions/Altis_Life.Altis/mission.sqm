@@ -3203,7 +3203,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2561;
+		items=2571;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -30217,6 +30217,106 @@ class Mission
 			skill=0.60000002;
 			init="this allowdamage false;";
 		};
+		class Item2561
+		{
+			position[]={14216.002,20.354654,16212.299};
+			azimut=991.86102;
+			id=2709;
+			side="EMPTY";
+			vehicle="Land_TreeBin_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2562
+		{
+			position[]={14215.969,20.354874,16212.299};
+			azimut=991.86102;
+			id=2710;
+			side="EMPTY";
+			vehicle="Oak";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2563
+		{
+			position[]={14206.465,20.530661,16188.345};
+			azimut=991.86102;
+			id=2711;
+			side="EMPTY";
+			vehicle="Land_TreeBin_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2564
+		{
+			position[]={14206.431,20.53117,16188.345};
+			azimut=991.86102;
+			id=2712;
+			side="EMPTY";
+			vehicle="Fraxinus";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2565
+		{
+			position[]={14201.966,20.751034,16169.117};
+			azimut=991.86102;
+			id=2713;
+			side="EMPTY";
+			vehicle="Land_TreeBin_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2566
+		{
+			position[]={14201.738,20.753895,16168.962};
+			azimut=991.86102;
+			id=2714;
+			side="EMPTY";
+			vehicle="Poplar";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2567
+		{
+			position[]={14135.722,20.538132,16173.751};
+			azimut=991.86102;
+			id=2715;
+			side="EMPTY";
+			vehicle="Land_TreeBin_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2568
+		{
+			position[]={14135.688,20.537907,16173.751};
+			azimut=991.86102;
+			id=2716;
+			side="EMPTY";
+			vehicle="Fraxinus";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2569
+		{
+			position[]={14186.185,20.467606,16201.112};
+			azimut=991.86102;
+			id=2717;
+			side="EMPTY";
+			vehicle="Land_TreeBin_F";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2570
+		{
+			position[]={14186.149,20.467327,16201.112};
+			azimut=991.86102;
+			id=2718;
+			side="EMPTY";
+			vehicle="Pine_4";
+			skill=0.60000002;
+			init="this allowDamage false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
 	};
 	class Markers
 	{
@@ -30581,7 +30681,7 @@ class Mission
 		};
 		class Item48
 		{
-			position[]={14197.994,20.306435,16224.112};
+			position[]={14192.06,20.382635,16216.166};
 			name="police_hq_1";
 			type="flag_NATO";
 			a=1.25;
