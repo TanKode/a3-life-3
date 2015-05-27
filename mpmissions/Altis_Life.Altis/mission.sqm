@@ -119,9 +119,7 @@ class Mission
 		"A3_Structures_F_EPB_Naval_Fishing",
 		"testanimation",
 		"a3_trees",
-		"A3_Structures_F_Civ_Chapels",
-		"A3L_KartIndoor",
-		"cawheeled3_cl_skate"
+		"A3_Structures_F_Civ_Chapels"
 	};
 	addOnsAuto[]=
 	{
@@ -222,8 +220,6 @@ class Mission
 		"A3_Structures_F_EPB_Civ_Garbage",
 		"A3_Structures_F_EPB_Naval_Fishing",
 		"a3_trees",
-		"A3L_KartIndoor",
-		"cawheeled3_cl_skate",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -240,7 +236,7 @@ class Mission
 		year=2015;
 		month=7;
 		day=6;
-		hour=6;
+		hour=10;
 		minute=0;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
@@ -3203,7 +3199,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2609;
+		items=2601;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -13081,7 +13077,7 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
 			text="hq_lt_1_1_1_1_1_1_6";
-			init="this allowDamage false; this enableSimulation false; this setObjectTexture [0, ""textures\signs\markt.jpg""];";
+			init="this allowDamage false; this enableSimulation false; this setObjectTexture [0, ""textures\signs\markt.paa""];";
 		};
 		class Item947
 		{
@@ -24234,8 +24230,8 @@ class Mission
 		};
 		class Item1988
 		{
-			position[]={16380.672,1.9324695,9633.9697};
-			azimut=-165.61806;
+			position[]={19337.783,101.08717,10335.981};
+			azimut=-106.79948;
 			offsetY=-2;
 			id=2136;
 			side="EMPTY";
@@ -24245,8 +24241,8 @@ class Mission
 		};
 		class Item1989
 		{
-			position[]={16382.076,1.6645226,9638.9785};
-			azimut=284.50827;
+			position[]={19342.818,100.08301,10337.276};
+			azimut=343.32709;
 			id=2137;
 			side="EMPTY";
 			vehicle="Land_Wreck_Van_F";
@@ -27102,7 +27098,7 @@ class Mission
 		};
 		class Item2255
 		{
-			position[]={20847.188,26.682238,7302.3413};
+			position[]={20843.734,26.535425,7302.3413};
 			azimut=-150.81464;
 			id=2403;
 			side="EMPTY";
@@ -30475,7 +30471,7 @@ class Mission
 		};
 		class Item2579
 		{
-			position[]={3691.5579,10.126184,13161.344};
+			position[]={3691.1882,10.517429,13143.081};
 			azimut=37.093899;
 			offsetY=1;
 			id=2727;
@@ -30658,147 +30654,52 @@ class Mission
 		};
 		class Item2597
 		{
-			position[]={22916.266,3.1900001,17007.514};
-			azimut=51.313599;
+			position[]={21150.611,18.749361,7555.8691};
+			azimut=-6.1458545;
 			special="NONE";
 			id=2745;
 			side="EMPTY";
-			vehicle="A3L_KartIndoor_Interior";
+			vehicle="Land_HBarrier_5_F";
+			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2598
 		{
-			position[]={22916.254,3.1900001,17007.52};
-			azimut=51.313499;
+			position[]={21179.291,18.653709,7544.0654};
+			azimut=-126.52163;
 			special="NONE";
 			id=2746;
 			side="EMPTY";
-			vehicle="A3L_KartIndoor_Interior2";
+			vehicle="Land_HBarrier_5_F";
+			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2599
 		{
-			position[]={22916.238,3.1900001,17007.508};
-			azimut=51.313499;
+			position[]={20850.189,26.813099,7301.436};
+			azimut=-261.52124;
 			special="NONE";
 			id=2747;
 			side="EMPTY";
-			vehicle="A3L_KartIndoor";
+			vehicle="Land_HBarrier_5_F";
+			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2600
 		{
-			position[]={20804.928,27.619444,7301.5298};
-			azimut=37.093899;
-			offsetY=1;
+			position[]={20862.125,27.644396,7272.9688};
+			azimut=-141.14552;
+			special="NONE";
 			id=2748;
 			side="EMPTY";
-			vehicle="Land_ClutterCutter_small_F";
+			vehicle="Land_HBarrier_5_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 411306; delh hideObject true; delh = [0,0,0] nearestObject 411306; delh hideObject true; delh = [0,0,0] nearestObject 411997; delh hideObject true; delh = [0,0,0] nearestObject 411997; delh hideObject true;";
-		};
-		class Item2601
-		{
-			position[]={20807.84,27.619902,7286.293};
-			azimut=479.99799;
-			id=2749;
-			side="EMPTY";
-			vehicle="Land_Camping_Light_F";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false;";
-		};
-		class Item2602
-		{
-			position[]={20840.928,28.002922,7250.9897};
-			azimut=479.99799;
-			id=2750;
-			side="EMPTY";
-			vehicle="Land_Camping_Light_F";
-			leader=1;
-			skill=0.60000002;
-			init="this allowdamage false;";
-		};
-		class Item2603
-		{
-			position[]={23069.932,3.1900001,17254.35};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2751;
-			side="EMPTY";
-			vehicle="skatepark_obj4";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
-		};
-		class Item2604
-		{
-			position[]={23082.748,3.1900001,17233.816};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2752;
-			side="EMPTY";
-			vehicle="skatepark_obj3";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
-		};
-		class Item2605
-		{
-			position[]={23109.129,3.1900001,17239.734};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2753;
-			side="EMPTY";
-			vehicle="skatepark_obj1";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
-		};
-		class Item2606
-		{
-			position[]={23094.119,3.1900001,17255.682};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2754;
-			side="EMPTY";
-			vehicle="skatepark_obj6";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
-		};
-		class Item2607
-		{
-			position[]={23093.934,3.1900001,17213.459};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2755;
-			side="EMPTY";
-			vehicle="skatepark_obj5";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
-		};
-		class Item2608
-		{
-			position[]={23111.629,3.1900001,17219.76};
-			azimut=51.313599;
-			offsetY=0.2;
-			special="NONE";
-			id=2756;
-			side="EMPTY";
-			vehicle="skatepark_obj2";
-			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
 		};
 	};
 	class Markers
 	{
-		items=354;
+		items=353;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -33068,13 +32969,14 @@ class Mission
 		};
 		class Item280
 		{
-			position[]={16384.391,1.9201123,9645.373};
+			position[]={19348.637,99.082611,10338.548};
 			name="silber_1";
 			text="Silbermine";
 			type="loc_Tree";
 			colorName="ColorBlack";
 			a=2;
 			b=2;
+			angle=58.818604;
 		};
 		class Item281
 		{
@@ -33714,19 +33616,9 @@ class Mission
 		};
 		class Item352
 		{
-			position[]={21809.162,4.9799557,6279.5234};
-			name="uranuwe123";
-			text="radioaktiver Schrott";
-			type="loc_Tree";
-			colorName="ColorBlack";
-			a=2;
-			b=2;
-		};
-		class Item353
-		{
-			position[]={21272.348,22.491259,6721.7573};
+			position[]={21817.471,4.6610646,6240.6333};
 			name="uranuwe1";
-			text="Uranuwe";
+			text="radioaktiver Schrott";
 			type="loc_Tree";
 			colorName="ColorBlack";
 			a=2;
