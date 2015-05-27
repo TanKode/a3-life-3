@@ -30483,7 +30483,7 @@ class Mission
 			vehicle="Land_ClutterCutter_small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false;  delh = [0,0,0] nearestObject 1120919; delh = [0,0,0] nearestObject 1120919;";
+			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1779863; delh hideObject true; delh = [0,0,0] nearestObject 1120919; delh hideObject true; ";
 		};
 		class Item2580
 		{
@@ -30658,25 +30658,25 @@ class Mission
 		};
 		class Item2597
 		{
-			position[]={22916.229,3.1900001,17007.516};
+			position[]={22916.266,3.1900001,17007.514};
 			azimut=51.313599;
 			special="NONE";
 			id=2745;
 			side="EMPTY";
 			vehicle="A3L_KartIndoor_Interior";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2598
 		{
-			position[]={22916.254,3.1900001,17007.484};
+			position[]={22916.254,3.1900001,17007.52};
 			azimut=51.313499;
 			special="NONE";
 			id=2746;
 			side="EMPTY";
 			vehicle="A3L_KartIndoor_Interior2";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2599
 		{
@@ -30687,7 +30687,7 @@ class Mission
 			side="EMPTY";
 			vehicle="A3L_KartIndoor";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
 		};
 		class Item2600
 		{

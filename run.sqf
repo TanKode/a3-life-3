@@ -71,7 +71,7 @@ _announce_adminstate_changed = false;	/* true or false */
 
 
 /* "_passwordAdmin": Taken from the servers config.cfg, needed for servercommands     */
-_passwordAdmin = 'Qbt4z5Ru';
+_passwordAdmin = 'rlpschnitzel';
 _adminLevel1_UIDs =
 [
 	'76561198119430758','76561197987632783','76561198121401456','76561198016850839',
