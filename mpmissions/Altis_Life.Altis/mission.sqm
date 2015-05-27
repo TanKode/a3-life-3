@@ -120,7 +120,8 @@ class Mission
 		"testanimation",
 		"a3_trees",
 		"A3_Structures_F_Civ_Chapels",
-		"A3L_KartIndoor"
+		"A3L_KartIndoor",
+		"cawheeled3_cl_skate"
 	};
 	addOnsAuto[]=
 	{
@@ -223,6 +224,7 @@ class Mission
 		"A3_Structures_F_Civ_Chapels",
 		"a3_trees",
 		"A3L_KartIndoor",
+		"cawheeled3_cl_skate",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -3202,7 +3204,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2606;
+		items=2611;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -30493,7 +30495,7 @@ class Mission
 			vehicle="Land_ClutterCutter_small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1779863; delh hideObject true; delh = [0,0,0] nearestObject 1117336; delh hideObject true;";
+			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1117336; delh hideObject true; delh = [0,0,0] nearestObject 1117336; delh hideObject true;";
 		};
 		class Item2581
 		{
@@ -30555,7 +30557,7 @@ class Mission
 			vehicle="Land_ClutterCutter_small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1779863; delh hideObject true; delh = [0,0,0] nearestObject 1120919; delh hideObject true;";
+			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1120919; delh hideObject true; delh = [0,0,0] nearestObject 1120919; delh hideObject true;";
 		};
 		class Item2587
 		{
@@ -30680,7 +30682,7 @@ class Mission
 		};
 		class Item2599
 		{
-			position[]={20801.168,28.417852,7250.6157};
+			position[]={22916.229,3.1900001,17007.516};
 			azimut=51.313564;
 			offsetY=0.2;
 			special="NONE";
@@ -30692,7 +30694,7 @@ class Mission
 		};
 		class Item2600
 		{
-			position[]={20801.193,28.41869,7250.585};
+			position[]={22916.254,3.1900001,17007.484};
 			azimut=51.313549;
 			offsetY=0.2;
 			special="NONE";
@@ -30704,7 +30706,7 @@ class Mission
 		};
 		class Item2601
 		{
-			position[]={20801.178,28.418043,7250.6084};
+			position[]={22916.238,3.1900001,17007.508};
 			azimut=51.313549;
 			offsetY=0.2;
 			special="NONE";
@@ -30724,23 +30726,22 @@ class Mission
 			vehicle="Land_ClutterCutter_small_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1779863; delh hideObject true; delh = [0,0,0] nearestObject 411306; delh hideObject true;";
+			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 411306; delh hideObject true; delh = [0,0,0] nearestObject 411306; delh hideObject true; delh = [0,0,0] nearestObject 411997; delh hideObject true; delh = [0,0,0] nearestObject 411997; delh hideObject true;";
 		};
 		class Item2603
 		{
-			position[]={20757.418,28.335957,7254.4082};
-			azimut=37.093899;
-			offsetY=1;
+			position[]={20807.84,27.619902,7286.293};
+			azimut=479.99799;
 			id=2751;
 			side="EMPTY";
-			vehicle="Land_ClutterCutter_small_F";
+			vehicle="Land_Camping_Light_F";
 			leader=1;
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; delh = [0,0,0] nearestObject 1779863; delh hideObject true; delh = [0,0,0] nearestObject 411997; delh hideObject true;";
+			init="this allowdamage false;";
 		};
 		class Item2604
 		{
-			position[]={20807.84,27.619902,7286.293};
+			position[]={20840.928,28.002922,7250.9897};
 			azimut=479.99799;
 			id=2752;
 			side="EMPTY";
@@ -30751,19 +30752,80 @@ class Mission
 		};
 		class Item2605
 		{
-			position[]={20840.928,28.002922,7250.9897};
-			azimut=479.99799;
+			position[]={23069.932,3.1900001,17254.35};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
 			id=2753;
 			side="EMPTY";
-			vehicle="Land_Camping_Light_F";
-			leader=1;
+			vehicle="skatepark_obj4";
 			skill=0.60000002;
-			init="this allowdamage false;";
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2606
+		{
+			position[]={23082.748,3.1900001,17233.816};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
+			id=2754;
+			side="EMPTY";
+			vehicle="skatepark_obj3";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2607
+		{
+			position[]={23109.129,3.1900001,17239.734};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
+			id=2755;
+			side="EMPTY";
+			vehicle="skatepark_obj1";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2608
+		{
+			position[]={23094.119,3.1900001,17255.682};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
+			id=2756;
+			side="EMPTY";
+			vehicle="skatepark_obj6";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2609
+		{
+			position[]={23093.934,3.1900001,17213.459};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
+			id=2757;
+			side="EMPTY";
+			vehicle="skatepark_obj5";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
+		};
+		class Item2610
+		{
+			position[]={23111.629,3.1900001,17219.76};
+			azimut=51.313599;
+			offsetY=0.2;
+			special="NONE";
+			id=2758;
+			side="EMPTY";
+			vehicle="skatepark_obj2";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 	};
 	class Markers
 	{
-		items=355;
+		items=354;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -31748,11 +31810,11 @@ class Mission
 		};
 		class Item132
 		{
-			position[]={3152.8264,0,12859.235};
+			position[]={3152.4385,0.054391973,12859.351};
 			name="civ_ship_kavala";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=-402.65799;
+			angle=-222.02785;
 		};
 		class Item133
 		{
@@ -33678,16 +33740,6 @@ class Mission
 			colorName="ColorBlack";
 			a=2;
 			b=2;
-		};
-		class Item354
-		{
-			position[]={3600.0854,9.2336082,13146.537};
-			name="license_shop_2_2_1_1";
-			text="Kavala - Zentrum";
-			type="c_unknown";
-			colorName="ColorGreen";
-			a=1.4;
-			b=1.4;
 		};
 	};
 };
