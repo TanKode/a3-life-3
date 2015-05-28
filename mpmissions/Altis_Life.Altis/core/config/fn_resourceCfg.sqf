@@ -168,48 +168,41 @@ switch(_resource) do {
 		_resourceZones = ["holz_01"];
 		_resourcetypeof = 2;
 	};
-
 	case ("pfandflascheu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["pfandflasche"];
 		_resourcetypeof = 2;
 	};
-
 	case ("datenu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "O_Truck_03_device_F";
 		_resourceZones = ["daten"];
 		_resourcetypeof = 2;
 	};
-
 	case ("datennsau") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "O_Truck_03_device_F";
 		_resourceZones = ["datennsa"];
 		_resourcetypeof = 2;
 	};
-
 	case ("reichsgoldu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["reichsgold"];
 		_resourcetypeof = 2;
 	};
-
 	case ("erdenu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["erden"];
 		_resourcetypeof = 2;
 	};
-
 	case ("schwefelu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["schwefel_1"];
 		_resourcetypeof = 2;
 	};
-
-	case ("bernsteinu") : {
+		case ("bernsteinu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["bernstein_01"];
 		_resourcetypeof = 2;
