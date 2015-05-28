@@ -30737,24 +30737,24 @@ class Mission
 		class Item2613
 		{
 			position[]={3642.8328,10.078167,13140.961};
-			azimut=3.5514402;
+			azimut=3.55144;
 			offsetY=0.1;
 			id=2761;
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this setFlagTexture ""textures\signs\lowtis.jpg"";";
+			init="this allowDamage false; this enableSimulation false; this setObjectTexture [0, ""textures\signs\lowtis.jpg""];";
 		};
 		class Item2614
 		{
 			position[]={3609.3992,9.9853592,13115.607};
-			azimut=-84.018517;
+			azimut=-84.018501;
 			offsetY=0.1;
 			id=2762;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this allowDamage false; this setFlagTexture ""textures\signs\hatler.jpg"";";
+			init="this allowDamage false; this enableSimulation false; this setObjectTexture [0, ""textures\signs\hatler.jpg""];";
 		};
 		class Item2615
 		{
@@ -30765,7 +30765,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this setFlagTexture ""textures\signs\hatler.jpg"";";
+			init="this allowDamage false; this enableSimulation false; this setObjectTexture [0, ""textures\signs\hatler.jpg""];";
 		};
 	};
 	class Markers
