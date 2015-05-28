@@ -20,7 +20,7 @@ _action = [_this,2] call BIS_fnc_param;//Action name
 if (isNil "_rip") then { _rip = false };
 
 _cops = (west countSide playableUnits);
-if(_cops < 10) exitWith {hint "You can't rob this register, there aren't enough police online!";};
+if(_cops < 0) exitWith {hint "You can't rob this register, there aren't enough police online!";};
 if(side _robber == west) exitWith { hint "What do you think you're doing?" };
 if(side _robber == independent) exitWith { hint "Don't you have bigger fish to fry?" };
 if(_robber distance _shop > 5) exitWith { hint "You need to be within 5m of the cash register to rob it!" };
