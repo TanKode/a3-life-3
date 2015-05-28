@@ -34,7 +34,7 @@ if !(alive _robber) exitWith {};
 if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
 
 _rip = true;
-_kassa = 2000 + round(random 3000); // Max Wert der Kasse
+_kassa = 1000 + round(random 2000); // Max Wert der Kasse
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
