@@ -26,17 +26,14 @@ _coplevel = call life_coplevel;
 
 switch ( _coplevel ) do
 {
-	case 1: { _rang = "Polizeianwaerter"; };
+	case 1: { _rang = "Anwaerter"; };
 	case 2: { _rang = "Wachtmeister"; };
-	case 3: { _rang = "Pol. Komissar"; };
-	case 4: { _rang = "Ober Komissar"; };
-	case 5: { _rang = "Haupt Komissar"; };
-	case 6: { _rang = "B.Polizist"; };
-	case 7: { _rang = "SEK"; };
-	case 8: { _rang = "Ausbilder"; };
-	case 9: { _rang = "Polizeileiter"; };
-	case 10: { _rang = "SEK Leiter"; };
-	case 11: { _rang = "Polizei Chef"; };
+	case 3: { _rang = "Kommissar"; };
+	case 4: { _rang = "Hauptkommissar"; };
+	case 5: { _rang = "Ausbilder"; };
+	case 6: { _rang = "B.Polizist/SEK"; };
+	case 7: { _rang = "PolizeiLeiter"; };
+	case 8: { _rang = "PolizeiChef"; };
 	default {_rank =  "Error";};
 };
 
