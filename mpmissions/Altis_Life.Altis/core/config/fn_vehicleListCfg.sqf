@@ -308,7 +308,7 @@ switch (_shop) do
 			["cl3_polo_gti_lime",100000],
 			["cl3_golf_mk2_orange",100000],
 			["cl3_polo_gti_orange",100000],
-			["RDS_Golf4_Civ_01",150000]
+			["RDS_Golf4_Civ_01",125000]
         ];
 	};
 
