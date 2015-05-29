@@ -49,7 +49,7 @@ switch (_shop) do
 
 	case "adac_car":
     {
-        _return =m
+        _return =
         [
 			["C_SUV_01_F",35000],
 			["B_Truck_01_transport_F",100000],
