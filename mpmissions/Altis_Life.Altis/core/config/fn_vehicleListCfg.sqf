@@ -49,7 +49,7 @@ switch (_shop) do
 
 	case "adac_car":
     {
-        _return =
+        _return =m
         [
 			["C_SUV_01_F",35000],
 			["B_Truck_01_transport_F",100000],
@@ -325,7 +325,8 @@ switch (_shop) do
 			["cl3_golf_mk2_lime",100000],
 			["cl3_polo_gti_lime",100000],
 			["cl3_golf_mk2_orange",100000],
-			["cl3_polo_gti_orange",100000]
+			["cl3_polo_gti_orange",100000],
+			["RDS_Golf_Civ_01",150000]
         ];
 	};
 
