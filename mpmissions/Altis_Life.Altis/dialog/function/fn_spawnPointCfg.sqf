@@ -19,7 +19,7 @@ switch (_side) do
 		if(license_cop_sek && playerSide == west && !license_cop_tf) then {
 			_return = [
 				["cop_spawn_1","HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["cop_spawn_2","Check Point Kavala","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+				["cop_spawn_2","CP Kavala","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 				["cop_spawn_5","Autobahn","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 			];
 		};
@@ -27,7 +27,7 @@ switch (_side) do
 		if(!license_cop_sek && playerSide == west && !license_cop_tf) then {
 		_return = [
 				["cop_spawn_1","HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["cop_spawn_2","Check Point Kavala","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+				["cop_spawn_2","CP Kavala","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 				["cop_spawn_5","Autobahn","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 			];
 		};
