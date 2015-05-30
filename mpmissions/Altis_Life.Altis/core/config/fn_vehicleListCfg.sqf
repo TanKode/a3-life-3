@@ -765,29 +765,29 @@ switch (_shop) do
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_return pushBack ["max_Police_Quadbike",750];
-			_return pushBack ["DAR_DAR_O2FirdebirdSSVPolice",2000];
+			_return pushBack ["max_Police_Quadbike",400];
+			_return pushBack ["DAR_DAR_O2FirebirdSSVPolice",1800];
 			_return pushBack ["DAR_ChargerPolice",1800];
 
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack ["DAR_TaurusPolice",3000];
-			_return pushBack ["DAR_ExplorerPolice",6000];
+			_return pushBack ["DAR_ExplorerPolice",5000];
 			_return pushBack ["A3L_TaurusFPBLBPD",4000];
 			_return pushBack ["A3L_TaurusFPBPDGM",4000];
 		};
 
 		if(__GETC__(life_coplevel) > 3) then
 		{
-			_return pushBack ["A3L_EvoXFPBLBPD",6000];
-			_return pushBack ["IVORY_PRIUS_police",6000];
+			_return pushBack ["A3L_EvoXFPBLBPD",5000];
+			_return pushBack ["IVORY_PRIUS_police",5000];
 			_return pushBack ["tcg_hrlycop",1000];
 		};
 
 		if(__GETC__(life_coplevel) > 4) then
         {
-        	_return pushBack ["DAR_CVPIPolice",6000];
+        	_return pushBack ["DAR_CVPIPolice",5000];
         };
 		if(__GETC__(life_coplevel) > 6) then
 		{
@@ -795,7 +795,7 @@ switch (_shop) do
 			_return pushBack ["DAR_EXplorerPoliceStealth",8000];
 			_return pushBack ["A3L_EvoXFPBLBSO",8000];
 			_return pushBack ["DAR_CVPIAuxiliary",8000];
-			_return pushBack ["cl3_e60_m5_black",20000];
+			_return pushBack ["cl3_e60_m5_black",80000];
 
 		};
 	};
