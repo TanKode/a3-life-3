@@ -11,21 +11,21 @@ if(_type == "") exitWith {-1};
 
 switch (_type) do
 {
-	case "cair": {15000}; //Cop Pilot License cost
+	case "cair": {20000}; //Cop Pilot License cost
 	case "sek": {35000}; //Swat License cost
 	case "cg": {8000}; //Coast guard license cost
 	case "mair": {15000};
 	case "sec": {1};
-	case "driver": {2500}; //Drivers License cost
-	case "truck": {100000}; //Truck license cost
-	case "pilot": {250000}; //Pilot/air license cost
-	case "boat": {60000}; //Boating license cost
-	case "dive": {125000}; //Diving license cost
-	case "gun": {75000}; //Firearm/gun license cost	
-	case "rebel": {2000000}; //Rebel license cost	
+	case "driver": {500}; //Drivers License cost
+	case "truck": {20000}; //Truck license cost
+	case "pilot": {25000}; //Pilot/air license cost
+	case "boat": {5000}; //Boating license cost
+	case "dive": {50000}; //Tauch license cost
+	case "gun": {30000}; //Firearm/gun license cost
+	case "rebel": {750000}; //Rebel license cost
 	case "donator": {1};
 	case "tf": {1};	
-	case "home": {1000000};
+	case "home": {200000};
 	case "heroin": {500000}; //Heroin processing license cost
 	case "marijuana": {250000}; //Marijuana processing license cost
 	case "cocaine": {500000};
