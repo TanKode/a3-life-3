@@ -9708,7 +9708,7 @@ class Mission
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
 			text="license_shop_4";
-			init="this allowDamage false; this enableSimulation false; this addAction[""Lizenzen"",life_fnc_licenses,[""home"",""copper"",""iron"",""grab"",""reli"",""krabben"",""sand"",""salt"",""oil"",""cement"",""diamond"",""brauer"",""nudeln"",""wein"",""zigaretten"",""zucker"",""holz"",""schwefel"",""silber"",""zinn"",""gusseisen"",""bronze"",""schmuck""],0,true,true,"""",' playerSide == civilian '];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Lizenzen"",life_fnc_licenses,[""home"",""driver"",""truck"",""air"",""boat"",""dive""""copper"",""iron"",""grab"",""reli"",""krabben"",""sand"",""salt"",""oil"",""cement"",""diamond"",""holz"",""silber"",""schmuck""],0,true,true,"""",' playerSide == civilian '];";
 		};
 		class Item614
 		{
