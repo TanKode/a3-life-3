@@ -76,10 +76,9 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Quadbike_01_F",1000],
+			["B_Quadbike_01_F",800],
 			["C_Hatchback_01_F",4000],
 			["C_Offroad_01_F",10000],
-			["C_SUV_01_F",20000],
 			["C_Van_01_transport_F",50000],
 			["C_Hatchback_01_sport_F",67000],
 			["DAR_4X4",130000],
@@ -93,6 +92,7 @@ switch (_shop) do
 			["a3l_escortwhite",3500],
 			["a3l_escortpink",3500],
 			["RDS_Lada_Civ_02",800],
+			["C_SUV_01_F",20000],
 			["CL3_Black_SUV_01_F",7000]
 		];
 	};
@@ -883,33 +883,6 @@ switch (_shop) do
 			_return pushBack ["DAR_4X4",130000*0.3];
 			_return pushBack ["O_MRAP_02_F",2000000*0.3];
 			_return pushBack ["B_MRAP_01_F",2000000*0.3];
-			_return pushBack ["cl3_range_rover_aqua",25000*0.3];
-			_return pushBack ["cl3_range_rover_babyblue",25000*0.3];
-			_return pushBack ["cl3_range_rover_babypink",25000*0.3];
-			_return pushBack ["cl3_range_rover_black",25000*0.3];
-			_return pushBack ["cl3_range_rover_blue",25000*0.3];
-			_return pushBack ["cl3_range_rover_burgundy",25000*0.3];
-			_return pushBack ["cl3_range_rover_camo",25000*0.3];
-			_return pushBack ["cl3_range_rover_camo_urban",25000*0.3];
-			_return pushBack ["cl3_range_rover_cardinal",25000*0.3];
-			_return pushBack ["cl3_range_rover_dark_green",25000*0.3];
-			_return pushBack ["cl3_range_rover_gold",25000*0.3];
-			_return pushBack ["cl3_range_rover_green",25000*0.3];
-			_return pushBack ["cl3_range_rover_grey",25000*0.3];
-			_return pushBack ["cl3_range_rover_lavender",25000*0.3];
-			_return pushBack ["cl3_range_rover_light_blue",25000*0.3];
-			_return pushBack ["cl3_range_rover_light_yellow",25000*0.3];
-			_return pushBack ["cl3_range_rover_lime",25000*0.3];
-			_return pushBack ["cl3_range_rover_marina_blue",25000*0.3];
-			_return pushBack ["cl3_range_rover_navy_blue",25000*0.3];
-			_return pushBack ["cl3_range_rover_orange",25000*0.3];
-			_return pushBack ["cl3_range_rover_purple",25000*0.3];
-			_return pushBack ["cl3_range_rover_red",25000*0.3];
-			_return pushBack ["cl3_range_rover_sand",25000*0.3];
-			_return pushBack ["cl3_range_rover_silver",25000*0.3];
-			_return pushBack ["cl3_range_rover_violet",25000*0.3];
-			_return pushBack ["cl3_range_rover_white",25000*0.3];
-			_return pushBack ["cl3_range_rover_yellow",25000*0.3];
 		};
 	};
 };
