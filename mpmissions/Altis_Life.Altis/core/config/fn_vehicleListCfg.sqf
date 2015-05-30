@@ -820,8 +820,8 @@ switch (_shop) do
         if(__GETC__(life_coplevel) > 6) then
         {
             _return pushBack ["I_Heli_light_03_unarmed_F",1000000];
-            _return pushBack ["B_Heli_Transport_01_F",1250000];
-            _return pushBack ["B_Heli_Transport_03_unarmed_F",200000];
+            _return pushBack ["B_Heli_Transport_01_F",50000];
+            _return pushBack ["B_Heli_Transport_03_unarmed_F",100000];
             _return pushBack ["dezkit_b206_fbi", 22500];
         };
 	};
