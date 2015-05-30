@@ -242,7 +242,7 @@ class Mission
 		year=2015;
 		month=7;
 		day=6;
-		hour=23;
+		hour=10;
 		minute=0;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
@@ -3205,7 +3205,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2681;
+		items=2686;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -3535,7 +3535,7 @@ class Mission
 		};
 		class Item31
 		{
-			position[]={16011.677,13.681469,16958.902};
+			position[]={16013.48,13.669482,16958.146};
 			azimut=-36.139599;
 			offsetY=0.69999999;
 			id=179;
@@ -22091,7 +22091,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Mercedes benz Händler"",life_fnc_vehicleShopMenu,[""civ_benz"",civilian,[""civ_good_2"",""civ_car_good_1_1""],""civ"",""Mercedes Benz Händler""]]; this setVariable[""realname"", ""Mercedes Benz Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Mercedes Benz"",life_fnc_vehicleShopMenu,[""civ_benz"",civilian,[""civ_good_2"",""civ_car_good_1_1""],""civ"",""Mercedes Benz Händler""]]; this setVariable[""realname"", ""Mercedes Benz Händler""];";
 		};
 		class Item1787
 		{
@@ -22121,7 +22121,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Aston Martin Händler"",life_fnc_vehicleShopMenu,[""civ_aston"",civilian,[""civ_good_aston""],""civ"",""Aston Martin Händler""]]; this setVariable[""realname"", ""Aston Martin Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Aston Martin"",life_fnc_vehicleShopMenu,[""civ_aston"",civilian,[""civ_good_aston""],""civ"",""Aston Martin Händler""]]; this setVariable[""realname"", ""Aston Martin Händler""];";
 		};
 		class Item1790
 		{
@@ -22151,7 +22151,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Lamborghini Händler"",life_fnc_vehicleShopMenu,[""civ_lambo"",civilian,[""civ_car_7""],""civ"",""Lamborghini Händler""]]; this setVariable[""realname"", ""Lamborghini Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Lamborghini"",life_fnc_vehicleShopMenu,[""civ_lambo"",civilian,[""civ_car_7""],""civ"",""Lamborghini Händler""]]; this setVariable[""realname"", ""Lamborghini Händler""];";
 		};
 		class Item1793
 		{
@@ -22171,7 +22171,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Dodge Händler"",life_fnc_vehicleShopMenu,[""civ_dodge"",civilian,[""civ_good_dodge""],""civ"",""Dodge Händler""]]; this setVariable[""realname"", ""Dodge Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Dodge"",life_fnc_vehicleShopMenu,[""civ_dodge"",civilian,[""civ_good_dodge""],""civ"",""Dodge Händler""]]; this setVariable[""realname"", ""Dodge Händler""];";
 		};
 		class Item1795
 		{
@@ -22211,7 +22211,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Ford Händler"",life_fnc_vehicleShopMenu,[""civ_ford"",civilian,[""civ_good_2_1_1_1"",""civ_car_good_1_1_1_1_1""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Ford Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Ford"",life_fnc_vehicleShopMenu,[""civ_ford"",civilian,[""civ_good_2_1_1_1"",""civ_car_good_1_1_1_1_1""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Ford Händler""];";
 		};
 		class Item1799
 		{
@@ -22241,7 +22241,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Ferrari Händler"",life_fnc_vehicleShopMenu,[""civ_ferrari"",civilian,[""civ_good_2_1_1""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Ferrari Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Ferrari"",life_fnc_vehicleShopMenu,[""civ_ferrari"",civilian,[""civ_good_2_1_1""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Ferrari Händler""];";
 		};
 		class Item1802
 		{
@@ -22266,12 +22266,12 @@ class Mission
 		class Item1804
 		{
 			position[]={3208.2832,2,12887.792};
-			azimut=-221.19673;
+			azimut=-221.19701;
 			id=1952;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""BMW Händler"",life_fnc_vehicleShopMenu,[""civ_bmw"",civilian,[""civ_car_1_1_1""],""civ"",""BMW Händler""]]; this setVariable[""realname"", ""BMW Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""BMW"",life_fnc_vehicleShopMenu,[""civ_bmw"",civilian,[""civ_car_1_1_1""],""civ"",""BMW Händler""]]; this setVariable[""realname"", ""BMW Händler""];";
 		};
 		class Item1805
 		{
@@ -22286,12 +22286,12 @@ class Mission
 		class Item1806
 		{
 			position[]={3206.9717,2,12878.991};
-			azimut=138.96597;
+			azimut=138.966;
 			id=1954;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""AudiHändler"",life_fnc_vehicleShopMenu,[""civ_audi"",civilian,[""civ_car_1_1_1_1""],""civ"",""Audi Händler""]]; this setVariable[""realname"", ""Audi Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Audi"",life_fnc_vehicleShopMenu,[""civ_audi"",civilian,[""civ_car_1_1_1_1""],""civ"",""Audi Händler""]]; this setVariable[""realname"", ""Audi Händler""];";
 		};
 		class Item1807
 		{
@@ -22351,7 +22351,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Bugatti Händler"",life_fnc_vehicleShopMenu,[""civ_bugatti"",civilian,[""civ_car_good_bugatti""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Bugatti Händler""];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Bugatti"",life_fnc_vehicleShopMenu,[""civ_bugatti"",civilian,[""civ_car_good_bugatti""],""civ"",""Ferrari Händler""]]; this setVariable[""realname"", ""Bugatti Händler""];";
 		};
 		class Item1813
 		{
@@ -31437,10 +31437,60 @@ class Mission
 			skill=0.60000002;
 			init="this allowdamage false;";
 		};
+		class Item2681
+		{
+			position[]={16022.809,13.602159,16947.154};
+			azimut=-395.24139;
+			id=2829;
+			side="EMPTY";
+			vehicle="Land_Cargo40_grey_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2682
+		{
+			position[]={16025.413,13.557672,16943.635};
+			azimut=-395.24139;
+			id=2830;
+			side="EMPTY";
+			vehicle="Land_Cargo40_grey_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2683
+		{
+			position[]={16032.791,13.536194,16948.455};
+			azimut=-125.218;
+			id=2831;
+			side="EMPTY";
+			vehicle="Land_Cargo40_orange_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2684
+		{
+			position[]={16035.586,13.535937,16950.477};
+			azimut=-125.218;
+			id=2832;
+			side="EMPTY";
+			vehicle="Land_Cargo40_white_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
+		class Item2685
+		{
+			position[]={16001.641,13.734756,16960.965};
+			azimut=-395.241;
+			id=2833;
+			side="EMPTY";
+			vehicle="Land_Cargo20_cyan_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this setVectorUp [0,0,1]; this setVectorDir [0,0,0]; ";
+		};
 	};
 	class Markers
 	{
-		items=372;
+		items=375;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -31809,6 +31859,7 @@ class Mission
 		{
 			position[]={14192.06,20.382635,16216.166};
 			name="police_hq_1";
+			text=" Hauptquartier";
 			type="flag_NATO";
 			a=1.25;
 			b=1.25;
@@ -34536,6 +34587,35 @@ class Mission
 			name="jail_junge";
 			text=" Staatsgefängnis";
 			type="mas_add_Marker_nato";
+			colorName="ColorBlue";
+		};
+		class Item372
+		{
+			position[]={27999.174,-0.014057841,2999.8647};
+			name="Marker Börse 1_1_2";
+			text=" Börse";
+			type="loc_Fountain";
+			colorName="ColorGreen";
+			a=2;
+			b=2;
+		};
+		class Item373
+		{
+			position[]={27999.994,0.044255111,2000.0674};
+			name="atm_marker_2_10_1_1_1";
+			text=" Skill";
+			type="loc_Fountain";
+			colorName="ColorRed";
+			a=2;
+			b=2;
+		};
+		class Item374
+		{
+			position[]={27999.93,0.033610877,999.89929};
+			name="asdasdasd";
+			text=" Post";
+			type="loc_BusStop";
+			colorName="ColorYellow";
 		};
 	};
 };
