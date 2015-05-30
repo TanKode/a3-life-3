@@ -767,7 +767,7 @@ switch (_shop) do
 		{
 			_return pushBack ["max_Police_Quadbike",750];
 			_return pushBack ["DAR_DAR_O2FirdebirdSSVPolice",2000];
-			_return pushBack ["DAR_ChargerPolice",1800]
+			_return pushBack ["DAR_ChargerPolice",1800];
 
 		};
 		if(__GETC__(life_coplevel) > 2) then
@@ -775,19 +775,19 @@ switch (_shop) do
 			_return pushBack ["DAR_TaurusPolice",3000];
 			_return pushBack ["DAR_ExplorerPolice",6000];
 			_return pushBack ["A3L_TaurusFPBLBPD",4000];
-			_return pushBack ["A3L_TaurusFPBPDGM",4000]
+			_return pushBack ["A3L_TaurusFPBPDGM",4000];
 		};
 
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_return pushBack ["A3L_EvoXFPBLBPD",6000];
 			_return pushBack ["IVORY_PRIUS_police",6000];
-			_return pushBack ["tcg_hrlycop",1000]
+			_return pushBack ["tcg_hrlycop",1000];
 		};
 
 		if(__GETC__(life_coplevel) > 4) then
         {
-        	_return pushBack ["DAR_CVPIPolice",6000]
+        	_return pushBack ["DAR_CVPIPolice",6000];
         };
 		if(__GETC__(life_coplevel) > 6) then
 		{
@@ -795,7 +795,7 @@ switch (_shop) do
 			_return pushBack ["DAR_EXplorerPoliceStealth",8000];
 			_return pushBack ["A3L_EvoXFPBLBSO",8000];
 			_return pushBack ["DAR_CVPIAuxiliary",8000];
-			_return pushBack ["cl3_e60_m5_black",20000]
+			_return pushBack ["cl3_e60_m5_black",20000];
 
 		};
 	};
@@ -803,23 +803,23 @@ switch (_shop) do
 	{
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return pushBack ["B_Heli_Light_01_F",12500]
+			_return pushBack ["B_Heli_Light_01_F",12500];
 		};
 		if(__GETC__(life_coplevel) > 3) then
 		{
-			_return pushBack ["dezkit_b206_police",22500]
+			_return pushBack ["dezkit_b206_police",22500];
 		};
 		if(__GETC__(life_coplevel) > 4) then
         {
         	_return pushBack ["ARMSCor_A109LUH_B",22500];
-        	_return pushBack ["O_Heli_Light_02_unarmed_F",100000]
+        	_return pushBack ["O_Heli_Light_02_unarmed_F",100000];
         };
         if(__GETC__(life_coplevel) > 6) then
         {
             _return pushBack ["I_Heli_light_03_unarmed_F",1000000];
             _return pushBack ["B_Heli_Transport_01_F",1250000];
             _return pushBack ["B_Heli_Transport_03_unarmed_F",200000];
-            _return pushBack ["dezkit_b206_fbi", 22500]
+            _return pushBack ["dezkit_b206_fbi", 22500];
         };
 	};
 
