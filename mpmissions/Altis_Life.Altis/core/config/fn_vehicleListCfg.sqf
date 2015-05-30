@@ -822,7 +822,7 @@ switch (_shop) do
             _return pushBack ["I_Heli_light_03_unarmed_F",1000000];
             _return pushBack ["B_Heli_Transport_01_F",50000];
             _return pushBack ["B_Heli_Transport_03_unarmed_F",100000];
-            _return pushBack ["dezkit_b206_fbi", 22500];
+            _return pushBack ["dezkit_b206_fbi", 2250];
         };
 	};
 
