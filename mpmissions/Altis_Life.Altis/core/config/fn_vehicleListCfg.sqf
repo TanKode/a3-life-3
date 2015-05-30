@@ -25,8 +25,12 @@ switch (_shop) do
 	 case "med_shop":
     {
         _return = [
-            ["DAR_TahoeEMS",30000],
-			["A3L_AmberLamps",50000],
+            ["A3L_Amberlamps",10000],
+			["max_ambulance",15000],
+			["IVORY_PRIUS_ems",8000],
+			["A3L_CVPILBFD",8000],
+			["DAR_TahoeEMS",5000],
+			["Jonzie_Ambulance",18000],
 			["sfp_wheelchair",500]
         ];
     };
@@ -35,14 +39,14 @@ switch (_shop) do
         if(license_med_air) then
         {
             _return = [
-                ["B_Heli_Light_01_F",50000],
-                ["O_Heli_Light_02_unarmed_F",75000],
-                ["I_Heli_light_03_unarmed_F",100000],
-                ["dezkit_b206_ems",150000],
-                ["ARMSCor_A109LUH_I",200000]
+                ["B_Heli_Light_01_F",8000],
+                ["ARMSCor_A109LUH_i",18000],
+                ["O_Heli_Light_02_unarmed_F", 18000],
+                ["I_Heli_light_03_unarmed_F",20000]
 			];
             if(license_med_mohawk) then {
-                _return pushBack ["I_Heli_Transport_02_F",125000];
+                _return pushBack ["I_Heli_Transport_02_F",80000];
+                _return pushBack ["0_Heli_transport_04_medevac_F",100000];
             };
         }
     };
