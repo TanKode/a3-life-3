@@ -718,7 +718,6 @@ switch (_shop) do
 			["C_Boat_Civil_01_F",22000],
 			["B_SDV_01_F",1000000],
             ["I_CBS_WaterShadow730_F",30000],
-            ["D41_Trawler",5000000+500000],
 			["jetski_epoch_blu",15000],
 			["Sab_sea_An2",3000000],
 			["Sab_sea2_An2",3000000],
