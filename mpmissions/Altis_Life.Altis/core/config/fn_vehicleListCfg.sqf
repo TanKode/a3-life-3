@@ -765,8 +765,8 @@ switch (_shop) do
 
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_return pushBack ["max_Police_Quadbike",400];
-			_return pushBack ["DAR_DAR_O2FirebirdSSVPolice",1800];
+			_return pushBack ["max_Police_Quadbike",100];
+			_return pushBack ["DAR_DAR_02FirebirdSSVPolice",1800];
 			_return pushBack ["DAR_ChargerPolice",1800];
 
 		};
@@ -795,7 +795,7 @@ switch (_shop) do
 			_return pushBack ["DAR_EXplorerPoliceStealth",8000];
 			_return pushBack ["A3L_EvoXFPBLBSO",8000];
 			_return pushBack ["DAR_CVPIAuxiliary",8000];
-			_return pushBack ["cl3_e60_m5_black",80000];
+			_return pushBack ["cl3_e60_m5_black",8000];
 
 		};
 	};
