@@ -24,7 +24,6 @@ class Mission
 		"A3_Structures_F_Mil_Helipads",
 		"A3_Structures_F_Mil_Cargo",
 		"A3_Structures_F_Civ_Lamps",
-		"A3_Characters_F_OPFOR",
 		"A3_Structures_F_Mil_BagBunker",
 		"A3_Structures_F_Naval_Buoys",
 		"A3_Weapons_F_Explosives",
@@ -3210,7 +3209,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9925.7627,243.33682,19380.984};
+					position[]={17098.068,26.331242,17077.875};
 					id=148;
 					side="WEST";
 					vehicle="B_recon_F";
@@ -31508,7 +31507,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=375;
+		items=377;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -33729,9 +33728,9 @@ class Mission
 		};
 		class Item273
 		{
-			position[]={5443.8872,25.093708,15024.991};
+			position[]={4780.9302,49.308071,13856.791};
 			name="peaches_1";
-			text="Pfandflaschen";
+			text="Pfirsichfeld";
 			type="loc_Tree";
 			colorName="ColorBlack";
 			a=2;
@@ -34634,6 +34633,26 @@ class Mission
 			text=" Post";
 			type="loc_BusStop";
 			colorName="ColorYellow";
+		};
+		class Item375
+		{
+			position[]={17228.617,32.761002,17067.242};
+			name="peaches_2";
+			text="Pfirsichfeld";
+			type="loc_Tree";
+			colorName="ColorBlack";
+			a=2;
+			b=2;
+		};
+		class Item376
+		{
+			position[]={17198.047,31.458195,17061.795};
+			name="peaches_3";
+			text="Pfirsichfeld";
+			type="loc_Tree";
+			colorName="ColorBlack";
+			a=2;
+			b=2;
 		};
 	};
 };
