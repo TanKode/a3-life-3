@@ -5199,7 +5199,7 @@ c<?xml version="1.0" encoding="utf-8"?>
 		<Key ID="STR_FSM_Paycheck">
 			<Original>You will receive your next paycheck in %1 minutes</Original>
 			<English>You will receive your next paycheck in %1 minutes</English>
-			<German>Du erhältst dein nächsten Harz4Satz %1 Minuten"</German>
+			<German>Du erhältst dein nächsten Hartz4Satz %1 Minuten"</German>
 			<French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
 			<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>		
 		</Key>
@@ -5213,7 +5213,7 @@ c<?xml version="1.0" encoding="utf-8"?>
 		<Key ID="STR_FSM_ReceivedPay">
 			<Original>You have received a paycheck of $%1</Original>
 			<English>You have received a paycheck of $%1</English>
-			<German>Du hast dein Harz4 in Höhe von $%1 erhalten</German>
+			<German>Du hast dein Hartz4 in Höhe von $%1 erhalten</German>
 			<French>Vous avez reçu un salaire de $%1</French>
 			<Italian>Hai ricevuto uno stipendio di €%1</Italian>
 		</Key>
