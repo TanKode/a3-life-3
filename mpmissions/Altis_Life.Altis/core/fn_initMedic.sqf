@@ -25,12 +25,12 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 
 switch(__GETC__(life_medicLevel)) do
 {
-	case 1: {life_RLP_paycheck = 4000;};
-	case 2: {life_RLP_paycheck = 4500;};
-	case 3: {life_RLP_paycheck = 5000;};
-	case 4: {life_RLP_paycheck = 6500;};
-	case 5: {life_RLP_paycheck = 7000;};
-	default {life_RLP_paycheck = 1000;};
+	case 1: {life_RLP_paycheck = 720;};
+	case 2: {life_RLP_paycheck = 720;};
+	case 3: {life_RLP_paycheck = 720;};
+	case 4: {life_RLP_paycheck = 720;};
+	case 5: {life_RLP_paycheck = 720;};
+	default {life_RLP_paycheck = 720;};
 };
 
 //Show Ranks

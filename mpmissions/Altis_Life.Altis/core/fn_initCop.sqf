@@ -18,18 +18,15 @@ if(life_blacklisted) exitWith
 
 switch(__GETC__(life_coplevel)) do
 {
-	case 1: {life_RLP_paycheck = 1000;};
-	case 2: {life_RLP_paycheck = 1250;};
-	case 3: {life_RLP_paycheck = 1500;};
-	case 4: {life_RLP_paycheck = 1750;};
-	case 5: {life_RLP_paycheck = 2000;};
-	case 6: {life_RLP_paycheck = 2250;};
-	case 7: {life_RLP_paycheck = 2500;};
-	case 8: {life_RLP_paycheck = 2750;};
-	case 9: {life_RLP_paycheck = 3000;};
-	case 10: {life_RLP_paycheck = 3250;};
-	case 11: {life_RLP_paycheck = 3500;};
-	default { life_RLP_paycheck = 1000; };
+	case 1: {life_RLP_paycheck = 720;};
+	case 2: {life_RLP_paycheck = 720;};
+	case 3: {life_RLP_paycheck = 720;};
+	case 4: {life_RLP_paycheck = 720;};
+	case 5: {life_RLP_paycheck = 720;};
+	case 6: {life_RLP_paycheck = 720;};
+	case 7: {life_RLP_paycheck = 720;};
+	case 8: {life_RLP_paycheck = 720;};
+	default { life_RLP_paycheck = 720; };
 };
 
 if((__GETC__(life_coplevel) == 0) && (__GETC__(life_adminlevel) == 0)) then {

@@ -5213,7 +5213,7 @@ c<?xml version="1.0" encoding="utf-8"?>
 		<Key ID="STR_FSM_ReceivedPay">
 			<Original>You have received a paycheck of $%1</Original>
 			<English>You have received a paycheck of $%1</English>
-			<German>Du hast dein Gehalt in Höhe von $%1 erhalten</German>
+			<German>Du hast dein Harz4 in Höhe von $%1 erhalten</German>
 			<French>Vous avez reçu un salaire de $%1</French>
 			<Italian>Hai ricevuto uno stipendio di €%1</Italian>
 		</Key>
