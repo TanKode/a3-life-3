@@ -119,7 +119,7 @@ switch(_shop) do
 			{
 				["Wachtmeister",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100],
+						["hgun_ACPC2_snds_F","Taser Pistole",100]
 					]
 				];
 			};
@@ -127,7 +127,7 @@ switch(_shop) do
 			{
 				["Kommissar",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100],
+						["hgun_ACPC2_snds_F","Taser Pistole",100]
 					]
 				];
 			};
@@ -135,7 +135,7 @@ switch(_shop) do
 			{
 				["Hauptkommissar",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100],
+						["hgun_ACPC2_snds_F","Taser Pistole",100]
 					]
 				];
 			};
@@ -143,7 +143,7 @@ switch(_shop) do
 			{
 				["Polizei-Ausbilder",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100],
+						["hgun_ACPC2_snds_F","Taser Pistole",100]
 					]
 				];
 			};
@@ -153,7 +153,7 @@ switch(_shop) do
 					[
 						["B_UAV_01_backpack_F","Drohne",2500],
 						["B_UavTerminal","UAV Terminal",500],
-						["arifle_sdar_F","Taser Gewehr",500],
+						["arifle_sdar_F","Taser Gewehr",500]
 					]
 				];
 			};
@@ -181,99 +181,7 @@ switch(_shop) do
 						["hgun_ACPC2_snds_F","Taser Pistole",100*5],
 						["9Rnd_45ACP_Mag","Taser Pistolen Magazin",50*5],
 						["arifle_sdar_F","Taser Gewehr",1000*5],
-						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100*5],
-                       //Rekrut
-						["SMG_02_F",nil,10000],
-						["30Rnd_9x21_Mag",nil,100*5],
-						["arifle_mas_mp5",nil,10000],
-						["30Rnd_mas_9x21_Stanag",nil,100*5],
-						//Wachtmeister
-						["arifle_mas_hk416",nil,20000],
-						["arifle_mas_m4",nil,20000],
-						["30Rnd_mas_556x45_Stanag",nil,100*5],
-						["arifle_MX_F",nil,20000],
-						["30Rnd_65x39_caseless_mag",nil,100*5],
-						//kommissar
-						["arifle_MXM_F",nil,30000],
-						["30Rnd_65x39_caseless_mag",nil,100*5],
-						["hlc_rifle_RU5562",nil,30000],
-						["hlc_30rnd_556x45_EPR",nil,100*5],
-						//Oberkomissar
-						["srifle_EBR_F",nil,40000],
-						["20Rnd_762x51_Mag",nil,100*5],
-						["srifle_DMR_03_F",nil,40000],
-						["20Rnd_762x51_Mag",nil,100*5],
-						//Hauptkomissar
-						["srifle_mas_hk417",nil,40000],
-						["20Rnd_mas_762x51_Stanag",nil,100*5],
-						["srifle_DMR_06_olive_F",nil,40000],
-						["20Rnd_762x51_Mag",nil,100*5],
-						//Bundespolizei
-						["srifle_mas_m110",nil,50000],
-						["20Rnd_mas_762x51_Stanag",nil,100*5],
-						["hlc_rifle_g3ka4",nil,50000],
-						["hlc_20rnd_762x51_b_G3",nil,100*5],
-						//SEK
-						["srifle_mas_sr25",nil,60000],
-						["20Rnd_mas_762x51_Stanag",nil,100*5],
-						["srifle_mas_m24",nil,60000],
-						["5Rnd_mas_762x51_Stanag",nil,100*5],
-						["arifle_mas_ak_74m_sf",nil,60000],
-						["30Rnd_mas_545x39_mag",nil,100*5],
-						//Schaldämpfer
-						["muzzle_snds_H",nil,5000],
-						["muzzle_snds_L",nil,5000],
-						["muzzle_snds_M",nil,5000],
-						["muzzle_snds_B",nil,5000],
-						["muzzle_mas_snds_SHc",nil,5000],
-						["hlc_muzzle_556NATO_KAC",nil,5000],
-						["muzzle_mas_snds_SM",nil,5000],
-						["bipod_01_F_blk",nil,5000],
-						//gummigeschoss
-						["arifle_MXC_F","Gummigeschoss",30000],
-						["30Rnd_65x39_caseless_mag","Gummimunition",500],
-
-						["SmokeShellGreen","Rauchgranate",1000*5],
-						["HandGrenade_Stone","Blendgranate",1000*5],
-                        ["optic_KHS_old",nil,800*5],
-                        ["optic_AMS_khk",nil,800*5],
-						["optic_ACO_grn",nil,800*5],
-						["optic_mas_ACO_grn_camo",nil,800*5],
-						["optic_mas_Aco_camo",nil,800*5],
-						["optic_Aco",nil,800*5],
-						["optic_Aco_smg",nil,800*5],
-						["optic_mas_acog",nil,800*5],
-						["optic_mas_acog_c",nil,800*5],
-						["optic_mas_acog_eo",nil,800*5],
-						["optic_mas_acog_eo_c",nil,800*5],
-						["optic_mas_acog_rd",nil,800*5],
-						["optic_mas_acog_rd_c",nil,800*5],
-						["optic_mas_aim",nil,800*5],
-						["optic_mas_aim_c",nil,800*5],
-						["optic_Arco",nil,800*5],
-						["optic_mas_Arco_blk",nil,800*5],
-						["optic_mas_Arco_camo",nil,800*5],
-						["optic_DMS",nil,800*5],
-						["optic_Holosight",nil,800*5],
-						["optic_mas_Holosight_blk",nil,800*5],
-						["optic_mas_Holosight_camo",nil,800*5],
-						["optic_mas_DMS",nil,800*5],
-						["optic_mas_DMS_c",nil,800*5],
-						["optic_LRPS",nil,800*5],
-						["optic_mas_handle",nil,800*5],
-						["optic_Holosight_smg",nil,800*5],
-						["optic_MRCO",nil,800*5],
-						["optic_mas_MRCO_camo",nil,800*5],
-						["optic_NVS",nil,800*5],
-						["optic_Hamr",nil,800*5],
-						["optic_mas_Hamr_camo",nil,800*5],
-						["optic_SOS",nil,800*5],
-						["optic_mas_zeiss",nil,800*5],
-						["optic_mas_zeiss_c",nil,800*5],
-						["optic_mas_zeiss_eo",nil,800*5],
-						["optic_mas_zeiss_eo_c",nil,800*5],
-						["B_UAV_01_backpack_F",nil,1000],
-						["B_UavTerminal",nil,1000]
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100*5]
 					]
 				];
 			};
