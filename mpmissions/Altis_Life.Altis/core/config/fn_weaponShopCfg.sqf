@@ -726,7 +726,7 @@ switch(_shop) do
 		{
 			case (playerSide != independent): {"Du bist kein Sanitaeter"};
 			default {
-				["EMS Handel",
+				["EMS Handel",//Medic
 					[
 						["ItemRadio","Smartphone",10],
 						["ItemGPS",nil,10],
@@ -757,7 +757,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"Du hast keine Rebellenlizenz!"};
 			default
 			{
-				["RLP Waffenkammer",
+				["RLP Waffenkammer",//Rebellenlager
 					[
 						["arifle_MK20_plain_F","MK20",90000],
 						["30Rnd_556x45_Stanag","MK20 Mag",9000],

@@ -15,18 +15,6 @@ if(_shooter isKindOf "Man" && alive player) then
 	if(!life_istazed) then
 	{
 		life_istazed = true;
-				[] spawn
-        		{
-        			for "_i" from 0 to 10 do
-        			{
-
-        				"colorCorrections" ppEffectEnable true;
-        				"colorCorrections" ppEffectAdjust [1, 1, 0, [1,0,0,0.4+(random(0.5))], [1,1,1,1], [1,1,1,1]];
-        				"colorCorrections" ppEffectCommit 1;
-        				sleep 1;
-        			};
-        		};
-
 		_curWep = currentWeapon player;
 		_curMags = magazines player;
 		_attach = if(primaryWeapon player != "") then {primaryWeaponItems _unit} else {[]};
@@ -70,9 +58,7 @@ if(_shooter isKindOf "Man" && alive player) then
 			detach player;
 		};
 		life_istazed = false;
-		"colorCorrections" ppEffectEnable false;
 		player allowDamage true;
-		sleep 10;
 		disableUserInput false;
 
 	};
@@ -81,5 +67,4 @@ if(_shooter isKindOf "Man" && alive player) then
 {
 	_unit allowDamage true;
 	life_iztazed = false;
-	"colorCorrections" ppEffectEnable false;
 };
