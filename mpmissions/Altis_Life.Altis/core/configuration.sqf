@@ -135,25 +135,25 @@ switch (playerSide) do
 {
 	case west:
 	{
-		life_RLP_atmgeld = 25000; //Starting Bank Money
-		life_RLP_paycheck = 1000;
+		life_RLP_atmgeld = 100000; //Starting Bank Money    Polizei
+		life_RLP_paycheck = 500;
 	};
 	case civilian:
 	{
-		life_RLP_atmgeld = 25000; //Starting Bank Money
-		life_RLP_paycheck = 500; //Paycheck Amount
+		life_RLP_atmgeld = 7500; //Starting Bank Money   ZIVIS
+		life_RLP_paycheck = 250; //Paycheck Amount
 	};
 
 	case independent:
 	{
-		life_RLP_atmgeld = 25000;
-		life_RLP_paycheck = 1000;
+		life_RLP_atmgeld = 100000;           //Medic
+		life_RLP_paycheck = 500;
 	};
 
 	case east:
 	{
-		life_RLP_atmgeld = 25000; //Starting Bank Money
-		life_RLP_paycheck = 1000; //Paycheck Amount
+		life_RLP_atmgeld = 100000; //Starting Bank Money  ADAC
+		life_RLP_paycheck = 500; //Paycheck Amount
 	};
 };
 
