@@ -811,7 +811,7 @@ switch(_shop) do
 						["bipod_02_F_tan","Zweibein Tan CSAT",15000],
 						["bipod_02_F_hex","Zweibein Hex CSAT",15000],
 						["bipod_03_F_blk","Zweibein Black AAF",15000],
-						["optic_KHS_old","Kahlia Old",5000]
+						["bipod_03_F_oli","Zweibein Olive AAF",15000]
 
 					]
 				];
