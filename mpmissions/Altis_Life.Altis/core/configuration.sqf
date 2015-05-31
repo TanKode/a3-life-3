@@ -116,7 +116,7 @@ life_RLP_handgeld = 0;
 __CONST__(life_impound_car,1500);
 __CONST__(life_impound_boat,2000);
 __CONST__(life_impound_air,2500);
-life_istazed = true;
+life_istazed = false;
 RLP_gummi = false;
 life_my_gang = ObjNull;
 life_god = false; //Add this
