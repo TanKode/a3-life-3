@@ -279,6 +279,13 @@ switch(_shop) do
 						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
 						["arifle_MXM_F","MXM",7500],
 						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//HauptKomissar
+						["srifle_EBR_F","Mk18",8500],
+						["20Rnd_762x51_Mag","MK18 Mag",1000],
+						["srifle_mas_m110","M110",8500],
+						["20Rnd_762x51_Mag","M110 Mag",1000],
+						["srifle_DMR_03_F","MK-1 EMR",9000],
+						["20Rnd_762x51_Mag","MK-1 EMR Mag",1000],
 						//Extras
 						["acc_pointer_IR","Laiserpointer",500],
 						["acc_flashlight","Taschenlampe",500],
@@ -350,6 +357,13 @@ switch(_shop) do
 						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
 						["arifle_MXM_F","MXM",7500],
 						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//HauptKomissar
+						["srifle_EBR_F","Mk18",8500],
+						["20Rnd_762x51_Mag","MK18 Mag",1000],
+						["srifle_mas_m110","M110",8500],
+						["20Rnd_762x51_Mag","M110 Mag",1000],
+						["srifle_DMR_03_F","MK-1 EMR",9000],
+						["20Rnd_762x51_Mag","MK-1 EMR Mag",1000],
 						//PolizeiAusbilder
 						["hlc_rifle_SAMR","LAR 15",6000],
 						["30Rnd_556x45Stanag","LAR Mag",500],
@@ -432,6 +446,13 @@ switch(_shop) do
 						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
 						["arifle_MXM_F","MXM",7500],
 						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//HauptKomissar
+						["srifle_EBR_F","Mk18",8500],
+						["20Rnd_762x51_Mag","MK18 Mag",1000],
+						["srifle_mas_m110","M110",8500],
+						["20Rnd_762x51_Mag","M110 Mag",1000],
+						["srifle_DMR_03_F","MK-1 EMR",9000],
+						["20Rnd_762x51_Mag","MK-1 EMR Mag",1000],
 						//PolizeiAusbilder
 						["hlc_rifle_SAMR","LAR 15",6000],
 						["30Rnd_556x45Stanag","LAR Mag",500],
@@ -518,6 +539,13 @@ switch(_shop) do
 						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
 						["arifle_MXM_F","MXM",7500],
 						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//HauptKomissar
+						["srifle_EBR_F","Mk18",8500],
+						["20Rnd_762x51_Mag","MK18 Mag",1000],
+						["srifle_mas_m110","M110",8500],
+						["20Rnd_762x51_Mag","M110 Mag",1000],
+						["srifle_DMR_03_F","MK-1 EMR",9000],
+						["20Rnd_762x51_Mag","MK-1 EMR Mag",1000],
 						//PolizeiAusbilder
 						["hlc_rifle_SAMR","LAR 15",6000],
 						["30Rnd_556x45Stanag","LAR Mag",500],
