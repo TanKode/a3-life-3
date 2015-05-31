@@ -55,22 +55,6 @@ case "catshark": { _profName = "Fishing_Prof";};
 case "turtle": { _profName = "Fishing_Prof";};
 case "gas": { _profName = "Gas_Prof";};
 case "gasv": { _profName = "Gas_Prof";};
-case "pfandflascheu": { _profName = "Pfandflasche_Prof";};
-case "pfandflaschep": { _profName = "Pfandflasche_Prof";};
-case "datenu": { _profName = "daten_Prof";};
-case "datenp": { _profName = "daten_Prof";};
-case "datennsau": { _profName = "datennsa_Prof";};
-case "datennsap": { _profName = "datennsa_Prof";};
-case "reichsgoldu": { _profName = "reichsgold_Prof";};
-case "reichsgoldp": { _profName = "reichsgold_Prof";};
-case "erdenu": { _profName = "erden_Prof";};
-case "erdenp": { _profName = "erden_Prof";};
-case "bernsteinu": { _profName = "bernstein_Prof";};
-case "bernsteinp": { _profName = "bernstein_Prof";};
-case "reliefenu": { _profName = "reliefen_Prof";};
-case "reliefenp": { _profName = "reliefen_Prof";};
-case "uranuweu": { _profName = "uranuwe_Prof";};
-case "uranuwep": { _profName = "uranuwe_Prof";};
  
 //license to text
 case "Heroin_Prof": {_profName = "Heroin"; };
@@ -103,14 +87,6 @@ case "Ticket_Prof": { _profName = "Ticket(Cop)"; };
 case "Arrest_Prof": { _profName = "Einbuchten(Cop)"; };
 case "Impound_Prof": { _profName = "Aufräumen(Cop)"; };
 case "Gas_Prof": { _profName = "Bohrmeister"; };
-case "Gas_pfandflasche": { _profName = "Pfandmeister"; };
-case "Gas_daten": { _profName = "DatenMeisterBND"; };
-case "Gas_datennsa": { _profName = "DatenMeisterNSA"; };
-case "Gas_reichsgold": { _profName = "ReichsgoldSammler"; };
-case "Gas_erden": { _profName = "ErdenSammler"; };
-case "Gas_bernstein": { _profName = "BernsteinSammler"; };
-case "Gas_reliefen": { _profName = "ReliefenSammler"; };
-case "Gas_uranuwe": { _profName = "UranUSammler"; };
 
 //text to license
 case "Heroin": {_profName = "Heroin_Prof"; };
@@ -143,14 +119,6 @@ case "Ticket(Cop)": { _profName = "Ticket_Prof"; };
 case "Einbuchten(Cop)": { _profName = "Arrest_Prof"; };
 case "Aufräumen(Cop)": { _profName = "Impound_Prof"; };
 case "Bohrmeister": { _profName = "Gas_Prof"; };
-case "Flaschen": { _profName = "Gas_Pfandflasche"; };
-case "Daten": { _profName = "Gas_daten"; };
-case "Datennsa": { _profName = "Gas_datennsa"; };
-case "Reichsgold": { _profName = "Gas_reichsgold"; };
-case "Erden": { _profName = "Gas_erden"; };
-case "Bernstein": { _profName = "Gas_bernstein"; };
-case "Reliefen": { _profName = "Gas_reliefen"; };
-case "UranUwe": { _profName = "Gas_uranuwe"; };
 default{""};
 };
  

@@ -161,7 +161,7 @@ switch(_resource) do {
 		_resourceZones = ["silber_1"];
 		_resourcetypeof = 2;
 	};
-	case ("holzu") : {
+	case ("holzu") :{
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["holz_01"];
