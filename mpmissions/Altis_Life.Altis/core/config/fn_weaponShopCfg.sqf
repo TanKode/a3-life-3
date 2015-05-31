@@ -64,12 +64,15 @@ switch(_shop) do
 				["Anwaerter",
 					[
 						//Waffen und Munition
-						["hgun_ACPC_F","ACP",100],
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
 						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
 						["arifle_mas_g36c","G36C",1000],
 						["30Rnd_556x45_Stanag","G36C Mag",100],
 						["hlc_rifle_hk53","HK53",1000],
 						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
 						//Extras
 						["acc_pointer_IR","Laiserpointer",500],
 						["acc_flashlight","Taschenlampe",500],
@@ -119,7 +122,63 @@ switch(_shop) do
 			{
 				["Wachtmeister",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100]
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
@@ -127,7 +186,70 @@ switch(_shop) do
 			{
 				["Kommissar",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100]
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Komissar
+						["arifle_mas_hk416","HK416",5000],
+						["30Rnd_556x45_Stanag","HK416 Mag",500],
+						["hlc_rifle_auga3_b","AUG A3",5000],
+						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
+						["arifle_MXM_F","MXM",7500],
+						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
@@ -135,7 +257,70 @@ switch(_shop) do
 			{
 				["Hauptkommissar",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100]
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Komissar
+						["arifle_mas_hk416","HK416",5000],
+						["30Rnd_556x45_Stanag","HK416 Mag",500],
+						["hlc_rifle_auga3_b","AUG A3",5000],
+						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
+						["arifle_MXM_F","MXM",7500],
+						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
@@ -143,7 +328,81 @@ switch(_shop) do
 			{
 				["Polizei-Ausbilder",
 					[
-						["hgun_ACPC2_snds_F","Taser Pistole",100]
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Komissar
+						["arifle_mas_hk416","HK416",5000],
+						["30Rnd_556x45_Stanag","HK416 Mag",500],
+						["hlc_rifle_auga3_b","AUG A3",5000],
+						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
+						["arifle_MXM_F","MXM",7500],
+						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//PolizeiAusbilder
+						["hlc_rifle_SAMR","LAR 15",6000],
+						["30Rnd_556x45Stanag","LAR Mag",500],
+						["arifle_MXC_Black_F","MXC Black",7000],
+						["30Rnd_65x39_caseless_mag","MXC Mag",500],
+						["srifle_mas_hk417","HK417",8500],
+						["20Rnd_762x51","HK417 Mag",1000],
+						["srifle_DMR_06_olive_F","MK14",9000],
+						["20Rnd_762x51","MK14 Mag",1000],
+						["srifle_mas_m24_v","M24",10000],
+						["5Rnd_mas_762x51_Stanag","M24 Mag",1500],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
@@ -151,9 +410,85 @@ switch(_shop) do
 			{
 				["Bundespolizei/SEK",
 					[
-						["B_UAV_01_backpack_F","Drohne",2500],
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Komissar
+						["arifle_mas_hk416","HK416",5000],
+						["30Rnd_556x45_Stanag","HK416 Mag",500],
+						["hlc_rifle_auga3_b","AUG A3",5000],
+						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
+						["arifle_MXM_F","MXM",7500],
+						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//PolizeiAusbilder
+						["hlc_rifle_SAMR","LAR 15",6000],
+						["30Rnd_556x45Stanag","LAR Mag",500],
+						["arifle_MXC_Black_F","MXC Black",7000],
+						["30Rnd_65x39_caseless_mag","MXC Mag",500],
+						["srifle_mas_hk417","HK417",8500],
+						["20Rnd_762x51","HK417 Mag",1000],
+						["srifle_DMR_06_olive_F","MK14",9000],
+						["20Rnd_762x51","MK14 Mag",1000],
+						["srifle_mas_m24_v","M24",10000],
+						["5Rnd_mas_762x51_Stanag","M24 Mag",1500],
+						//BundesPolizei/SEK
+						["B_UAV_01_backpack_F","UAV Drohne",2500],
 						["B_UavTerminal","UAV Terminal",500],
-						["arifle_sdar_F","Taser Gewehr",500]
+						["HandGrenade_Stone","Blendgranate",300],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
@@ -161,7 +496,85 @@ switch(_shop) do
 			{
 				["P.Chef/Leiter",
 					[
-						//["srifle_mas_sr25",nil,60000],
+						//Waffen und Munition
+						//Anwärter
+						["hgun_ACPC2_snds_F","ACP",100],
+						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
+						["arifle_mas_g36c","G36C",1000],
+						["30Rnd_556x45_Stanag","G36C Mag",100],
+						["hlc_rifle_hk53","HK53",1000],
+						["hlc_30rnd_556x45_b_HK33","HK53 Mag",100],
+						["arifle_sdar_F","Taser Gewehr",1000],
+						["20Rnd_556x45_UW_mag","Taser Gewehr Magazin",100],
+						//Wachtmeister
+						["arifle_mas_m4","M4A1",5000],
+						["30Rnd_556x45_Stanag","M4A1 Mag",500],
+						["arifle_mx_F","MX",7000],
+						["30Rnd_65x39_caseless_mag","MX Mag",500],
+						//Komissar
+						["arifle_mas_hk416","HK416",5000],
+						["30Rnd_556x45_Stanag","HK416 Mag",500],
+						["hlc_rifle_auga3_b","AUG A3",5000],
+						["hlc_30Rnd_556x45_B_AUG","AUG A3 Mag",500],
+						["arifle_MXM_F","MXM",7500],
+						["30Rnd_65x39_caseless_mag","MXM Mag",500],
+						//PolizeiAusbilder
+						["hlc_rifle_SAMR","LAR 15",6000],
+						["30Rnd_556x45Stanag","LAR Mag",500],
+						["arifle_MXC_Black_F","MXC Black",7000],
+						["30Rnd_65x39_caseless_mag","MXC Mag",500],
+						["srifle_mas_hk417","HK417",8500],
+						["20Rnd_762x51","HK417 Mag",1000],
+						["srifle_DMR_06_olive_F","MK14",9000],
+						["20Rnd_762x51","MK14 Mag",1000],
+						["srifle_mas_m24_v","M24",10000],
+						["5Rnd_mas_762x51_Stanag","M24 Mag",1500],
+						//BundesPolizei/SEK
+						["B_UAV_01_backpack_F","UAV Drohne",2500],
+						["B_UavTerminal","UAV Terminal",500],
+						["HandGrenade_Stone","Blendgranate",300],
+						//Extras
+						["acc_pointer_IR","Laiserpointer",500],
+						["acc_flashlight","Taschenlampe",500],
+						//Schalldämpfer
+						["muzzle_snds_H","Schalldämpfer 6.5mm",1000],
+						["muzzle_snds_L","Schalldämpfer 9mm",1000],
+						["muzzle_snds_M","Schalldämpfer 5.56mm",1000],
+						["muzzle_snds_B","Schalldämpfer 7.62mm",1000],
+						["muzzle_mas_snds_SM","Schalldämpfer m4, m16, HK",1000],
+						["muzzle_mas_snds_SH","Schalldämpfer M24",1000],
+						["hlc_muzzle_556nato_KAC","Schalldämpfer Jack C.",1000],
+						//Visire
+						["optic_Hamr","RCO",500],
+						["optic_Arco","ARCO",500],
+						["optic_Holosight","Holosight",500],
+						["optic_Aco","ACO",500],
+						["optic_ACO_grn","ACO Grün",500],
+						["optic_MRCO","MRCO",500],
+						["optic_SOS","SOS",500],
+						["optic_DMS","DMS",500],
+						["optic_mas_zeiss","Zeiss",500],
+						["optic_mas_zeiss_eo","Zeiss Holo",500],
+						["optic_mas_DMS","Leupold",500],
+						["optic_mas_acog","Acog",500],
+						["optic_mas_acog_eo","Acog Holo",500],
+						["optic_mas_handle","M4 Handle",500],
+						["optic_mas_aim","Aimpoint",500],
+						["optic_mas_pso","PSO",500],
+						["optic_mas_pso_eo","PSO Holo",500],
+						["optic_mas_pso_nv","PSO Sniper",500],
+						["optic_AMS","AMS",500],
+						["optic_KHS_blk","Kahlia Black",500],
+						["optic_KHS_tan","Kahlia Tan",500],
+						//Zweibein
+						["bipod_01_F_snd","Zweibein Sand",1500],
+						["bipod_01_F_blk","Zweibein Schw.",1500],
+						["bipod_01_F_mtp","Zweibein MTP",1500],
+						["bipod_02_F_blk","Zweibein Schw, CSAT",1500],
+						["bipod_02_F_tan","Zweibein Tan CSAT",1500],
+						["bipod_02_F_hex","Zweibein Hex CSAT",1500],
+						["bipod_03_F_blk","Zweibein Black AAF",1500],
+						["bipod_03_F_oli","Zweibein Olive AAF",1500]
 					]
 				];
 			};
