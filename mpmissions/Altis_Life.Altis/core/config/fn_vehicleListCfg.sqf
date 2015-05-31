@@ -651,7 +651,7 @@ switch (_shop) do
 		    ["RDS_Van_01_transport_F",14000],
 		    ["C_Van_01_fuel_F",17000],
 		    ["C_Van_01_box_F",20000],
-		    ["O_Truck_02_transport_F",40000],
+		    ["I_Truck_02_transport_F",40000],
 		    ["DAR_4X4",40000],
 		    ["O_Truck_02_fuel_F",70000],
 		    ["O_Truck_02_covered_F",70000],

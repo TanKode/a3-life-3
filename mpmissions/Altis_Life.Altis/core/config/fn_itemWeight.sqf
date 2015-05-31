@@ -21,7 +21,7 @@ switch (_item) do
 	case "heroinp": {3};
 	case "cannabis": {6};
 	case "marijuana": {3};
-	case "apple": {3};
+	case "apple": {1};
 	case "water": {1};
 	case "rabbit": {1};
 	case "salema": {2};
