@@ -5199,7 +5199,7 @@ c<?xml version="1.0" encoding="utf-8"?>
 		<Key ID="STR_FSM_Paycheck">
 			<Original>You will receive your next paycheck in %1 minutes</Original>
 			<English>You will receive your next paycheck in %1 minutes</English>
-			<German>Du erhältst deinen nächsten Lohn in %1 Minuten"</German>
+			<German>Du erhältst dein nächsten Harz4Satz %1 Minuten"</German>
 			<French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
 			<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>		
 		</Key>
