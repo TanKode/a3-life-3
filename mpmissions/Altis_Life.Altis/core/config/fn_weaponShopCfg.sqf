@@ -30,7 +30,7 @@ switch(_shop) do
 				["Altis Polizeihändler",
 					[
 						["NVGoggles_OPFOR","Nachtsicht Klein",50],
-						["A3_GPNVG18_BLK_F,100,Nachtsicht Gross",100],
+						["A3_GPNVG18_BLK_F","Nachtsicht Gross",100],
 						["FirstAidKit","Verbandkasten",250],
 						["ToolKit","Werkzeugkasten",250],
 						["ItemMap","Karte von Altis",50],
@@ -39,7 +39,7 @@ switch(_shop) do
 						["ItemRadio","Handy",80],
 						["ItemWatch","Uhr",55],
 						["itemCompass","Kompass",50],
-						//["Rangefinder_mas_h","EntfernungsmesserNachtsicht",20000],
+						["Rangefinder_mas_h","EntfernungsmesserNachtsicht",20000],
 						["SmokeShellYellow","Rauchgranate Gelb",50],
 						["SmokeShellGreen","Tränengas",300],
 						//["HandGrenade_Stone","Blendgranate",300],
