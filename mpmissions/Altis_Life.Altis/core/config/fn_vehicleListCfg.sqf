@@ -85,7 +85,6 @@ switch (_shop) do
 			["C_Offroad_01_F",10000],
 			["C_Van_01_transport_F",50000],
 			["C_Hatchback_01_sport_F",67000],
-			["DAR_4X4",130000],
 			["rds_gaz24_civ_03",750],
 			["rds_gaz24_civ_02",800],
 			["rds_lada_civ_01",750],
@@ -198,7 +197,7 @@ switch (_shop) do
 			["cl3_e60_m5_white",1000000],
 			["cl3_z4_2008_white",1000000],
 			["cl3_e60_m5_yellow",1000000],
-			["cl3_z4_2008_yellow",1000000]
+			["cl3_z4_2008_yellow",1000001]
         ];
 	};
 
