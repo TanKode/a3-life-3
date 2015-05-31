@@ -522,7 +522,7 @@ resource_list = [
 sell_array =
 [
 
-	["apple",5],
+	["apple",25],
 	["salema",15],
 	["ornate",20],
 	["mackerel",30],
