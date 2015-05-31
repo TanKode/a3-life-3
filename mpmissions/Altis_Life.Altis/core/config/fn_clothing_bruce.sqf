@@ -19,17 +19,17 @@ switch (_filter) do
 	{
 		[
 		["U_C_Poloshirt_blue","Blaues Polohemd",250],
-		["U_C_Poloshirt_burgundy","Burgunderfarbenes Polohemd",275],
+		["U_C_Poloshirt_burgundy","Burgunderfarbenes Polohemd",205],
 		["U_C_Poloshirt_redwhite","Rotweißes Polohemd",150],
 		["U_C_Poloshirt_salmon","Rosafarbendes Polohemd",175],
 		["U_C_Poloshirt_stripped","Gestreiftes Polohemd",125],
-		["U_C_Poloshirt_tricolour","Dreifarbiges Polohemd",350],
+		["U_C_Poloshirt_tricolour","Dreifarbiges Polohemd",250],
 		["U_C_Poor_2","Standartkleidung",250],
-		["U_IG_Guerilla2_2","Grün gestreiftes Shirt & Hose",650],
+		["U_IG_Guerilla2_2","Grün gestreiftes Shirt & Hose",250],
 		["U_IG_Guerilla3_1","Braune Jacke & Hose",735],
-		["U_IG_Guerilla2_3","Landstreicher Outfit",1200],
-		["U_C_HunterBody_grn","Jägerkleidung",1500],
-		["U_C_WorkerCoveralls","Mechaniker Overall",2500],
+		["U_IG_Guerilla2_3","Landstreicher Outfit",200],
+		["U_C_HunterBody_grn","Jägerkleidung",150],
+		["U_C_WorkerCoveralls","Mechaniker Overall",50],
 		["rds_uniform_priest",nil,250],
 		["rds_uniform_assistant",nil,250],
 		["rds_uniform_doctor",nil,250],
@@ -42,13 +42,13 @@ switch (_filter) do
 		["rds_uniform_citizen2",nil,250],
 		["rds_uniform_citizen3",nil,250],
 		["rds_uniform_citizen4",nil,250],
-		["rds_uniform_Functionary1",nil,10000],
-		["rds_uniform_Functionary2",nil,10000],
-		["U_OrestesBody","Strandoutfit",1100],
-		["U_NikosAgedBody","Alltagskleidung",5000],
-		["U_C_Journalist","Pressekleidung",5000],
-		["U_OG_Guerilla2_1","Wahnschaffe-Kleidung",5000],
-		["U_BG_Guerilla2_2","Wahnschaffe-Kleidung",5000]
+		["rds_uniform_Functionary1",nil,250],
+		["rds_uniform_Functionary2",nil,250],
+		["U_OrestesBody","Strandoutfit",280],
+		["U_NikosAgedBody","Alltagskleidung",250],
+		["U_C_Journalist","Pressekleidung",260],
+		["U_OG_Guerilla2_1","Wahnschaffe-Kleidung",100],
+		["U_BG_Guerilla2_2","Wahnschaffe-Kleidung",100]
 
 		];
 	};
@@ -136,14 +136,14 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_AssaultPack_cbr",nil,2500],
-			["B_Kitbag_mcamo",nil,4500],
-			["B_TacticalPack_oli",nil,3500],
-			["B_FieldPack_ocamo",nil,3000],
-			["B_Bergen_sgg",nil,4500],
-			["B_Kitbag_cbr",nil,4500],
-			["B_Carryall_oli",nil,5000],
-			["B_Carryall_khk",nil,5000]
+			["B_AssaultPack_cbr",nil,500],
+			["B_Kitbag_mcamo",nil,500],
+			["B_TacticalPack_oli",nil,500],
+			["B_FieldPack_ocamo",nil,500],
+			["B_Bergen_sgg",nil,500],
+			["B_Kitbag_cbr",nil,500],
+			["B_Carryall_oli",nil,500],
+			["B_Carryall_khk",nil,500]
 		];
 	};
 };

@@ -540,7 +540,7 @@ sell_array =
 	["handcuffkey",1],
 	["pickaxe",5],
 	["redgull",5],
-	["peach",5],
+	["peach",25],
 	["fuelF",10],
 	["spikeStrip",1],
 	["tracker",1],
