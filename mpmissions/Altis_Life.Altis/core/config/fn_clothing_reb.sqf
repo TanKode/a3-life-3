@@ -20,8 +20,6 @@ switch (_filter) do
 		[
 			["U_IG_leader","Rebellenanführer Outfit",22500],
 			["U_IG_Guerilla1_1",nil,10000],
-			["U_OG_Guerilla2_1","Wahnschaffe-Kleidung",5000],
-            ["U_BG_Guerilla2_2","Wahnschaffe-Kleidung",5000],
 			["U_I_G_Story_Protagonist_F",nil,12500],
 			["U_I_G_resistanceLeader_F",nil,15000],
 			["U_O_SpecopsUniform_ocamo",nil,17500],
