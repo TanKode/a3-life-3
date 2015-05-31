@@ -29,23 +29,25 @@ switch(_shop) do
 			{
 				["Altis Polizeihändler",
 					[
-						["Binocular",nil,150*5],
-						["a3_gpnvg18_f",nil,500*5],
-						["Rangefinder",nil,2000*5],
-						["ItemRadio","Smartphone",100*5],
-						["ItemGPS",nil,100*5],
-						["ToolKit",nil,5000],
-						["FirstAidKit",nil,150*5],
-						["Medikit",nil,1000*5],
-						["ItemWatch",nil,25*5],
-						["ItemCompass",nil,25*5],
-						["ItemMap",nil,25*5],
-						["acc_flashlight",nil,250*5],
-						["acc_pointer_IR",nil,250*5],
-						["SmokeShellGreen","Tränengas",1000*5],
-						["HandGrenade_Stone","Blendgranate",1000*5],
-						["Chemlight_yellow",nil,200*5],
-						["SmokeShellyellow",nil,200*5]
+						["NVGoggles_OPFOR","Nachtsicht Klein",50],
+						["A3_GPNVG18_BLK_F,100,Nachtsicht Gross",100],
+						["FirstAidKit","Verbandkasten",250],
+						["ToolKit","Werkzeugkasten",250],
+						["ItemMap","Karte von Altis",50],
+						["ItemGPS","GPS",50],
+						["Rangefinder","Entfernungsmesser",50],
+						["ItemRadio","Handy",80],
+						["ItemWatch","Uhr",55],
+						["itemCompass","Kompass",50],
+						//["Rangefinder_mas_h","EntfernungsmesserNachtsicht",20000],
+						["SmokeShellYellow","Rauchgranate Gelb",50],
+						["SmokeShellGreen","Tränengas",300],
+						//["HandGrenade_Stone","Blendgranate",300],
+						["Chemlight_yellow","Knicklicht Gelb",25],
+						["Chemlight_red","Knicklicht Rot",25],
+						["Chemlight_blue","Knicklicht Blau",25],
+						//["acc_flashlight","WaffenLampe",400],
+						//["acc_pointer_IR","WaffenLaserPointer",500]
 					]
 				];
 			};
