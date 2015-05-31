@@ -50,7 +50,7 @@ switch (_mode) do
 			case "zigarren": {_var = "license_civ_zigarren"};
 			case "rum": {_var = "license_civ_rum"};
 			case "holz": {_var = "license_civ_holz"};
-			case "schwefel": {_var = "license_civ_schwefel"};
+			case "pfand": {_var = "license_civ_pfand"};
 			case "silber": {_var = "license_civ_silber"};
 			case "zinn": {_var = "license_civ_zinn"};
 			case "gusseisen": {_var = "license_civ_gusseisen"};
@@ -127,7 +127,7 @@ switch (_mode) do
 			case "license_civ_zigarren": {_var = "zigarren"};
 			case "license_civ_rum": {_var = "rum"};
 			case "license_civ_holz": {_var = "holz"};
-			case "license_civ_schwefel": {_var = "schwefel"};
+			case "license_civ_pfand": {_var = "pfand"};
 			case "license_civ_silber": {_var = "silber"};
 			case "license_civ_zinn": {_var = "zinn"};
 			case "license_civ_gusseisen": {_var = "gusseisen"};

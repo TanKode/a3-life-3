@@ -64,7 +64,7 @@ switch (_item) do
 	case "getreideu": {4};
 	case "holzu": {6};
 	case "hopfenu": {6};
-	case "schwefelu": {6};
+	case "pfandu": {6};
 	case "silberu": {6};
 	case "tabaku": {6};
 	case "traubenu": {3};
@@ -77,7 +77,7 @@ switch (_item) do
 	case "getreidep": {3};
 	case "holzp": {2};
 	case "hopfenp": {3};
-	case "schwefelp": {3};
+	case "pfandp": {3};
 	case "silberp": {3};
 	case "tabakp": {3};
 	case "traubenp": {3};

@@ -226,13 +226,13 @@ life_market_resources = [
 	],
 	["holzp", 500, 300, 600, 5, 3,
 		[ 
-			["schwefelp",1], 
+			["pfandp",1],
 			["uran5",1],
 			["schmuck",1],
 			["uranip",1]
 		] 
 	],
-	["schwefelp", 3222, 1666, 6444, 5, 3,
+	["pfandp", 280, 150, 334, 5, 3,
 		[ 
 			["holzp",1], 
 			["uran5",1],
@@ -242,7 +242,7 @@ life_market_resources = [
 	],
 	["uran5", 31531, 2196, 40658, 5, 3,
 		[ 
-			["schwefelp",1], 
+			["pfandp",1],
 			["holzp",1],
 			["schmuck",1],
 			["uranip",1]
@@ -250,7 +250,7 @@ life_market_resources = [
 	],
 	["schmuck", 4000, 3800, 4500, 5, 3,
 		[ 
-			["schwefelp",1], 
+			["pfandp",1],
 			["uran5",1],
 			["holzp",1],
 			["uranip",1]
@@ -258,7 +258,7 @@ life_market_resources = [
 	],
 	["uranip", 45045, 32300, 58200, 5, 3,
 		[ 
-			["schwefelp",1], 
+			["pfandp",1],
 			["uran5",1],
 			["holzp",1],
 			["schmuck",1]

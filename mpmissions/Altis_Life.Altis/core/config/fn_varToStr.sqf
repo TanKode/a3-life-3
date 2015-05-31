@@ -70,7 +70,7 @@ switch (_var) do
 	case "life_inv_getreideu": {(localize "STR_Item_Getreide")};
 	case "life_inv_holzu": {(localize "STR_Item_Holz")};
 	case "life_inv_hopfenu": {(localize "STR_Item_Hopfen")};
-	case "life_inv_schwefelu": {(localize "STR_Item_Schwefel")};
+	case "life_inv_pfandu": {(localize "STR_Item_Pfand")};
 	case "life_inv_silberu": {(localize "STR_Item_Silbererz")};
 	case "life_inv_tabaku": {(localize "STR_Item_Tabakblatt")};
 	case "life_inv_traubenu": {(localize "STR_Item_Trauben")};
@@ -83,7 +83,7 @@ switch (_var) do
 	case "life_inv_getreidep": {(localize "STR_Item_Mehl")};
 	case "life_inv_holzp": {(localize "STR_Item_Holzbretter")};
 	case "life_inv_hopfenp": {(localize "STR_Item_Bier")};
-	case "life_inv_schwefelp": {(localize "STR_Item_Schwefelpulver")};
+	case "life_inv_pfandp": {(localize "STR_Item_Pfandbong")};
 	case "life_inv_silberp": {(localize "STR_Item_Silberbarren")};
 	case "life_inv_tabakp": {(localize "STR_Item_Zigaretten")};
 	case "life_inv_traubenp": {(localize "STR_Item_Wein")};
@@ -187,7 +187,7 @@ switch (_var) do
 	case "license_civ_zigarren": {(localize "STR_License_Zigarren")};
 	case "license_civ_rum": {(localize "STR_License_Rum")};
 	case "license_civ_holz": {(localize "STR_License_Holz")};
-	case "license_civ_schwefel": {(localize "STR_License_Schwefel")};
+	case "license_civ_pfand": {(localize "STR_License_Pfand")};
 	case "license_civ_zinn": {(localize "STR_License_Zinn")};
 	case "license_civ_silber": {(localize "STR_License_Silber")};
 	case "license_civ_gusseisen": {(localize "STR_License_Guss")};
@@ -239,7 +239,7 @@ switch (_var) do
 	case "Zinn_Prof": {(localize "STR_Prof_Zinn")};
 	case "Silber_Prof": {(localize "STR_Prof_Silber")};
 	case "Holz_Prof": {(localize "STR_Prof_Holz")};
-	case "Schwefel_Prof": {(localize "STR_Prof_Schwefel")};
+	case "Pfand_Prof": {(localize "STR_Prof_Pfand")};
 	case "Uran_Prof": {(localize "STR_Prof_Uran")};
 	case "Grab_Prof": {"Restaurator"};
 	case "Reli_Prof": {"Archaeologie"};

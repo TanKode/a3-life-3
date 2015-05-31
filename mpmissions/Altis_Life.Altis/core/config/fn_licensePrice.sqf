@@ -45,7 +45,7 @@ switch (_type) do
 	case "zigarren": {82500};
 	case "rum": {78000};
 	case "holz": {10000};
-	case "schwefel": {55500};
+	case "pfand": {1000};
 	case "silber": {100000};
 	case "zinn": {21000};
 	case "gusseisen": {31500};

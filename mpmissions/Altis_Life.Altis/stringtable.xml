@@ -3328,10 +3328,10 @@ c<?xml version="1.0" encoding="utf-8"?>
 			<English>Wood</English>
 			<German>Holz</German>
 		</Key>
-		<Key ID="STR_Item_Schwefel">
-			<Original>Sulfur</Original>
-			<English>Sulfur</English>
-			<German>Schwefel</German>
+		<Key ID="STR_Item_Pfand">
+			<Original>Pfand</Original>
+			<English>Pfand</English>
+			<German>Pfand</German>
 		</Key>
 		<Key ID="STR_Item_Silbererz">
 			<Original>Silver ore</Original>
@@ -3388,10 +3388,10 @@ c<?xml version="1.0" encoding="utf-8"?>
 			<English>Beer</English>
 			<German>Bier</German>
 		</Key>
-		<Key ID="STR_Item_Schwefelpulver">
-			<Original>Sulfur powder</Original>
-			<English>Sulfur powder</English>
-			<German>Schwefelpulver</German>
+		<Key ID="STR_Item_Pfandbong">
+			<Original>Pfandbong</Original>
+			<English>Pfandbong</English>
+			<German>Pfandbong</German>
 		</Key>
 		<Key ID="STR_Item_Silberbarren">
 			<Original>Silver bars</Original>
@@ -3690,10 +3690,10 @@ c<?xml version="1.0" encoding="utf-8"?>
 			<English>Wood Processing</English>
 			<German>Holzverarbeitung</German>
 		</Key>
-		<Key ID="STR_License_Schwefel">
-			<Original>Sulfur Processing</Original>
-			<English>Sulfur Processing</English>
-			<German>Schwefelverarbeitung</German>
+		<Key ID="STR_License_Pfand">
+			<Original>Pfand Processing</Original>
+			<English>Pfand Processing</English>
+			<German>Pfandverarbeitung</German>
 		</Key>
 		<Key ID="STR_License_Zinn">
 			<Original>Tin Processing</Original>
@@ -4095,10 +4095,10 @@ c<?xml version="1.0" encoding="utf-8"?>
 			<English>Processing Beer</English>
 			<German>Braue Bier</German>
 		</Key>
-		<Key ID="STR_Process_Schwefel">
-			<Original>Processing Sulfun</Original>
-			<English>Processing Sulfun</English>
-			<German>Zerkleinere Schwefel</German>
+		<Key ID="STR_Process_Pfand">
+			<Original>Processing Pfand</Original>
+			<English>Processing Pfand</English>
+			<German>Zerkleinere Pfand</German>
 		</Key>
 		<Key ID="STR_Process_Silber">
 			<Original>Processing Silver</Original>
@@ -5471,10 +5471,10 @@ c<?xml version="1.0" encoding="utf-8"?>
 			<Italian>Proficiency olio</Italian>
 			<Portuguese>Proficiência Oil</Portuguese>
 		</Key>
-		<Key ID="STR_Prof_Schwefel">
+		<Key ID="STR_Prof_Pfand">
 			<Original>Fruit Proficiency</Original>
 			<English>Fruit Proficiency</English>
-			<German>Schwefel Können</German>
+			<German>Pfand Können</German>
 			<French>compétence d'huile</French>
 			<Italian>Proficiency olio</Italian>
 			<Portuguese>Proficiência Oil</Portuguese>

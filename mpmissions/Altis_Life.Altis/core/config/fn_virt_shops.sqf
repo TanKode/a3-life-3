@@ -34,7 +34,7 @@ switch (_shop) do
 	case "trinken": {["Getraenkehandel",["traubenp","hopfenp"]]};
 	case "zinn": {["Zinnhandel",["zinnp"]]};
 	case "silberhaendler": {["Silberhandel",["silberp"]]};
-	case "schwefel": {["Schwefelhaftes",["schwefelp"]]};
+	case "pfand": {["Pfandhaendler",["pfandp"]]};
 	case "schmuck": {["Juwelier",["schmuck"]]};
 	case "bronze": {["Bronzehandel",["bronze"]]};
 	case "pirat": {["Piratenhandel",["pbrau","kkugel","spulver","pkugel"]]};

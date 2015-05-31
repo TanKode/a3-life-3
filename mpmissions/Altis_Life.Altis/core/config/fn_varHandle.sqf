@@ -74,7 +74,7 @@ switch (_mode) do
 			case "getreideu": {"life_inv_getreideu"};
 			case "holzu": {"life_inv_holzu"};
 			case "hopfenu": {"life_inv_hopfenu"};
-			case "schwefelu": {"life_inv_schwefelu"};
+			case "pfandu": {"life_inv_pfandu"};
 			case "silberu": {"life_inv_silberu"};
 			case "tabaku": {"life_inv_tabaku"};
 			case "traubenu": {"life_inv_traubenu"};
@@ -87,7 +87,7 @@ switch (_mode) do
 			case "getreidep": {"life_inv_getreidep"};
 			case "holzp": {"life_inv_holzp"};
 			case "hopfenp": {"life_inv_hopfenp"};
-			case "schwefelp": {"life_inv_schwefelp"};
+			case "pfandp": {"life_inv_pfandp"};
 			case "silberp": {"life_inv_silberp"};
 			case "tabakp": {"life_inv_tabakp"};
 			case "traubenp": {"life_inv_traubenp"};
@@ -220,7 +220,7 @@ switch (_mode) do
 			case "life_inv_getreideu": {"getreideu"};
 			case "life_inv_holzu": {"holzu"};
 			case "life_inv_hopfenu": {"hopfenu"};
-			case "life_inv_schwefelu": {"schwefelu"};
+			case "life_inv_pfandu": {"pfandu"};
 			case "life_inv_silberu": {"silberu"};
 			case "life_inv_tabaku": {"tabaku"};
 			case "life_inv_traubenu": {"traubenu"};
@@ -233,7 +233,7 @@ switch (_mode) do
 			case "life_inv_getreidep": {"getreidep"};
 			case "life_inv_holzp": {"holzp"};
 			case "life_inv_hopfenp": {"hopfenp"};
-			case "life_inv_schwefelp": {"schwefelp"};
+			case "life_inv_pfandp": {"pfandp"};
 			case "life_inv_silberp": {"silberp"};
 			case "life_inv_tabakp": {"tabakp"};
 			case "life_inv_traubenp": {"traubenp"};
