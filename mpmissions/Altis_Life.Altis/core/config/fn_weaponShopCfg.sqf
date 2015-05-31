@@ -726,21 +726,21 @@ switch(_shop) do
 			default {
 				["EMS Handel",
 					[
-						["ItemRadio","Smartphone",100],
-						["ItemGPS",nil,100],
-						["NVGoggles",nil,100],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,50],
-						["Medikit",nil,50],
-						["B_Kitbag_sgg",nil,300],
-						["Chemlight_yellow",nil,50],
-						["SmokeShellyellow",nil,50],
-						["SmokeShellred",nil,50],
-						["ItemWatch",nil,25],
-						["ItemCompass",nil,25],
-						["ItemMap",nil,25],
-						["Rangefinder",nil,800],
-						["A3_GPNVG18_REC_BLK_F",nil,500]
+						["ItemRadio","Smartphone",10],
+						["ItemGPS",nil,10],
+						["NVGoggles",nil,10],
+						["ToolKit",nil,100],
+						["FirstAidKit",nil,25],
+						["Medikit",nil,25],
+						["B_Kitbag_sgg",nil,80],
+						["Chemlight_yellow",nil,5],
+						["SmokeShellyellow",nil,5],
+						["SmokeShellred",nil,5],
+						["ItemWatch",nil,5],
+						["ItemCompass",nil,5],
+						["ItemMap",nil,5],
+						["Rangefinder",nil,80],
+						["A3_GPNVG18_REC_BLK_F",nil,300]
 					]
 				];
 			};
@@ -1347,18 +1347,20 @@ switch(_shop) do
 	{
 		["Altis Gemischtwaren",
 			[
-				["ItemRadio","Smartphone",450],
-				["Binocular",nil,500],
-				["ItemGPS",nil,100],
-				["ToolKit",nil,5000],
-				["ItemMap",nil,250],
-				["FirstAidKit",nil,4000],
-				["NVGoggles",nil,2000],
-				["ItemWatch",nil,25],
-				["ItemCompass",nil,25],
-				["Rangefinder",nil,9000],
-				["Chemlight_yellow",nil,400],
-				["SmokeShellyellow",nil,400]
+				["ItemRadio","Smartphone",100],
+				["Binocular","Fernglass",50],
+				["ItemGPS","Navi",50],
+				["ToolKit","Werkzeugkasten",250],
+				["ItemMap","Karte Altis",50],
+				["FirstAidKit","Erstehilfekasten",250],
+				["NVGoogles_OPFOR","Nachtsichtgerät",100],
+				["ItemWatch","Uhr",55],
+				["ItemCompass","Kompass",50],
+				["Rangefinder","Entfernungsmesser",100],
+				["Chemlight_green","Knicklicht Gelb",25],
+				["Chemlight_yellow","Knicklicht Gelb",25],
+				["Chemlight_red","Knicklicht Rot",25],
+				["Chemlight_blue","Knicklicht Blau",25]
 			]
 		];
 	};
@@ -1410,19 +1412,19 @@ switch(_shop) do
             {
                 ["ADAC Zubehör",
                     [
-                        ["Binocular",nil,150],
-						["ItemRadio","Smartphone",100],
-						["ItemGPS",nil,100],
-						["FirstAidKit",nil,150],
-						["NVGoggles",nil,2000],
-						["rangefinder",nil,200],
-						["Chemlight_yellow",nil,50],
-						["SmokeShellyellow",nil,50],
-						["SmokeShellred",nil,150],
-						["ToolKit",nil,100],
-						["ItemWatch",nil,25],
-						["ItemCompass",nil,25],
-						["ItemMap",nil,25]
+                        ["Binocular",nil,20],
+						["ItemRadio","Smartphone",20],
+						["ItemGPS",nil,20],
+						["FirstAidKit",nil,50],
+						["NVGoggles",nil,60],
+						["rangefinder",nil,100],
+						["Chemlight_yellow",nil,5],
+						["SmokeShellyellow",nil,5],
+						["SmokeShellred",nil,15],
+						["ToolKit",nil,30],
+						["ItemWatch",nil,5],
+						["ItemCompass",nil,5],
+						["ItemMap",nil,5]
                     ]
                 ];
             };
