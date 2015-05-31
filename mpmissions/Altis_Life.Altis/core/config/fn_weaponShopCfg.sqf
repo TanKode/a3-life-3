@@ -45,7 +45,7 @@ switch(_shop) do
 						//["HandGrenade_Stone","Blendgranate",300],
 						["Chemlight_yellow","Knicklicht Gelb",25],
 						["Chemlight_red","Knicklicht Rot",25],
-						["Chemlight_blue","Knicklicht Blau",25],
+						["Chemlight_blue","Knicklicht Blau",25]
 						//["acc_flashlight","WaffenLampe",400],
 						//["acc_pointer_IR","WaffenLaserPointer",500]
 					]
