@@ -50,4 +50,6 @@ switch (_shop) do
 	case "wertstoffhaendler": {["wertstoffhaendler",["pfandflascheu","pfandflaschep"]]};
 	case "bernsteinhaendler": {["bernsteinhaendler",["bernsteinu","bernsteinp"]]};
 	case "reliefenhaendler": {["reliefenhaendler",["reliefenu","reliefenp"]]};
+	case "uran": {["Kraftwerk",["uran5"]]};
+	case "uranip": {["Waffennarr",["uranip"]]};
 };

@@ -55,7 +55,6 @@ switch (_type) do
 	case "kkugel": {300000};
 	case "pkugel": {300000};
 	case "spulver": {600000};
-	case "uran1": {800000};
 	case "uranip": {800000};
 	case "bm": {6000000};
 	case "good": {600000};
@@ -68,6 +67,10 @@ switch (_type) do
     case "grab": {250000};
     case "reli": {300000};
     case "gas": {300000};
+	case "uran2": {150000};
+	case "uran3": {225000};
+	case "uran4": {300000};
+	case "uran5": {375000};
     case "gold": {300000};
     case "knochen": {100000};
     case "pfandflasche": {1000};

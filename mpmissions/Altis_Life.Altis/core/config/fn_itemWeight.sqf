@@ -130,5 +130,9 @@ switch (_item) do
     case "reliefenp": {3};
     case "uranuweu": {6};
     case "uranuwep": {3};
+	case "uran2": {8};
+	case "uran3": {7};
+	case "uran4": {6};
+	case "uran5": {5};
 	default {1};
 };

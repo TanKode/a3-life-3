@@ -98,6 +98,10 @@ switch (_var) do
 	case "life_inv_speedbomb": {(localize "STR_Item_Speedbomb")};
 	case "life_inv_uran1": {(localize "STR_Item_Uran1")};
 	case "life_inv_uranip": {(localize "STR_Item_Uranip")};
+	case "life_inv_uran2": {(localize "STR_Item_Uran2")};
+	case "life_inv_uran3": {(localize "STR_Item_Uran3")};
+	case "life_inv_uran4": {(localize "STR_Item_Uran4")};
+	case "life_inv_uran5": {(localize "STR_Item_Uran5")};
 	case "life_inv_verschluss": {"Verschluss"};
 	case "life_inv_laufa": {"Pistolenlauf"};
 	case "life_inv_laufb": {"Sturmgewehrlauf"};
@@ -198,6 +202,10 @@ switch (_var) do
 	case "license_civ_pkugel": {(localize "STR_License_Pkugel")};
 	case "license_civ_spulver": {(localize "STR_License_Spulver")};
 	case "license_civ_uranip": {(localize "STR_License_Uranip")};
+	case "license_civ_uran2": {(localize "STR_License_Uran2")};
+	case "license_civ_uran3": {(localize "STR_License_Uran3")};
+	case "license_civ_uran4": {(localize "STR_License_Uran4")};
+	case "license_civ_uran5": {(localize "STR_License_Uran5")};
 	case "license_civ_bm": {(localize "STR_License_Bm")};
 	case "license_civ_good": {"Luxuswagenlizenz"};
 	case "license_civ_bus": {"Busführerschein"};

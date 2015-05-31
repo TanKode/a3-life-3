@@ -62,6 +62,10 @@ switch (_mode) do
 			case "spulver": {_var = "license_civ_spulver"};
 			case "uran1": {_var = "license_civ_uran1"};
 			case "uranip": {_var = "license_civ_uranip"};
+			case "uran2": {_var = "license_civ_uran2"};
+			case "uran3": {_var = "license_civ_uran3"};
+			case "uran4": {_var = "license_civ_uran4"};
+			case "uran5": {_var = "license_civ_uran5"};
 			case "bm": {_var = "license_civ_bm"};
 			case "good": {_var = "license_civ_good"};
 			case "bus": {_var = "license_civ_bus"};

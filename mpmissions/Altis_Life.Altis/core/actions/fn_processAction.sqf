@@ -49,6 +49,10 @@ _itemInfo = switch (_type) do
 	case "bernstein": {["bernsteinu","bernsteinp",2500,"Bernstein verarbeiten"]};
 	case "reliefen": {["reliefenu","reliefenp",2500,"Reliefen sauebern"]};
 	case "uranuwe": {["uranuweu","uranuwep",2500,"Uranu sauebern"]};
+	case "uran2": {["uran1","uran2",5000,"Reinige Uran"]};
+	case "uran3": {["uran2","uran3",5000,"Verarbeite Uran"]};
+	case "uran4": {["uran3","uran4",5000,"Reichere Uran an"]};
+	case "uranip": {["uran2","uranip",5000,"Uran verschmutzen"]};
 	default {[]};
 };
 
