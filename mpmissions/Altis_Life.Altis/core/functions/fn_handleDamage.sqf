@@ -21,7 +21,7 @@ if(!isNil "TON_Debug") then {
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["9Rnd_45ACP_Mag","20Rnd_556x45_UW_mag"] && _curWep in ["hgun_ACPC2_snds_F","arifle_SDAR_F"]) then {
+		if(_projectile in ["9Rnd_45ACP_Mag"] && _curWep in ["hgun_ACPC2_snds_F"]) then {
 			if(side _source == west && playerSide != west) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = if(_projectile == "9Rnd_45ACP_Mag") then {2500} else {2000};
