@@ -81,7 +81,7 @@ switch(_resource) do {
 		_resourcetypeof = 1;
 	};
 
-	case  ("getreideu") : {
+	case  ("getreieu") : {
 		_batchSize = round(random 3) +1;
 		_resourceZones = ["getreide_1"];
 		_resourcetypeof = 1;
