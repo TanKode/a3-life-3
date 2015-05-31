@@ -64,13 +64,12 @@
 		if (backpack player == "B_Kitbag_sgg ") then { _load = 40; };
 		if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];};
 		// civs
-		if (backpack player == "B_AssaultPack_cbr") then { _load = 25; };
-		if (backpack player == "B_TacticalPack_oli") then { _load = 30; };
-		if (backpack player == "B_FieldPack_ocamo") then { _load = 35; };
-		if (backpack player == "B_Bergen_sgg") then { _load = 40; };
-		if (backpack player == "B_Kitbag_cbr") then { _load = 45; };
-		if (backpack player == "B_Kitbag_mcamo") then { _load = 45; };
-		if (backpack player == "B_Carryall_oli") then { _load = 60; };
+		if (backpack player == "B_AssaultPack_cbr") then { _load = 60; };
+		if (backpack player == "B_TacticalPack_oli") then { _load = 60; };
+		if (backpack player == "B_FieldPack_ocamo") then { _load = 60; };
+		if (backpack player == "B_Bergen_sgg") then { _load = 60; };
+		if (backpack player == "B_Kitbag_cbr") then { _load = 60; };
+		if (backpack player == "B_Kitbag_mcamo") then { _load = 60; };
 		if (backpack player == "B_Carryall_khk") then { _load = 60; };
 		// cops
 		if (backpack player == "B_Carryall_mcamo") then { _load = 50; };
