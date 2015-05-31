@@ -14,11 +14,7 @@ if((__GETC__(life_adaclevel)) < 1) exitWith {
 	["Notwhitelisted",FALSE,TRUE] call BIS_fnc_endMission;
 	sleep 35;
 };
-if(__GETC__(life_whitelist) == 0) exitWith
-{
-    ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-    sleep 30;
-};
+
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 
 	[] spawn life_fnc_welcome;

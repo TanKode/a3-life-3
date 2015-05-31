@@ -14,11 +14,7 @@ if((__GETC__(life_medicLevel)) < 1) exitWith {
 	["Notwhitelisted",FALSE,TRUE] call BIS_fnc_endMission;
 	sleep 35;
 };
-if(__GETC__(life_whitelist) == 0) exitWith
-{
-    ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-    sleep 30;
-};
+
 [] spawn life_fnc_welcome;
 waitUntil{!isNull (findDisplay 999999)}; //Wait for the welcome to be open.
 waitUntil{isNull (findDisplay 999999)}; //Wait for the welcome to be done.

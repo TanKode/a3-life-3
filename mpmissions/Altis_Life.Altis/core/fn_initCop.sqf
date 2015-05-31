@@ -15,11 +15,7 @@ if(life_blacklisted) exitWith
 	["Blacklisted",false,true] call BIS_fnc_endMission;
 	sleep 30;
 };
-if(__GETC__(life_whitelist) == 0) exitWith
-{
-    ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-    sleep 30;
-};
+
 switch(__GETC__(life_coplevel)) do
 {
 	case 1: {life_RLP_paycheck = 720;};
