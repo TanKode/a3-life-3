@@ -14,7 +14,11 @@ civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", ["Land_i_Shop_01_V1_F"
 
 waitUntil {!(isNull (findDisplay 46))};
 
-
+if(__GETC__(life_whitelist) == 0) exitWith
+{
+    ["NotWhitelisted",false,true] call BIS_fnc_endMission;
+    sleep 30;
+};
 if(life_is_arrested) then
 {
 	life_is_arrested = false;
