@@ -1335,7 +1335,9 @@ switch(_shop) do
 						["arifle_TRG21_F","TRG-20 5.56 mm",55000],
 						["30Rnd_556x45_Stanag","TRG21 Mag",5500],
 						["optic_Yorris","Yorris J2-Visir",5000],
-						["optic_MRD","MRD-Visir",5000]
+						["optic_MRD","MRD-Visir",5000],
+						["optic_Aco","ACO-Visir",3500],
+						["optic_Holosight","Holosight-Visir",3500]
 					]
 				];
 			};
