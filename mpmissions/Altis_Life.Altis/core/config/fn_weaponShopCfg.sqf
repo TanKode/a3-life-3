@@ -1347,13 +1347,13 @@ switch(_shop) do
 	{
 		["Altis Gemischtwaren",
 			[
-				["ItemRadio","Smartphone",100],
+				["ItemRadio","Handy",80],
 				["Binocular","Fernglass",50],
 				["ItemGPS","Navi",50],
 				["ToolKit","Werkzeugkasten",250],
 				["ItemMap","Karte Altis",50],
 				["FirstAidKit","Erstehilfekasten",250],
-				["NVGoogles_OPFOR","Nachtsichtgerät",100],
+				["NVGoggles_OPFOR","Nachtsichtgerät",100],
 				["ItemWatch","Uhr",55],
 				["ItemCompass","Kompass",50],
 				["Rangefinder","Entfernungsmesser",100],
