@@ -69,9 +69,9 @@ switch(_resource) do {
 		_resourcetypeof = 1;
 	};
 
-	case  ("traubenu") : {
+	case  ("pfandu") : {
 		_batchSize = round(random 3) +1;
-		_resourceZones = ["trauben_1"];
+		_resourceZones = ["pfandflasche"];
 		_resourcetypeof = 1;
 	};
 
