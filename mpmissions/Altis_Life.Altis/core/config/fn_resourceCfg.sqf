@@ -217,7 +217,6 @@ switch(_resource) do {
 	};
 	case ("pfandflascheu") : {
 		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
 		_resourceZones = ["pfandflaschenix"];
 		_resourcetypeof = 2;
 	};
