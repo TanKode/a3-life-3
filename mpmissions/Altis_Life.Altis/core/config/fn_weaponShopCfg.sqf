@@ -1287,7 +1287,7 @@ switch(_shop) do
 						["SMG_01_F","Vermin SMG .45 ACP",40000],
 						["30Rnd_45ACP_Mag_SMG_01","Vermin Mag",4000],
 						["SMG_02_F","Sting 9 mm",45000],
-						["30Rnd_9x12_Mag","Sting Mag",4500],
+						["30Rnd_9x21_Mag","Sting Mag",4500],
 						["arifle_SDAR_F","SDAR 5.56 mm",50000],
 						["20Rnd_556x45_UW_mag","SDAR Mag",5000],
 						["arifle_TRG21_F","TRG-20 5.56 mm",55000],
