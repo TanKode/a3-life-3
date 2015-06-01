@@ -101,7 +101,6 @@ switch(_resource) do {
 
 	case ("copperore") : {
 		_batchSize = 2;
-		_requiredItem = "pickaxe";
 		_resourceZones = ["lead_1"];
 		_resourcetypeof = 2;
 	};
