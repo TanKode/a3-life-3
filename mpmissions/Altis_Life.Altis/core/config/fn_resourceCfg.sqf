@@ -193,7 +193,6 @@ switch(_resource) do {
 	};
 	case ("erdenu") : {
 		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
 		_resourceZones = ["erdenu"];
 		_resourcetypeof = 2;
 	};
@@ -205,13 +204,11 @@ switch(_resource) do {
 	};
 	case ("datenu") : {
 		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
 		_resourceZones = ["datenu"];
 		_resourcetypeof = 2;
 	};
 	case ("datennsau") : {
 		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
 		_resourceZones = ["datennsau"];
 		_resourcetypeof = 2;
 	};
