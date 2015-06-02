@@ -70,7 +70,7 @@ switch (_var) do
 	case "life_inv_getreideu": {(localize "STR_Item_Getreide")};
 	case "life_inv_holzu": {(localize "STR_Item_Holz")};
 	case "life_inv_hopfenu": {(localize "STR_Item_Hopfen")};
-	case "life_inv_pfandu": {(localize "STR_Item_Pfand")};
+	case "life_inv_schwefelu": {(localize "STR_Item_Schwefel")};
 	case "life_inv_silberu": {(localize "STR_Item_Silbererz")};
 	case "life_inv_tabaku": {(localize "STR_Item_Tabakblatt")};
 	case "life_inv_traubenu": {(localize "STR_Item_Trauben")};
@@ -83,7 +83,7 @@ switch (_var) do
 	case "life_inv_getreidep": {(localize "STR_Item_Mehl")};
 	case "life_inv_holzp": {(localize "STR_Item_Holzbretter")};
 	case "life_inv_hopfenp": {(localize "STR_Item_Bier")};
-	case "life_inv_pfandp": {(localize "STR_Item_Pfandbong")};
+	case "life_inv_schwefelp": {(localize "STR_Item_Schwefelpulver")};
 	case "life_inv_silberp": {(localize "STR_Item_Silberbarren")};
 	case "life_inv_tabakp": {(localize "STR_Item_Zigaretten")};
 	case "life_inv_traubenp": {(localize "STR_Item_Wein")};
@@ -97,11 +97,11 @@ switch (_var) do
 	case "life_inv_pkugel": {(localize "STR_Item_Piratenkugel")};
 	case "life_inv_speedbomb": {(localize "STR_Item_Speedbomb")};
 	case "life_inv_uran1": {(localize "STR_Item_Uran1")};
-	case "life_inv_uranip": {(localize "STR_Item_Uranip")};
 	case "life_inv_uran2": {(localize "STR_Item_Uran2")};
 	case "life_inv_uran3": {(localize "STR_Item_Uran3")};
 	case "life_inv_uran4": {(localize "STR_Item_Uran4")};
 	case "life_inv_uran5": {(localize "STR_Item_Uran5")};
+	case "life_inv_uranip": {(localize "STR_Item_Uranip")};
 	case "life_inv_verschluss": {"Verschluss"};
 	case "life_inv_laufa": {"Pistolenlauf"};
 	case "life_inv_laufb": {"Sturmgewehrlauf"};
@@ -135,6 +135,7 @@ switch (_var) do
     case "life_inv_blitzer": {"Blitzer"};
     case "life_inv_gas": {"Flüssiges Erdgas"};
     case "life_inv_gasv": {"Komprimiertes  Erdgas"};
+
     case "life_inv_gold": {"Nazi-Gold"};
     case "life_inv_goldv": {"Devisen"};
     case "life_inv_knochen": {"Dreckige Knochen"};
@@ -153,8 +154,6 @@ switch (_var) do
     case "life_inv_bernsteinp": {"Bernstein"};
     case "life_inv_reliefenu": {"dreckige Reliefen"};
     case "life_inv_reliefenp": {"Reliefen"};
-    case "life_inv_uranuweu": {"RadioaktiverSchrott"};
-    case "life_inv_uranuwep": {"Uran"};
 	
 	//License Block
 	case "license_civ_donator": {(localize "STR_License_Donator")};
@@ -191,7 +190,7 @@ switch (_var) do
 	case "license_civ_zigarren": {(localize "STR_License_Zigarren")};
 	case "license_civ_rum": {(localize "STR_License_Rum")};
 	case "license_civ_holz": {(localize "STR_License_Holz")};
-	case "license_civ_pfand": {(localize "STR_License_Pfand")};
+	case "license_civ_schwefel": {(localize "STR_License_Schwefel")};
 	case "license_civ_zinn": {(localize "STR_License_Zinn")};
 	case "license_civ_silber": {(localize "STR_License_Silber")};
 	case "license_civ_gusseisen": {(localize "STR_License_Guss")};
@@ -201,11 +200,11 @@ switch (_var) do
 	case "license_civ_kkugel": {(localize "STR_License_Kkugel")};
 	case "license_civ_pkugel": {(localize "STR_License_Pkugel")};
 	case "license_civ_spulver": {(localize "STR_License_Spulver")};
-	case "license_civ_uranip": {(localize "STR_License_Uranip")};
 	case "license_civ_uran2": {(localize "STR_License_Uran2")};
 	case "license_civ_uran3": {(localize "STR_License_Uran3")};
 	case "license_civ_uran4": {(localize "STR_License_Uran4")};
 	case "license_civ_uran5": {(localize "STR_License_Uran5")};
+	case "license_civ_uranip": {(localize "STR_License_Uranip")};
 	case "license_civ_bm": {(localize "STR_License_Bm")};
 	case "license_civ_good": {"Luxuswagenlizenz"};
 	case "license_civ_bus": {"Busführerschein"};
@@ -225,7 +224,6 @@ switch (_var) do
     case "license_civ_erden": {"ErdenLizenz"};
     case "license_civ_bernstein": {"BernsteinLizenz"};
     case "license_civ_reliefen": {"ReliefenLizenz"};
-    case "license_civ_uranuwe": {"UranULizenz"};
 	
 	//Prof Block
 	case "Oil_Prof": {(localize "STR_Prof_Oil")};
@@ -247,7 +245,7 @@ switch (_var) do
 	case "Zinn_Prof": {(localize "STR_Prof_Zinn")};
 	case "Silber_Prof": {(localize "STR_Prof_Silber")};
 	case "Holz_Prof": {(localize "STR_Prof_Holz")};
-	case "Pfand_Prof": {(localize "STR_Prof_Pfand")};
+	case "Schwefel_Prof": {(localize "STR_Prof_Schwefel")};
 	case "Uran_Prof": {(localize "STR_Prof_Uran")};
 	case "Grab_Prof": {"Restaurator"};
 	case "Reli_Prof": {"Archaeologie"};
@@ -260,5 +258,4 @@ switch (_var) do
 	case "erden_Prof": {"ErdenSammler"};
 	case "bernstein_Prof": {"BernsteinSammler"};
 	case "reliefen_Prof": {"ReliefenSauberman"};
-	case "uranuwe_Prof": {"SchrottReiniger"};
 };

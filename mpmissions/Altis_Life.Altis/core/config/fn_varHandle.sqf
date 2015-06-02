@@ -74,7 +74,7 @@ switch (_mode) do
 			case "getreideu": {"life_inv_getreideu"};
 			case "holzu": {"life_inv_holzu"};
 			case "hopfenu": {"life_inv_hopfenu"};
-			case "pfandu": {"life_inv_pfandu"};
+			case "schwefelu": {"life_inv_schwefelu"};
 			case "silberu": {"life_inv_silberu"};
 			case "tabaku": {"life_inv_tabaku"};
 			case "traubenu": {"life_inv_traubenu"};
@@ -87,7 +87,7 @@ switch (_mode) do
 			case "getreidep": {"life_inv_getreidep"};
 			case "holzp": {"life_inv_holzp"};
 			case "hopfenp": {"life_inv_hopfenp"};
-			case "pfandp": {"life_inv_pfandp"};
+			case "schwefelp": {"life_inv_schwefelp"};
 			case "silberp": {"life_inv_silberp"};
 			case "tabakp": {"life_inv_tabakp"};
 			case "traubenp": {"life_inv_traubenp"};
@@ -139,6 +139,7 @@ switch (_mode) do
             case "blitzer": {"life_inv_blitzer"};
             case "gas": {"life_inv_gas"};
             case "gasv": {"life_inv_gasv"};
+
             case "gold": {"life_inv_gold"};
             case "goldv": {"life_inv_goldv"};
             case "knochen": {"life_inv_knochen"};
@@ -157,8 +158,6 @@ switch (_mode) do
             case "bernsteinp": {"life_inv_bernsteinp"};
             case "reliefenu": {"life_inv_reliefenu"};
             case "reliefenp": {"life_inv_reliefenp"};
-            case "uranuweu": {"life_inv_uranuweu"};
-            case "uranuwep": {"life_inv_uranuwep"};
 			};
 	};
 	
@@ -224,7 +223,7 @@ switch (_mode) do
 			case "life_inv_getreideu": {"getreideu"};
 			case "life_inv_holzu": {"holzu"};
 			case "life_inv_hopfenu": {"hopfenu"};
-			case "life_inv_pfandu": {"pfandu"};
+			case "life_inv_schwefelu": {"schwefelu"};
 			case "life_inv_silberu": {"silberu"};
 			case "life_inv_tabaku": {"tabaku"};
 			case "life_inv_traubenu": {"traubenu"};
@@ -237,7 +236,7 @@ switch (_mode) do
 			case "life_inv_getreidep": {"getreidep"};
 			case "life_inv_holzp": {"holzp"};
 			case "life_inv_hopfenp": {"hopfenp"};
-			case "life_inv_pfandp": {"pfandp"};
+			case "life_inv_schwefelp": {"schwefelp"};
 			case "life_inv_silberp": {"silberp"};
 			case "life_inv_tabakp": {"tabakp"};
 			case "life_inv_traubenp": {"traubenp"};
@@ -308,8 +307,6 @@ switch (_mode) do
             case "life_inv_bernsteinp": {"bernsteinp"};
             case "life_inv_reliefenu": {"reliefenu"};
             case "life_inv_reliefenp": {"reliefenp"};
-            case "life_inv_uranuweu": {"uranuweu"};
-            case "life_inv_uranuwep": {"uranuwep"};
 		};
 	};
 };

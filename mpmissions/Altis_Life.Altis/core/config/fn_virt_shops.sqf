@@ -10,7 +10,7 @@ _shop = _this select 0;
 
 switch (_shop) do
 {
-	case "market": {["Altis Markt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","pfandflascheu","pfandflaschep","peach"]]};
+	case "market": {["Altis Markt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","pfandflascheu","pfandflaschep"]]};
 	case "rebel": {["Rebellen Markt",["diaper","water","rabbit","handcuffkey","apple","redgull","tbacon","lockpick","pickaxe","fuelF","peach","boltcutter","blastingcharge","uwsl","tracker","speedbomb"]]};
 	case "gang": {["Gang Markt",["diaper","water","rabbit","handcuffkey","apple","redgull","tbacon","lockpick","pickaxe","fuelF","peach","boltcutter","blastingcharge","tracker","speedbomb"]]};
 	case "wongs": {["Wong's Feinkost",["turtlesoup","turtle"]]};
@@ -34,14 +34,15 @@ switch (_shop) do
 	case "trinken": {["Getraenkehandel",["traubenp","hopfenp"]]};
 	case "zinn": {["Zinnhandel",["zinnp"]]};
 	case "silberhaendler": {["Silberhandel",["silberp"]]};
-	case "pfand": {["Pfandhaendler",["pfandp"]]};
+	case "schwefel": {["Schwefelhaftes",["schwefelp"]]};
 	case "schmuck": {["Juwelier",["schmuck"]]};
 	case "bronze": {["Bronzehandel",["bronze"]]};
 	case "pirat": {["Piratenhandel",["pbrau","kkugel","spulver","pkugel"]]};
 	case "gold": {["Goldhandel",["goldbar"]]};
 	case "nazi": {["Goldhandel",["goldv"]]};
 	case "knochenhaendler": {["Knochenhaendler",["knochenv"]]};
-	case "uranhaendler": {["Uranhaendler",["uranuwep"]]};
+	case "uran": {["Kraftwerk",["uran5"]]};
+	case "uranip": {["Waffennarr",["uranip"]]};
 	case "adacmarkt": {["ADAC Markt",["diaper","fuelF","apple","peach","tbacon","rabbit","water","lockpick","redgull","tracker","diaper"]]};
 	case "huntingmarkt": {["Jägermarkt",["diaper","water","rabbit","apple","redgull","tbacon","lockpick","handcuffkey","pickaxe","fuelF","peach","storagesmall","storagebig","henraw","roosterraw","goatraw","sheepraw","rabbitraw"]]};
 	case "datenhaendler": {["datenhaendler",["datenu","datenp","datennsau","datennsap"]]};
@@ -50,6 +51,4 @@ switch (_shop) do
 	case "wertstoffhaendler": {["wertstoffhaendler",["pfandflascheu","pfandflaschep"]]};
 	case "bernsteinhaendler": {["bernsteinhaendler",["bernsteinu","bernsteinp"]]};
 	case "reliefenhaendler": {["reliefenhaendler",["reliefenu","reliefenp"]]};
-	case "uran": {["Kraftwerk",["uran5"]]};
-	case "uranip": {["Waffennarr",["uranip"]]};
 };

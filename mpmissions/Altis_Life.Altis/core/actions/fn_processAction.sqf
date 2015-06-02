@@ -35,12 +35,16 @@ _itemInfo = switch (_type) do
 	case "nudeln": {["getreideu","getreidep",5000,"Mahle Mehl"]};
 	case "holz": {["holzu","holzp",5000,"Holz schneiden"]};
 	case "brauer": {["hopfenu","hopfenp",5000,"Braue Bier"]};
-	case "pfand": {["pfandu","pfandp",300,"Zerkleinere Pfand"]};
+	case "schwefel": {["schwefelu","schwefelp",5000,"Zerkleinere Schwefel"]};
 	case "silber": {["silberu","silberp",5000,"Schmelze Silber"]};
 	case "zigaretten": {["tabaku","tabakp",5000,"Stopfe Zigaretten"]};
 	case "wein": {["traubenu","traubenp",5000,"Keltere Wein"]};
 	case "zinn": {["zinnu","zinnp",5000,"Schmelze Zinn"]};
 	case "zucker": {["zuckeru","zuckerp",5000,"Raffiniere Zucker"]};
+	case "uran2": {["uran1","uran2",5000,"Reinige Uran"]};
+	case "uran3": {["uran2","uran3",5000,"Verarbeite Uran"]};
+	case "uran4": {["uran3","uran4",5000,"Reichere Uran an"]};
+	case "uranip": {["uran2","uranip",5000,"Uran verschmutzen"]};
 	case "pfandflasche": {["pfandflascheu","pfandflaschep",250,"Plastik Recycling"]};
 	case "daten": {["datenu","datenp",2500,"Daten verarbeiten"]};
 	case "datennsa": {["datennsau","datennsap",2500,"Daten verarbeiten"]};
@@ -48,11 +52,6 @@ _itemInfo = switch (_type) do
 	case "erden": {["erdenu","erdenp",2500,"Erden verarbeiten"]};
 	case "bernstein": {["bernsteinu","bernsteinp",2500,"Bernstein verarbeiten"]};
 	case "reliefen": {["reliefenu","reliefenp",2500,"Reliefen sauebern"]};
-	case "uranuwe": {["uranuweu","uranuwep",2500,"Uranu sauebern"]};
-	case "uran2": {["uran1","uran2",5000,"Reinige Uran"]};
-	case "uran3": {["uran2","uran3",5000,"Verarbeite Uran"]};
-	case "uran4": {["uran3","uran4",5000,"Reichere Uran an"]};
-	case "uranip": {["uran2","uranip",5000,"Uran verschmutzen"]};
 	default {[]};
 };
 

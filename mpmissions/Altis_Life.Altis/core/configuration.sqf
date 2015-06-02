@@ -90,7 +90,7 @@ life_clothing_purchase = [-1,-1,-1,-1,-1];
 ****** Weight Variables *****
 *****************************
 */
-life_maxWeight = 110; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
+life_maxWeight = 40; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
 life_maxWeightT = 40; //Static variable representing the players max carrying weight on start.
 life_carryWeight = 0; //Represents the players current inventory weight (MUST START AT 0).
 
@@ -135,25 +135,25 @@ switch (playerSide) do
 {
 	case west:
 	{
-		life_RLP_atmgeld = 100000; //Starting Bank Money    Polizei
-		life_RLP_paycheck = 720;
+		life_RLP_atmgeld = 25000; //Starting Bank Money
+		life_RLP_paycheck = 1000;
 	};
 	case civilian:
 	{
-		life_RLP_atmgeld = 7500; //Starting Bank Money   ZIVIS
-		life_RLP_paycheck = 360; //Paycheck Amount
+		life_RLP_atmgeld = 25000; //Starting Bank Money
+		life_RLP_paycheck = 500; //Paycheck Amount
 	};
 
 	case independent:
 	{
-		life_RLP_atmgeld = 100000;           //Medic
-		life_RLP_paycheck = 720;
+		life_RLP_atmgeld = 25000;
+		life_RLP_paycheck = 1000;
 	};
 
 	case east:
 	{
-		life_RLP_atmgeld = 100000; //Starting Bank Money  ADAC
-		life_RLP_paycheck = 720; //Paycheck Amount
+		life_RLP_atmgeld = 25000; //Starting Bank Money
+		life_RLP_paycheck = 1000; //Paycheck Amount
 	};
 };
 
@@ -218,7 +218,7 @@ life_inv_items =
 	"life_inv_getreideu",
 	"life_inv_holzu",
 	"life_inv_hopfenu",
-	"life_inv_pfandu",
+	"life_inv_schwefelu",
 	"life_inv_silberu",
 	"life_inv_tabaku",
 	"life_inv_traubenu",
@@ -231,7 +231,7 @@ life_inv_items =
 	"life_inv_getreidep",
 	"life_inv_holzp",
 	"life_inv_hopfenp",
-	"life_inv_pfandp",
+	"life_inv_schwefelp",
 	"life_inv_silberp",
 	"life_inv_tabakp",
 	"life_inv_traubenp",
@@ -299,9 +299,7 @@ life_inv_items =
     "life_inv_datennsau",
     "life_inv_datennsap",
     "life_inv_reliefenu",
-    "life_inv_reliefenp",
-    "life_inv_uranuweu",
-    "life_inv_uranuwep"
+    "life_inv_reliefenp"
 ];
 
 //Setup variable inv vars.
@@ -352,7 +350,7 @@ life_licenses =
 	["license_civ_zigarren","civ"],
 	["license_civ_rum","civ"],
 	["license_civ_holz","civ"],
-	["license_civ_pfand","civ"],
+	["license_civ_schwefel","civ"],
 	["license_civ_silber","civ"],
 	["license_civ_zinn","civ"],
 	["license_civ_gusseisen","civ"],
@@ -386,8 +384,7 @@ life_licenses =
     ["license_civ_reichsgold", "civ"],
     ["license_civ_erden", "civ"],
     ["license_civ_bernstein", "civ"],
-    ["license_civ_reliefen", "civ"],
-    ["license_civ_uranuwe", "civ"]
+    ["license_civ_reliefen", "civ"]
 ];
 
 //Setup License Variables
@@ -416,7 +413,7 @@ life_prof =
 ["Zinn_Prof","civ"],
 ["Silber_Prof","civ"],
 ["Holz_Prof","civ"],
-["Pfand_Prof","civ"],
+["Schwefel_Prof","civ"],
 ["Uran_Prof","civ"],
 ["Grab_Prof","civ"],
 ["Reli_Prof","civ"],
@@ -430,7 +427,6 @@ life_prof =
 ["erden_Prof","civ"],
 ["bernstein_Prof","civ"],
 ["reliefen_Prof","civ"],
-["uranuwe_Prof","civ"],
 //Cop
 ["Ticket_Prof","cop"],
 ["Arrest_Prof","cop"],
@@ -471,9 +467,7 @@ life_illegal_items = [
 ["datennsap",3500],
 ["reichsgoldu",3000],
 ["bernsteinu",500],
-["bernsteinp",2300],
-["uranuweu",500],
-["uranuwep",2500]
+["bernsteinp",2300]
 ];
 
 /*
@@ -505,7 +499,7 @@ resource_list = [
 	"zinnu",
 	"silberu",
 	"holzu",
-	"pfandu",
+	"schwefelu",
 	"uran1",
 	"krabben",
 	"pfandflascheu",
@@ -515,8 +509,7 @@ resource_list = [
 	"erdenu",
 	"bernsteinu",
 	"reliefenu",
-	"knochen",
-	"uranuweu"
+	"knochen"
 ];
 
 
@@ -526,26 +519,26 @@ resource_list = [
 sell_array =
 [
 
-	["apple",25],
-	["salema",15],
-	["ornate",20],
-	["mackerel",30],
-	["tuna",10],
-	["mullet",40],
-	["catshark",50],
-	["rabbit",5],
-	["turtle",3007],
-	["water",2],
-	["coffee",2],
-	["turtlesoup",10],
-	["donuts",4],
-	["tbacon",4],
+	["apple",50],
+	["salema",150],
+	["ornate",200],
+	["mackerel",300],
+	["tuna",1000],
+	["mullet",400],
+	["catshark",500],
+	["rabbit",65],
+	["turtle",30077],
+	["water",5],
+	["coffee",5],
+	["turtlesoup",1000],
+	["donuts",60],
+	["tbacon",25],
 	["lockpick",1],
 	["handcuffkey",1],
-	["pickaxe",5],
-	["redgull",5],
-	["peach",25],
-	["fuelF",10],
+	["pickaxe",750],
+	["redgull",200],
+	["peach",75],
+	["fuelF",100],
 	["spikeStrip",1],
 	["tracker",1],
 	["goldbar",125000],
@@ -563,7 +556,7 @@ sell_array =
 	["getreidep",2210],
 	["holzp",3248],
 	["hopfenp",3540],
-	["pfandp",3222],
+	["schwefelp",3222],
 	["silberp",4566],
 	["tabakp",4577],
 	["traubenp",4006],
@@ -580,22 +573,22 @@ sell_array =
 	["pkugel",62727],
 	["uranip",45045],
 	["uran5",31531],
-	["mauer",20],
+	["mauer",2500],
 	["zyankali",0],
-	["schranke",20],
+	["schranke",2500],
 	["henraw",3000],
     ["roosterraw",3000],
     ["sheepraw",3000],
     ["goatraw",3000],
     ["rabbitraw",3000],
-    ["uwsl",500],
+    ["uwsl",5000],
     ["krabben",1500],
     ["krabbenv",3500],
     ["grab",1500],
     ["grabv",4866],
     ["reli",2000],
     ["reliv",5500],
-    ["blitzer",10],
+    ["blitzer",100],
     ["gas",2000],
     ["gasv",5000],
     ["goldv",5000],
@@ -613,16 +606,13 @@ sell_array =
     ["bernsteinu",500],
     ["bernsteinp",2300],
     ["reliefenu",2200],
-    ["reliefenp",500],
-    ["uranuweu",500],
-    ["uranuwep",2500]
-
+    ["reliefenp",500]
 ];
 __CONST__(sell_array,sell_array);
 
 buy_array =
 [
-	["apple",25],
+	["apple",75],
 	["rabbit",75],
 	["salema",150],
 	["ornate",200],
@@ -632,31 +622,31 @@ buy_array =
 	["catshark",500],
 	["water",10],
 	["turtlesoup",2500],
-	["donuts",12],
+	["donuts",120],
 	["coffee",10],
-	["tbacon",5],
-	["lockpick",50000],
-	["handcuffkey",2000],
-	["pickaxe",100],
-	["redgull",700],
-	["fuelF",100],
-	["peach",25],
-	["spikeStrip",1250],
-	["blastingcharge",50000],
-	["boltcutter",15000],
-	["defusekit",1250],
-	["storagesmall",350000],
-	["storagebig",700000],
-	["tracker",5000],
+	["tbacon",75],
+	["lockpick",100000],
+	["handcuffkey",5000],
+	["pickaxe",1200],
+	["redgull",1500],
+	["fuelF",850],
+	["peach",75],
+	["spikeStrip",2500],
+	["blastingcharge",100000],
+	["boltcutter",20000],
+	["defusekit",2500],
+	["storagesmall",750000],
+	["storagebig",1500000],
+	["tracker",10000],
 	["hopfenp",10000],
 	["traubenp",10000],
-	["speedbomb",2000000],
-	["mauer",1250],
-	["zyankali",15000000],
-	["schranke",1250],
-	["diaper",25],
-	["uwsl",500000],
-    ["blitzer",500]
+	["speedbomb",4000000],
+	["mauer",2500],
+	["zyankali",1500000],
+	["schranke",2500],
+	["diaper",100],
+	["uwsl",100000],
+    ["blitzer",1000]
 
 ];
 __CONST__(buy_array,buy_array);

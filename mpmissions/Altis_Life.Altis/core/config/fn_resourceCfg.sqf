@@ -69,9 +69,9 @@ switch(_resource) do {
 		_resourcetypeof = 1;
 	};
 
-	case  ("pfandu") : {
+	case  ("traubenu") : {
 		_batchSize = round(random 3) +1;
-		_resourceZones = ["pfandflascheu"];
+		_resourceZones = ["trauben_1"];
 		_resourcetypeof = 1;
 	};
 
@@ -101,6 +101,7 @@ switch(_resource) do {
 
 	case ("copperore") : {
 		_batchSize = 2;
+		_requiredItem = "pickaxe";
 		_resourceZones = ["lead_1"];
 		_resourcetypeof = 2;
 	};
@@ -160,63 +161,79 @@ switch(_resource) do {
 		_resourceZones = ["silber_1"];
 		_resourcetypeof = 2;
 	};
-	case ("holzu") :{
+
+	case ("holzu") : {
 		_batchSize = round(random 3) +1;
 		_requiredItem = "pickaxe";
 		_resourceZones = ["holz_01"];
 		_resourcetypeof = 2;
 	};
-	case ("reliefenu") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["reliefenu"];
-		_resourcetypeof = 2;
-	};
-	case ("knochen") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["knochen"];
-		_resourcetypeof = 2;
-	};
-	case ("uranuweu") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["uranuweu1"];
-		_resourcetypeof = 2;
-	};
-	case ("bernsteinu") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["bernsteinu"];
-		_resourcetypeof = 2;
-	};
-	case ("erdenu") : {
-		_batchSize = round(random 3) +1;
-		_resourceZones = ["erdenu"];
-		_resourcetypeof = 2;
-	};
-	case ("reichsgoldu") : {
-		_batchSize = round(random 3) +1;
-		_requiredItem = "pickaxe";
-		_resourceZones = ["reichsgoldu"];
-		_resourcetypeof = 2;
-	};
-	case ("datenu") : {
-		_batchSize = round(random 3) +1;
-		_resourceZones = ["datenu"];
-		_resourcetypeof = 2;
-	};
-	case ("datennsau") : {
-		_batchSize = round(random 3) +1;
-		_resourceZones = ["datennsau"];
-		_resourcetypeof = 2;
-	};
+
 	case ("pfandflascheu") : {
 		_batchSize = round(random 3) +1;
-		_resourceZones = ["pfandflaschenix"];
+		_resourceZones = ["pfandflasche"];
 		_resourcetypeof = 2;
 	};
 
+	case ("datenu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "O_Truck_03_device_F";
+		_resourceZones = ["daten"];
+		_resourcetypeof = 2;
+	};
+
+	case ("datennsau") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "O_Truck_03_device_F";
+		_resourceZones = ["datennsa"];
+		_resourcetypeof = 2;
+	};
+
+	case ("reichsgoldu") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["reichsgold"];
+		_resourcetypeof = 2;
+	};
+
+	case ("erdenu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["erden"];
+		_resourcetypeof = 2;
+	};
+
+	case ("schwefelu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["schwefel_1"];
+		_resourcetypeof = 2;
+	};
+
+	case ("bernsteinu") : {
+		_batchSize = round(random 3) +1;
+		_resourceZones = ["bernstein_01"];
+		_resourcetypeof = 2;
+	};
+
+	case ("knochen") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["knochen_01"];
+		_resourcetypeof = 2;
+	};
+	case ("reliefenu") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["reliefen_01"];
+		_resourcetypeof = 2;
+	};
+
+	case ("uran1") : {
+		_batchSize = round(random 3) +1;
+		_requiredItem = "pickaxe";
+		_resourceZones = ["uran_1"];
+		_resourcetypeof = 2;
+	};
 };
 
 [_resourceZones, _zoneSize, _batchSize, _requiredItem, _resourcetypeof];

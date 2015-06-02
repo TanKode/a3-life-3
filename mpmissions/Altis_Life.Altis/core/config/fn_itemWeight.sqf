@@ -64,7 +64,7 @@ switch (_item) do
 	case "getreideu": {4};
 	case "holzu": {6};
 	case "hopfenu": {6};
-	case "pfandu": {6};
+	case "schwefelu": {6};
 	case "silberu": {6};
 	case "tabaku": {6};
 	case "traubenu": {3};
@@ -77,7 +77,7 @@ switch (_item) do
 	case "getreidep": {3};
 	case "holzp": {2};
 	case "hopfenp": {3};
-	case "pfandp": {3};
+	case "schwefelp": {3};
 	case "silberp": {3};
 	case "tabakp": {3};
 	case "traubenp": {3};
@@ -90,8 +90,12 @@ switch (_item) do
 	case "spulver": {2};
 	case "pkugel": {4};	
 	case "speedbomb": {10};
-	case "uran1": {6};
-	case "uranip": {3};
+	case "uran1": {9};
+	case "uran2": {8};
+	case "uran3": {7};
+	case "uran4": {6};
+	case "uran5": {5};
+	case "uranip": {4};
 	case "handcuffkey": {1};
 	case "mauer": {5};
 	case "schranke": {5};
@@ -110,6 +114,7 @@ switch (_item) do
     case "blitzer": {2};
     case "gas": {6};
     case "gasv": {3};
+
     case "gold": {10};
     case "goldv": {2};
     case "knochen": {6};
@@ -128,11 +133,5 @@ switch (_item) do
     case "bernsteinp": {3};
     case "reliefenu": {6};
     case "reliefenp": {3};
-    case "uranuweu": {6};
-    case "uranuwep": {3};
-	case "uran2": {8};
-	case "uran3": {7};
-	case "uran4": {6};
-	case "uran5": {5};
 	default {1};
 };
