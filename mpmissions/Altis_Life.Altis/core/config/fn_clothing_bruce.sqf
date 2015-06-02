@@ -121,7 +121,7 @@ switch (_filter) do
 	case 3:
 	{
 		[
-		       ["V_Press_F",nil,100],
+		       ["V_Press_F","Presse Weste",100],
 		       ["V_Rangemaster_belt","Schießplatzverwalter-Gürtel",100]
 		];
 	};
