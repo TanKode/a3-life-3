@@ -33533,7 +33533,7 @@ class Mission
 		class Item261
 		{
 			position[]={6404.2183,157.4014,12105.044};
-			name="knochen";
+			name="knochen_01";
 			text="Höhle";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -33543,7 +33543,7 @@ class Mission
 		class Item262
 		{
 			position[]={20071.393,17.949455,20074.637};
-			name="reliefenu";
+			name="reliefen_01";
 			text="Relief";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -33834,7 +33834,7 @@ class Mission
 		class Item291
 		{
 			position[]={25152.83,0.97417235,23615.445};
-			name="bernsteinu";
+			name="bernstein_01";
 			text="Bernsteinzimmer";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -33925,7 +33925,7 @@ class Mission
 		class Item300
 		{
 			position[]={7826.0698,8.8054543,7619.9414};
-			name="datennsau";
+			name="datennsa";
 			text="NSA-Daten";
 			type="loc_Tree";
 			colorName="ColorBlack";
@@ -34581,7 +34581,7 @@ class Mission
 		class Item377
 		{
 			position[]={5447.3228,25.229412,15028.147};
-			name="pfandflascheu";
+			name="pfandflasche";
 			text="Pfandflasche";
 			type="loc_Tree";
 			colorName="ColorBlack";
