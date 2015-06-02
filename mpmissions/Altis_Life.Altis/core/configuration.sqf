@@ -76,8 +76,8 @@ __CONST__(life_revive_fee,10000); //Fee for players to pay when revived.
 __CONST__(life_houseLimit,8); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
-__CONST__(life_gangPrice,2000000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
-__CONST__(life_gangUpgradeBase,1500000); //MASDASDASD
+__CONST__(life_gangPrice,250000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
+__CONST__(life_gangUpgradeBase,250000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2.5); //BLAH
 
 __CONST__(life_enableFatigue,true); //Enable / Disable the ARMA 3 Fatigue System
@@ -140,7 +140,7 @@ switch (playerSide) do
 	};
 	case civilian:
 	{
-		life_RLP_atmgeld = 25000; //Starting Bank Money
+		life_RLP_atmgeld = 5000; //Starting Bank Money
 		life_RLP_paycheck = 500; //Paycheck Amount
 	};
 
