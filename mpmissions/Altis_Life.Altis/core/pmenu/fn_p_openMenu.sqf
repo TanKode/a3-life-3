@@ -37,17 +37,18 @@ switch(playerSide) do
 
 if(__GETC__(life_adminlevel) < 1) then
 {
-	ctrlShow[2423,false];
+    ctrlShow[2020,false];
+    ctrlShow[2021,false];
 };
 
-if(__GETC__(life_adminlevel) < 2) then
-{
-	ctrlShow[2911,false];
-	ctrlShow[2910,false];
-	ctrlShow[2909,false];
-	ctrlShow[2908,false];
-	ctrlShow[2907,false];
-	ctrlShow[2906,false];
-	ctrlShow[2904,false];
-};
+//if(__GETC__(life_adminlevel) < 2) then
+//{
+	//ctrlShow[2911,false];
+	//ctrlShow[2910,false];
+	//ctrlShow[2909,false];
+	//ctrlShow[2908,false];
+	//ctrlShow[2907,false];
+	//ctrlShow[2906,false];
+	//ctrlShow[2904,false];
+//};
 
