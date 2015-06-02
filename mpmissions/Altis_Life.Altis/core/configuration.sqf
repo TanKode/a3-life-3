@@ -787,7 +787,7 @@ __CONST__(life_garage_prices,life_garage_prices);
 
 life_garage_sell =
 [
-	["C_Kart_01_Blu_F",1500],
+	["C_Kart_01_Blu_F",500],
 	["C_Kart_01_Fuel_F",1500],
 	["C_Kart_01_Red_F",1500],
 	["C_Kart_01_Vrana_F",1500],
