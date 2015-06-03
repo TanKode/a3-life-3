@@ -44,7 +44,7 @@ _unit spawn
 //-- NEUER CODE
 	_medicsOnline = {_x != player && side _x == independent} count playableUnits;
 	if(_medicsOnline > 0)then{
-		life_respawn_timer = 5;        //3 Minuten, kann beliebig editiert werden!
+		life_respawn_timer = 10;        //3 Minuten, kann beliebig editiert werden!
 	}else{
 		life_respawn_timer = .1;      //0,1 Minuten, auch hier kann editiert werden
 	};
