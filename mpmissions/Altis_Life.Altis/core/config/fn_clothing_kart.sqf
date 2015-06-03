@@ -73,7 +73,6 @@ switch (_filter) do
 			["Kio_Sskl_msk","Sskl Masek",200],
 			["Kio_Spinning_Hat","SpinnerHut"200],
 			["cowboyhat","Cowboy Hut",200]
-
 		];
 	};
 	
