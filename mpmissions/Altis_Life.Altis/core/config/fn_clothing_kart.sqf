@@ -8,37 +8,47 @@
 private["_filter"];
 _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
-//FUN SHOP
+
 //Shop Title Name
 ctrlSetText[3103,"Bobby's Kart-Racing Outfits"];
 
 switch (_filter) do
 {
-	//Anzüge
+	//Uniforms
 	case 0:
 	{
 		[
-		["RastaCiv","Rastafari",150],
-		["tacobell","TaccoShirt",150],
-		["rds_uniform_priest","Prister Uniform"200],
-		["U_C_Driver_1_black","RennAnzug Schwarz",150],
-		["U_C_Driver_1_blue","RennAnzug Blau",150],
-		["U_C_Driver_1_red","RennAnzug Rot",150],
-		["U_C_Driver_1_orange","RennAnzug Orange",150],
-		["U_C_Driver_1_green","RennAnzug Grün",150],
-		["U_C_Driver_1_white","RennAnzug Weiß",150],
-		["U_C_Driver_1_yellow","RennAnzug Gelb",150],
-		["U_C_Driver_1","RennAnzug 1", 150],
-		["U_C_Driver_2","RennAnzug 2",150],
-		["U_C_Driver_3","RennAnzug 3",150],
-		["U_C_Driver_4","RennAnzug 4",150]
+		["U_C_Driver_1_black",nil,150],
+		["U_C_Driver_1_blue",nil,150],
+		["U_C_Driver_1_red",nil,150],
+		["U_C_Driver_1_orange",nil,150],
+		["U_C_Driver_1_green",nil,150],
+		["U_C_Driver_1_white",nil,150],
+		["U_C_Driver_1_yellow",nil,150],
+		["U_C_Driver_2",nil,150],
+		["U_C_Driver_1",nil,150],
+		["U_C_Driver_3",nil,150],
+		["U_C_Driver_4",nil,150],
+		["RastaCiv","Rastafari",80],
+		["tacobell","TaccoShirt",80],
+		["rds_uniform_priest","Prister Uniform"200
 		];
 	};
 	
-	//Kopfbedeckungen
+	//Hats
 	case 1:
 	{
 		[
+			["H_RacingHelmet_1_black_F",nil,100],
+			["H_RacingHelmet_1_red_F",nil,100],
+			["H_RacingHelmet_1_white_F",nil,100],
+			["H_RacingHelmet_1_blue_F",nil,100],
+			["H_RacingHelmet_1_yellow_F",nil,100],
+			["H_RacingHelmet_1_green_F",nil,100],
+			["H_RacingHelmet_1_F",nil,250],
+			["H_RacingHelmet_2_F",nil,250],
+			["H_RacingHelmet_3_F",nil,250],
+			["H_RacingHelmet_4_F",nil,250],
 			["A3L_sombreero","Sombreero",200],
 			["A3L_russianhat","RussenMütze",200],
 			["A3L_sargehat","Sarghat",200],
@@ -62,35 +72,26 @@ switch (_filter) do
 			["Kio_Santa_Hat","Nicolaus Mütze",200],
 			["Kio_Sskl_msk","Sskl Masek",200],
 			["Kio_Spinning_Hat","SpinnerHut"200],
-			["cowboyhat","Cowboy Hut",200],
-			["H_RacingHelmet_1_black_F","Helm Schwarz",100],
-			["H_RacingHelmet_1_red_F","Helm Rot",100],
-			["H_RacingHelmet_1_white_F","Helm Weiß",100],
-			["H_RacingHelmet_1_blue_F","Helm Blau",100],
-			["H_RacingHelmet_1_yellow_F","Helm Gelb",100],
-			["H_RacingHelmet_1_green_F","Helm Grün",100],
-			["H_RacingHelmet_1_F","Helm1",100],
-			["H_RacingHelmet_2_F","Helm2",100],
-			["H_RacingHelmet_3_F","Helm3",100],
-			["H_RacingHelmet_4_F","Helm4",100]
+			["cowboyhat","Cowboy Hut",200]
+
 		];
 	};
 	
-	//Brillen
+	//Glasses
 	case 2:
 	{
 		[
 		];
 	};
 	
-	//Westen
+	//Vest
 	case 3:
 	{
 		[
 		];
 	};
 	
-	//Rucksäcke
+	//Backpacks
 	case 4:
 	{
 		[
