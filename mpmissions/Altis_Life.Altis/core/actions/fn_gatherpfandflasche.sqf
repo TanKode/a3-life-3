@@ -17,7 +17,7 @@ life_action_gather = true;
 titleText["Sammel Flaschen...","PLAIN"];
 player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon"; //Bewegungs animation
 titleFadeOut 5;
-sleep 7;
+sleep 10;
 if(([true,"pfandflasche",3] call life_fnc_handleInv)) then
 {
 titleText[format["Flaschen gesammelt",_sum],"PLAIN"];
