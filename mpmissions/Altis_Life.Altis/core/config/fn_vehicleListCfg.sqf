@@ -15,11 +15,14 @@ switch (_shop) do
 	case "kart_shop":
 	{
 		_return = [
-			["C_Kart_01_Blu_F",15000],
-			["C_Kart_01_Fuel_F",15000],
-			["C_Kart_01_Red_F",15000],
-			["C_Kart_01_Vrana_F",15000],
-			["A3L_Atom",50000]
+			["C_Kart_01_Blu_F",1500],
+			["C_Kart_01_Fuel_F",1500],
+			["C_Kart_01_Red_F",1500],
+			["C_Kart_01_Vrana_F",1500],
+			["A3L_Atom",5000],
+			["cl_skatesb4","Skateboard 1",500],
+			["cl_skatesb5","Skateboard 2",500],
+			["cl_skatesb7","Skateboard 3",500]
 		];
 	};
 	 case "med_shop":
