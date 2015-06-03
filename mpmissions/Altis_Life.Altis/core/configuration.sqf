@@ -442,8 +442,8 @@ life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9"
 life_illegal_items = [
 ["heroinu",2263],
 ["heroinp",4527],
-["grab",2263],
-["grabv",4527],
+["grab",1263],
+["grabv",3527],
 ["cocaine",2674],
 ["cocainep",5348],
 ["cannabis",2182],
