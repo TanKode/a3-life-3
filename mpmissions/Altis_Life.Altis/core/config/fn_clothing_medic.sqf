@@ -19,8 +19,10 @@ switch (_filter) do
 	case 0:
 	{
 		_ret = [
-			["U_I_HeliPilotCoveralls","Sanitaeter Kleidung",800],
-			["U_Rangemaster","Arbeitskleidung",400]
+			["U_I_HeliPilotCoveralls","Sanitaeter Kleidung",100],
+			["U_Rangemaster","Arbeitskleidung",100],
+			["max_paramedic_uniform","Sanitäter Kleidung",100],
+			["U_O_Wetsuit","Taucheranzug",250]
 		];
 	};
 	
@@ -49,7 +51,9 @@ switch (_filter) do
 			["H_Cap_oli",nil,150],
 			["H_Cap_red",nil,150],
 			["H_Cap_tan",nil,150],
-			["H_PilotHelmetHeli_B","Pilotenhelm",150]
+			["H_PilotHelmetHeli_B","Pilotenhelm",150],
+			["max_paramedic_cap","Sanitäter Mütze",150],
+			["A3L_medic_helmet","Medic Helm",150]
 		];
 	};
 	
@@ -69,7 +73,8 @@ switch (_filter) do
 			["G_Lady_Dark",nil,150],
 			["G_Lady_Blue",nil,150],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["G_Diving","TaucherBrille",100]
 		];
 	};
 	
@@ -77,7 +82,8 @@ switch (_filter) do
 	case 3:
 	{
 		_ret = [
-			["V_Rangemaster_belt",nil,1000]
+			["V_Rangemaster_belt",nil,100],
+			["V_RebreatherIR","Einsatz Tauchgerät",400]
 		];
 	};
 	
