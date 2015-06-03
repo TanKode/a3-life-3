@@ -34647,7 +34647,7 @@ class Mission
 		};
 		class Item376
 		{
-			position[]={5447.3228,25.229412,15028.147};
+			position[]={5463.1689,27.299999,15019.098};
 			name="pfandflasche";
 			text="Pfandflasche";
 			type="loc_Tree";
