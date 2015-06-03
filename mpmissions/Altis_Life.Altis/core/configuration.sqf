@@ -535,7 +535,7 @@ sell_array =
 	["tbacon",25],
 	["lockpick",1],
 	["handcuffkey",1],
-	["pickaxe",750],
+	["pickaxe",75],
 	["redgull",200],
 	["peach",25],
 	["fuelF",100],
