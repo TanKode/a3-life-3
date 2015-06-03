@@ -20059,7 +20059,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="KnochenReinigung";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Knochen Reinigen"",life_fnc_processAction,""knochen"",0,false,false,"""",' life_inv_knochenV > 0 && !life_is_processing'];this addAction[""KnochenLizenz ($1000000)"",life_fnc_buyLicense,""knochen"",0,false,false,"""",' !license_civ_knochen && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Kupfer verarbeiten"",life_fnc_processAction,""copper"",0,false,false,"""",' life_inv_copperore > 0 && !life_is_processing']; this setVariable[""realname"",""Kupferverarbeitung""];";
 		};
 		class Item1589
 		{
