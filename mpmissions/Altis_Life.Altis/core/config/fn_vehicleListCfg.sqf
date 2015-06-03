@@ -20,9 +20,9 @@ switch (_shop) do
 			["C_Kart_01_Red_F",1500],
 			["C_Kart_01_Vrana_F",1500],
 			["A3L_Atom",5000],
-			["cl_skatesb4","Skateboard 1",500],
-			["cl_skatesb5","Skateboard 2",500],
-			["cl_skatesb7","Skateboard 3",500]
+			["cl_skatesb4",500],
+			["cl_skatesb5",500],
+			["cl_skatesb7",500]
 		];
 	};
 	 case "med_shop":
