@@ -136,12 +136,12 @@ switch (playerSide) do
 	case west:
 	{
 		life_RLP_atmgeld = 25000; //Starting Bank Money
-		life_RLP_paycheck = 1000;
+		life_RLP_paycheck = 50;
 	};
 	case civilian:
 	{
 		life_RLP_atmgeld = 5000; //Starting Bank Money
-		life_RLP_paycheck = 500; //Paycheck Amount
+		life_RLP_paycheck = 360; //Paycheck Amount
 	};
 
 	case independent:
