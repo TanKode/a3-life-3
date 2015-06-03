@@ -460,8 +460,7 @@ switch (_shop) do
 			["cl3_dodge_chargerum_s_red",1000000],
 			["cl3_dodge_chargerum_s_white",1000000],
 			["cl3_dodge_chargerum_s_yellow",1000000],
-			["cl3_dodge_charger_s_yellow",1000000],
-            ["Jonzie_Viper",1000000]
+			["cl3_dodge_charger_s_yellow",1000000]
         ];
 	};
 
