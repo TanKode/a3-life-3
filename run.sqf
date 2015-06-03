@@ -40,12 +40,12 @@ _MOD = 'AltisLife';
 _OPEN_ADMIN_MENU_KEY = 0x3B;
 /* What ESCAPE Menu shows */
 _ESCMNUTOP = 'RLP Altis-Life';
-_ESCMNUBOT = 'TS: 134.255.229.151';
+_ESCMNUBOT = 'TS3: 5.196.90.77';
 _BRIEFING_MSG = false;	/* use mission briefing message: if   "_BRIEFING_MSG = false;"   then the message will be replaced by infiSTAR */
 
 
 /* shows RESTART IN X MINS */
-_USE_RESTART_TIMER = true;	/* true or false */
+_USE_RESTART_TIMER = false;	/* true or false */
 _RESTART_TIME_IN_M =   240;	/* restart time in minutes */
 _SHOW_TIMER_IN_MIN =	[1,2,3,5,10,20,30];	/* minutes before restart, when message is shown */
 
