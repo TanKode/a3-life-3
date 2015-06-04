@@ -242,13 +242,13 @@ _aLocalM =
 
 /* Use allowed Dialogs ? */ _UDW = true;	/* true or false */
 /* _allowedDialogs: Insert IDDs here to prevent them from being closed! Default ArmA3 and Altis-Life idds should be in already. */
-_allowedDialogs = [-1,602,32154,2900,3190,2700,40000,5980,3000,9000,39400,3100,9920,666,7300,3494,3500,2620,2800,26500,2700,5546,39500,37400,2001,2003,2002,2004,2005,2006,2007,2008,2009,2010,7730,38200,666,667,41000,2900,2400,38400,5780,38500,2650,3500,2300,9900,999999,29000,37402,37400];
+_allowedDialogs = [-1,602,32154,2900,3190,2700,40000,5980,3000,9000,39400,3100,9920,666,7300,3494,3500,2620,2800,26500,2700,5546,39500,37400,2001,2003,2002,2004,2005,2006,2007,2008,2009,2010,7730,38200,666,667,41000,2900,2400,38400,5780,38500,2650,3500,2300,9900,999999,29000,37402,37401,37400];
 /*	5001, -3: Zupas New Hud (Hud-Builder) - https://github.com/DevZupa/ZHB-A3 */
 _allowedDialogs pushBack 5001;
 _allowedDialogs pushBack -3;
 /*	37400: Custom Menu from AltisLife used on some Epoch Servers */
 _allowedDialogs pushBack 37400;
-//_allowedDialogs pushBack 37401;
+_allowedDialogs pushBack 37401;
 
 
 /* _badDialogsKICK: Forbidden Dialog Idds that will get you Kicked by the AH */
