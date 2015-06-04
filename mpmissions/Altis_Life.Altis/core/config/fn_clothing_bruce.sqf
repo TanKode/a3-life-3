@@ -34,7 +34,6 @@ switch (_filter) do
 		["RastaCiv","Rasta Outfit",50],
 		["RFShirt","Red Faction Shirt",50],
 		["hanacd","Hannes Shirt",50],
-		["A3L_Dude:Outfit","Dude Outfit",50],
 		["A3L_Farmer_Outfit","Farmer Outfit",50],
 		["TMBass_uni","Touch My Bass",50],
 		["vacationshirt_uni","Vacatation Shirt",50],

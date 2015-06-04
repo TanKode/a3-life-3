@@ -1272,7 +1272,7 @@ switch(_shop) do
 			{
 				["Billy Joe's Waffenladen",
 					[
-						["hgun_ACP2_F","ACP",20000],
+						["hgun_ACPC2_F","ACP",20000],
 						["9Rnd_45ACP_Mag","ACP. 45 Mag",2000],
 						["hgun_P07_F","P07 9 mm",25000],
 						["16Rnd_9x21_Mag","P07 9mm Mag",2500],
