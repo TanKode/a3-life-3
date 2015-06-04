@@ -20198,7 +20198,7 @@ class Mission
 			vehicle="OfficeTable_01_new_F";
 			skill=0.60000002;
 			text="relikte";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Relikte bewerten"",life_fnc_processAction,""reli"",0,false,false,"""",' life_inv_reliv > 0 && !life_is_processing'];this addAction[""Relikt Lizenz ($30000)"",life_fnc_buyLicense,""reli"",0,false,false,"""",' !license_civ_reli && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false; this setVectorUp [0,0,1]; this addAction[""Relikte wertschätzen"",life_fnc_processAction,""reli"",0,false,false,"""",' life_inv_reliv > 0 && !life_is_processing'];this addAction[""Relikte Lizenz ($30000)"",life_fnc_buyLicense,""reli"",0,false,false,"""",' !license_civ_reli && playerSide == civilian '];";
 		};
 		class Item1603
 		{
