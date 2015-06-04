@@ -519,6 +519,9 @@ switch(_shop) do
 					[
 						//Waffen und Munition
 						//Anwärter
+						["hgun_P07_snds_F","TazerTest",100],
+						["16Rnd_9x21_Mag","TazerTestMuni16Rnd",50],
+						["30Rnd_9x21_Mag","TazerTestMuni30Rnd",50],
 						["hgun_ACPC2_snds_F","ACP",100],
 						["9Rnd_45ACP_Mag","ACP. 45 Mag",50],
 						["arifle_mas_g36c","G36C",1000],
