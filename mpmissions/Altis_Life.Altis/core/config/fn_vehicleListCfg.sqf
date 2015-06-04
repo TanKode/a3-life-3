@@ -93,10 +93,6 @@ switch (_shop) do
 			["rds_lada_civ_01",750],
 			["rds_lada_civ_03",750],
 			["rds_lada_civ_04",750],
-			["a3l_escort",3500],
-			["a3l_escortblack",4000],
-			["a3l_escortwhite",3500],
-			["a3l_escortpink",3500],
 			["RDS_Lada_Civ_02",800],
 			["C_SUV_01_F",20000],
 			["CL3_Black_SUV_01_F",7000]
@@ -650,21 +646,21 @@ switch (_shop) do
 	{
 		_return =
 		[
-		    ["RDS_Van_01_transport_F",14000],
-		    ["C_Van_01_fuel_F",17000],
-		    ["C_Van_01_box_F",20000],
-		    ["I_Truck_02_transport_F",40000],
-		    ["DAR_4X4",40000],
-		    ["O_Truck_02_fuel_F",70000],
-		    ["O_Truck_02_covered_F",70000],
-		    ["O_Truck_03_transport_F",140000],
-		    ["O_Truck_03_fuel_F",140000],
-		    ["O_Truck_03_covered_F",340000],
-		    ["O_Truck_03_device_F",670000],
-		    ["B_Truck_01_transport_F",940000],
-		    ["B_Truck_01_fuel_F",670000],
-		    ["B_Truck_01_covered_F",1070000],
-		    ["B_Truck_01_box_F",1340000]
+		    ["RDS_Van_01_transport_F",14000], //Truck lager 10lager
+		    ["C_Van_01_fuel_F",17000], //Tanklaster 150lager
+		    ["C_Van_01_box_F",20000], //Truck Boxer 150
+		    ["I_Truck_02_transport_F",40000], //Zamak Transporter 250lager
+		    ["DAR_4X4",40000], //MTV 4x4 200lager
+		    ["O_Truck_02_fuel_F",70000], //Zamak Tank 450
+		    ["O_Truck_02_covered_F",70000], //Zamak transport abgedeckt 10lager
+		    ["O_Truck_03_transport_F",140000], //Tempest Transporter 650lager
+		    ["O_Truck_03_fuel_F",140000], //Tempest Tank 650lager
+		    ["O_Truck_03_covered_F",340000], //Tempest Transporter abgedeckt 850
+		    ["O_Truck_03_device_F",670000], //Tempest GERÄT 750lager
+		    ["B_Truck_01_transport_F",940000], //Hemet Transporter 750lager
+		    ["B_Truck_01_fuel_F",670000], //Hemet Treibstoff 1000lager
+		    ["B_Truck_01_covered_F",1070000], //Hemett Transporter abgedeckt 1200
+		    ["B_Truck_01_box_F",1340000] //Hemet Transport 1500
 
 
 		];
@@ -687,26 +683,26 @@ switch (_shop) do
 			["O_Heli_Transport_04_box_F",840000],
 			["I_Heli_Transport_02_F",1000000],
 			["B_Heli_Transport_03_unarmed_green_F",1670000],
-			["GNT_C185",2000000],
-			["GNT_C185F",2000000],
-            ["sab_BI_An2",3000000],
-            ["Sab_cz_An2",3000000],
-            ["Sab_fd_An2",3000000],
-            ["Sab_yel_An2",3000000],
-            ["Sab_ana_An2",3000000],
-            ["sab_AH_An2",3000000],
-            ["sab_ca_An2",3000000],
-            ["Sab_ru_An2",3000000],
-            ["Sab_ee_An2",3000000],
-            ["Sab_tk_An2",3000000],
-            ["Sab_af_An2",3000000],
-            ["Sab_A2_An2",3000000],
-            ["Sab_sea_An2",3000000],
-            ["Sab_sea2_An2",3000000],
-            ["Sab_sea3_An2",3000000],
-            ["Sab_sea4_An2",3000000],
-            ["Sab_Amphi_An2",3000000],
-			["MV22",5000000]
+			["GNT_C185",1000000],
+			["GNT_C185F",1000000],
+            ["sab_BI_An2",1000000],
+            ["Sab_cz_An2",1000000],
+            ["Sab_fd_An2",1000000],
+            ["Sab_yel_An2",1000000],
+            ["Sab_ana_An2",1000000],
+            ["sab_AH_An2",1000000],
+            ["sab_ca_An2",1000000],
+            ["Sab_ru_An2",1000000],
+            ["Sab_ee_An2",1000000],
+            ["Sab_tk_An2",1000000],
+            ["Sab_af_An2",1000000],
+            ["Sab_A2_An2",1000000],
+            ["Sab_sea_An2",1000000],
+            ["Sab_sea2_An2",1000000],
+            ["Sab_sea3_An2",1000000],
+            ["Sab_sea4_An2",1000000],
+            ["Sab_Amphi_An2",1000000],
+			["MV22",1700000]
 		];
 
 		if(license_civ_donator) then
