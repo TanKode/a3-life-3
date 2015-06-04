@@ -77,7 +77,7 @@ __CONST__(life_houseLimit,8); //Maximum amount of houses a player can buy (TODO:
 
 //Gang related stuff?
 __CONST__(life_gangPrice,250000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
-__CONST__(life_gangUpgradeBase,250000); //MASDASDASD
+__CONST__(life_gangUpgradeBase,75000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2.5); //BLAH
 
 __CONST__(life_enableFatigue,true); //Enable / Disable the ARMA 3 Fatigue System
@@ -522,21 +522,21 @@ sell_array =
 	["apple",25],
 	["salema",15],
 	["ornate",20],
-	["mackerel",30],
-	["tuna",100],
-	["mullet",40],
-	["catshark",50],
-	["rabbit",65],
-	["turtle",3005],
+	["mackerel",15],
+	["tuna",15],
+	["mullet",15],
+	["catshark",15],
+	["rabbit",15],
+	["turtle",2000],
 	["water",5],
 	["coffee",5],
 	["turtlesoup",100],
-	["donuts",60],
+	["donuts",10],
 	["tbacon",25],
 	["lockpick",1],
 	["handcuffkey",1],
 	["pickaxe",75],
-	["redgull",200],
+	["redgull",100],
 	["peach",25],
 	["fuelF",100],
 	["spikeStrip",1],
