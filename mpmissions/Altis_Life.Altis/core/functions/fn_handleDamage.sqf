@@ -19,12 +19,12 @@ if(!isNil "TON_Debug") then {
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
-	if(_source != _unit) then {
-		_curWep = currentWeapon _source;
-		if(_projectile in ["B_45ACP_Ball","B_556x45_dual"] && _curWep in ["hgun_ACPC2_snds_F","arifle_SDAR_F"]) then {
-			if(side _source == west && playerSide != west) then {
-				private["_distance","_isVehicle","_isQuad"];
-				_distance = if(_projectile == "B_556x45_dual") then {2500} else {2000};
+		if(_source != _unit) then {
+    		_curWep = currentWeapon _source;
+    		if(_curWep in ["hgun_P07_snds_F","arifle_SDAR_F"]) then {
+    			if(side _source == west && playerSide != west) then {
+    				private["_distance","_isVehicle","_isQuad"];
+    				_distance = if(_curWep == "arifle_SDAR_F") then {100} else {35};
 				_isVehicle = if(vehicle player != player) then {true} else {false};
 				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
 				
