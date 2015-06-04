@@ -20037,7 +20037,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="KnochenReinigung";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Knochen Reinigen"",life_fnc_processAction,""knochen"",0,false,false,"""",' life_inv_knochenV > 0 && !life_is_processing'];this addAction[""KnochenLizenz ($100000)"",life_fnc_buyLicense,""knochen"",0,false,false,"""",' !license_civ_knochen && playerSide == civilian '];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Knochen Reinigen"",life_fnc_processAction,""knochen"",0,false,false,"""",' life_inv_knochenv > 0 && !life_is_processing']; this setVariable[""realname"",""KnochenReinigung""];";
 		};
 		class Item1589
 		{
