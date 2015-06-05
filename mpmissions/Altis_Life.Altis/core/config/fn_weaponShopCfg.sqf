@@ -1320,7 +1320,7 @@ switch(_shop) do
 				["ItemWatch","Uhr",55],
 				["ItemCompass","Kompass",50],
 				["Rangefinder","Entfernungsmesser",100],
-				["Chemlight_green","Knicklicht Gelb",25],
+				["Chemlight_green","Knicklicht Grün",25],
 				["Chemlight_yellow","Knicklicht Gelb",25],
 				["Chemlight_red","Knicklicht Rot",25],
 				["Chemlight_blue","Knicklicht Blau",25]
