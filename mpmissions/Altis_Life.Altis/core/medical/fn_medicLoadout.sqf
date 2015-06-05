@@ -12,7 +12,7 @@ waitUntil {scriptDone _handle};
 player forceAddUniform "U_Rangemaster";
 player setObjectTextureGlobal [0,"textures\medic\medicskin.paa"];
 
-player addBackpack "B_Carryall_oli";
+player addBackpack "B_Bergen_mcamo";
 player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemCompass";
