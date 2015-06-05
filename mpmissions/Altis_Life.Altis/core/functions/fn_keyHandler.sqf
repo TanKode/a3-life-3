@@ -282,43 +282,56 @@ switch (_code) do
     };
 	
 	//F Key
-	case 3: {
-      		if(playerSide in [west,independent] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then {
-      			[] spawn {
-      				life_siren2_active = true;
-      				sleep 1.2;
-      				life_siren2_active = false;
-      			};
-      			_veh = vehicle player;
-      			if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
-      			if((_veh getVariable "siren2")) then {
-      				titleText [localize "STR_MISC_Sirens2OFF","PLAIN"];
-      				_veh setVariable["siren2",false,true];
-      			} else {
-      				titleText [localize "STR_MISC_Sirens2ON","PLAIN"];
-      				_veh setVariable["siren2",true,true];
-      				if(playerSide == west) then {
-      					[[_veh],"life_fnc_copSiren2",nil,true] spawn life_fnc_MP;
-      				} else {
-      					[[_veh],"life_fnc_medicSiren2",nil,true] spawn life_fnc_MP;
-      				};
-      			};
-      		};
-          };
+	case 33:
+    {    if(!_shift) then
+            {
+                if(playerSide in [west,independent] && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
+                {
+                    [] spawn
+                    {
+                        life_siren2_active = true;
+                        sleep 1.2;
+                        life_siren2_active = false;
+                    };
+                    _veh = vehicle player;
+                    if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
+                    if((_veh getVariable "siren2")) then
+                    {
+				titleText [localize "STR_MISC_Sirens2OFF","PLAIN"];
+				_veh setVariable["siren2",false,true];
+			}
+				else
+			{
+				titleText [localize "STR_MISC_Sirens2ON","PLAIN"];
+				_veh setVariable["siren2",true,true];
+				if(playerSide == west) then {
+					[[_veh],"life_fnc_copSiren2",nil,true] spawn life_fnc_MP;
+				} else {
+					[[_veh],"life_fnc_medicSiren2",nil,true] spawn life_fnc_MP;
+				};
+			};
+                };
+            };
 
-    case 2: {
-           if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then {
-			[] spawn {
+        if (_shift) then
+        {
+            if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+		{
+			[] spawn
+			{
 				life_siren_active = true;
 				sleep 2;
 				life_siren_active = false;
 			};
 			_veh = vehicle player;
 			if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
-			if((_veh getVariable "siren")) then {
+			if((_veh getVariable "siren")) then
+			{
 				titleText [localize "STR_MISC_SirensOFF","PLAIN"];
 				_veh setVariable["siren",false,true];
-			} else {
+			}
+				else
+			{
 				titleText [localize "STR_MISC_SirensON","PLAIN"];
 				_veh setVariable["siren",true,true];
 				if(playerSide == west) then {
@@ -329,6 +342,7 @@ switch (_code) do
 				};
 			};
 		};
+	};
 	};
 	// X Key
 	// wenn aktiv geht keine andere Taste mehr
