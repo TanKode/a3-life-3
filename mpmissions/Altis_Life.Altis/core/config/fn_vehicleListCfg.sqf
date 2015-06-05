@@ -50,7 +50,7 @@ switch (_shop) do
 			];
             if(license_med_mohawk) then {
                 _return pushBack ["I_Heli_Transport_02_F",80000];
-                _return pushBack ["0_Heli_transport_04_medevac_F",100000];
+                _return pushBack ["O_Heli_transport_04_medevac_F",100000];
             };
         }
     };
