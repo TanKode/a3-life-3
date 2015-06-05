@@ -15,14 +15,11 @@ player addUniform "police_man_uniform";
 player addVest "cpd_policevest";
 player addBackPack 'B_TacticalPack_oli'; //This adds a backpack to player
 
-player addWeapon "hgun_ACPC2_snds_F";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
-player addMagazine "9Rnd_45ACP_Mag";
+player addWeapon "hgun_P07_snds_F";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
 
 // Add shortrange radio
 player addItem "tf_anprc152"; 
@@ -36,7 +33,9 @@ player assignItem "ItemCompass";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
 player addItem "ItemRadio";
-player assignItem "ItemRadio"; 
+player assignItem "ItemRadio";
+player addItem "Medikit";
+player addItem "ToolKit";
 
 [] call life_fnc_updateClothing;
 [] call life_fnc_saveGear;
