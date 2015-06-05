@@ -22,7 +22,8 @@ switch (_shop) do
 			["A3L_Atom",5000],
 			["cl_skatesb4",500],
 			["cl_skatesb5",500],
-			["cl_skatesb7",500]
+			["cl_skatesb7",500],
+			["A3L_Delorean_Fly",300000]
 		];
 	};
 	 case "med_shop":
