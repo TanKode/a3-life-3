@@ -99,6 +99,7 @@ switch (_className) do
 	case "DAR_M1151_Deploy": {50};
 	case "B_Boat_Armed_01_minigun_F": {175};
 	case "I_Boat_Armed_01_minigun_F": {175};
+	case "A3L_Ship": {400};
 	case "B_G_Boat_Transport_01_F": {45};
 	case "B_Boat_Transport_01_F": {45};
 	case "C_Boat_Civil_01_F": {250};
