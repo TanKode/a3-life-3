@@ -703,7 +703,7 @@ switch (_shop) do
             ["Sab_sea3_An2",700000],
             ["Sab_sea4_An2",700000],
             ["Sab_Amphi_An2",700000],
-			["MV22",1700000]
+			["MV22",1200000]
 		];
 
 		if(license_civ_donator) then

@@ -90,7 +90,7 @@ switch (_className) do
 	case "cl3_range_rover_white": {65};
 	case "cl3_range_rover_yellow": {65};
 	case "BAF_Offroad_w": {200};
-	case "MV22": {1000};
+	case "MV22": {450};
 	case "GNT_C185F": {100};
 	case "GNT_C185": {100};
 	case "DAR_M1151WoodlandUA": {50};
