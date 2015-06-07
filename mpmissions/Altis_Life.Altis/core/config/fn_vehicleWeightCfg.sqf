@@ -36,7 +36,7 @@ switch (_className) do
 	case "O_Heli_Transport_04_fuel_F": {350}; // Mi-290 Taru (Tank)
 	case "O_Heli_Transport_04_covered_F": {150}; // Mi-290 Taru (Transport)
 	case "I_Heli_Transport_02_F": {400}; // CH-49 Mohawk
-	case "O_Heli_Transport_04_box_F": {450}; // Mi-290 Taru (Box)
+	case "O_Heli_Transport_04_box_F": {600}; // Mi-290 Taru (Box)
 	case "B_Heli_Transport_03_unarmed_F": {450}; // CH-67 Huron (Black)
 	case "B_Heli_Transport_03_unarmed_green_F": {100}; // Huron green
 	case "RDS_Van_01_transport_F": {250}; //Truck

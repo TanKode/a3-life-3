@@ -71,7 +71,7 @@ case "B_Heli_Transport_03_F": {50000};
 case "B_Heli_Transport_03_unarmed_F": {50000};
 case "O_Heli_Transport_04_F": {50000};
 case "O_Heli_Transport_04_ammo_F": {50000};
-case "O_Heli_Transport_04_box_F": {50000};
+case "O_Heli_Transport_04_box_F": {2340000};
 case "O_Heli_Transport_04_medevac_F": {50000};
 case "O_Heli_Transport_04_fuel_F": {50000};
 case "O_Heli_Transport_04_bench_F": {50000};
