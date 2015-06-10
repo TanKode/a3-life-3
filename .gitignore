@@ -1,7 +1,6 @@
 # Folder
 /kart/
 /logs/
-/@extDB/
 /heli/
 /mark/
 /curator/
@@ -17,6 +16,16 @@
 /Launcher/
 /Missions/
 /@Sweet markers system/
+/src/
+/picture/
+/931edfdb88c6aebdd507884cce0f1f2a564e7bf3/
+/userconfig/
+
+# Mods
+/@extDB/
+/@RLP/
+/@asm/
+/@task_force_radio/
 
 # Types
 *.dll
@@ -29,6 +38,7 @@
 *.mdmp
 *.pdf
 *.tmp
+*.lnk
 
 # Files
 desktop.ini
@@ -49,13 +59,3 @@ __cur_mp.pbo
 
 # Logs
 A3_*.txt
-src/
-picture/
-@RLP/
-931edfdb88c6aebdd507884cce0f1f2a564e7bf3/
-@asm/
-@task_force_radio/
-userconfig/
-*.lnk
-
-mpmissions/Altis_Life.Altis/icons/items
